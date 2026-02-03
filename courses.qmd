@@ -1,0 +1,96 @@
+---
+title: "Courses"
+subtitle: "Course Supervision and Coordination"
+title-block-banner: false
+---
+
+## Undergraduate Study
+
+### Principles of Computer Graphics and Image Processing
+
+**Undergraduate level course**
+
+Fundamental principles of computer graphics, image representation, processing algorithms, and visualization techniques.
+
+#### Topics Covered
+
+- Computer graphics fundamentals
+- Image representation and color models
+- 2D and 3D transformations
+- Rendering techniques
+- Image processing algorithms
+- Graphics programming
+- Visualization methods
+
+---
+
+### Introduction to Interactive Applications Development
+
+**Undergraduate level course**
+
+Development of interactive applications with focus on user interfaces, web technologies, and multimedia integration.
+
+#### Topics Covered
+
+- Interactive application design
+- User interface development
+- Web technologies (HTML5, CSS3, JavaScript)
+- Event-driven programming
+- Multimedia integration
+- Client-server communication
+- Responsive design principles
+
+---
+
+## Graduate Study
+
+### Software Systems Research
+
+**Graduate level course**
+
+Advanced research topics in software systems, including software architecture, design patterns, and system analysis.
+
+#### Topics Covered
+
+- Software architecture principles
+- Design patterns and best practices
+- System analysis and modeling
+- Software evolution
+- Research methodologies
+- Academic writing and presentation
+
+---
+
+### Team Project
+
+**Graduate level course**
+
+Collaborative software development project where students work in teams to design, implement, and deliver a complex software system.
+
+#### Focus Areas
+
+- Team collaboration and communication
+- Project management
+- Software development lifecycle
+- Code review and quality assurance
+- Documentation and presentation
+- Real-world problem solving
+
+---
+
+### Praxis
+
+**Graduate level course**
+
+Practical application of theoretical knowledge through hands-on projects, internships, or research activities.
+
+#### Activities
+
+- Practical software development
+- Industry collaboration
+- Research project work
+- Technical skill development
+- Professional practice experience
+
+---
+

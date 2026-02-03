@@ -1,67 +1,71 @@
 ---
 title: "Teaching"
-subtitle: "I teach."
+subtitle: "Courses and Educational Activities"
 title-block-banner: false
 ---
 
-
-## Class 1
-
-::: {.grid}
-
-::: {.g-col-12 .g-col-md-2}
-![](files/images/placeholder1.jpg)
-
-:::
-
-::: {.g-col-12 .g-col-md-10}
-
-[Fall 2024](https://www.google.com), &nbsp; [Fall 2023](https://www.google.com)
-
-Class 1 introduction.
-
-:::
-
-:::
-
-
-## Class 2
+## Multimedia
 
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-md-2}
-![](files/images/placeholder2.JPG)
-
+![](files/images/multimedia-icon.jpg){.img-fluid}
 :::
 
 ::: {.g-col-12 .g-col-md-10}
 
-[Spring 2025](https://www.google.com), &nbsp; [Fall 2023](https://www.google.com)
+**6 Credits | Winter Semester**
 
-Class 2 introduction.
+[Course Information](#) | [Materials](#)
+
+### Course Description
+
+This course provides comprehensive coverage of multimedia technologies and applications. Students learn both theoretical foundations and practical skills in creating and processing multimedia content.
+
+### Topics Covered
+
+- **Multimedia Content Creation** - Principles and best practices
+- **2D & 3D Graphics** - Design, modeling, and rendering
+- **Video Processing** - Editing, encoding, and streaming
+- **Audio Processing** - Recording, editing, and effects
+- **Web Technologies** - HTML5, CSS3, JavaScript
+- **3D Web Graphics** - VRML, X3D, WebGL
+- **Interactive Media** - User interfaces and interactivity
+
+### Assessment
+
+- **Test:** 10 points
+- **Project:** 40 points
+- **Final Exam:** 50 points
+
+The course combines lectures with hands-on laboratory practice, allowing students to develop practical skills alongside theoretical knowledge.
 
 :::
 
 :::
 
+---
 
-## Class 3
+## Office Hours
 
-::: {.grid}
+**Wednesday: 13:00 - 14:00**
+Room 4.30
 
-::: {.g-col-12 .g-col-md-2}
-![](files/images/placeholder3.JPG)
+Students are welcome to visit during office hours for:
+- Course-related questions and consultations
+- Project guidance and feedback
+- Thesis supervision discussions
+- General academic advice
 
-:::
+For appointments outside office hours, please contact me via [email](mailto:peter.kapec@stuba.sk).
 
-::: {.g-col-12 .g-col-md-10}
+---
 
-[Spring 2025](https://www.google.com), &nbsp; [Spring 2024](https://www.google.com)
+## Past Courses
 
-Class 3 introduction. 
-
-:::
-
-:::
-
-
+Over the years, I have taught various courses in:
+- Computer Graphics
+- Data Visualization
+- Software Engineering
+- Web Technologies
+- Multimedia Systems

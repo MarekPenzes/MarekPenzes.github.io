@@ -1,34 +1,81 @@
 ---
-title: "Publications"
-description-meta: "Information, pdfs, and social metrics of papers"
-#page-layout: full
-#back-to-top-navigation: true
+title: "Research & Publications"
+description-meta: "Peter Kapec's research areas and publications"
 title-block-banner: false
 css: custom.css
 ---
 
+## Research Areas
 
-<!--Include academic icons or buttons-->
-{{< include /files/includes/_academic.qmd >}}
+My research focuses on innovative approaches to understanding and visualizing complex software systems and data structures.
 
-Notes: \* corresponding author; <sup>GS</sup> graduate student advisee; <sup>VS</sup> visiting scholar; ![](https://drganghe.github.io/files/images/highly-cited-paper-badge.png "ESI Highly Cited Paper"){width=20 fig-alt="Highly cited paper"} ESI [Highly Cited Paper](https://webofscience.help.clarivate.com/en-us/Content/esi-highly-cited-papers.html) (top 1%); ![](https://drganghe.github.io/files/images/hot-paper-badge.png "ESI Hot Paper"){width=20 fig-alt="Hot paper"} ESI [Hot Paper](https://webofscience.help.clarivate.com/en-us/Content/esi-hot-papers.html) (top 0.1%) 
+### Primary Research Interests
 
-Total citations as of January 2025:
+**Software Visualization in 3D Space**
+Developing techniques for visualizing software architecture, dependencies, and evolution in three-dimensional environments to provide better understanding of complex systems.
 
-- [Web of Science](https://www.webofscience.com): 100,000 (h-index = 100)   
-- [Google Scholar](https://scholar.google.com/citations?user=qc6CJjYAAAAJ&hl=en): 179,000 (h-index = 127, i10-index = 377) 
+**Graph Layout & Visualization Algorithms**
+Creating efficient algorithms for laying out and visualizing large graphs and networks, including edge bundling techniques to reduce visual clutter.
 
-## Selected Work
+**Interactive Data Visualization & Visual Data Mining**
+Exploring interactive methods for data exploration and mining, enabling users to discover patterns and insights in complex datasets.
 
-Einstein, A., Podolsky, B., & Rosen, N. (1935). [Can quantum-mechanical description of physical reality be considered complete?](posts/paper-title/index.qmd). *Physical review*, 47(10), 777. \[[pdf](https://scholar.google.com/)\] \[[code and data](https://doi.org)\] ![](https://drganghe.github.io/files/images/highly-cited-paper-badge.png "ESI Highly Cited Paper"){width=20 fig-alt="Highly cited paper"} ![](https://drganghe.github.io/files/images/hot-paper-badge.png "ESI Hot Paper"){width=20 fig-alt="Hot paper"} <span class="__dimensions_badge_embed__" data-doi="10.1103/PhysRev.47.777" data-style="large_rectangle"></span> <div data-badge-popover="right" data-badge-type="1" data-doi="10.1103/PhysRev.47.777" data-hide-no-mentions="true" class="altmetric-embed"></div>     
+**Augmented Reality Applications**
+Investigating the use of augmented reality for photorealistic data visualization and software structure representation in real-world contexts.
+
+**Software Evolution & Metrics Visualization**
+Analyzing and visualizing how software systems evolve over time, including metrics visualization and program execution dynamics.
+
+**Documentation Generation from Source Code**
+Automated approaches to generate and visualize software documentation directly from source code analysis.
+
+---
+
+## Publications {#publications}
+
+### Selected Publications
+
+Coming soon - full publication list will be added here.
 
 
-<center><hr style="width:50%"></center>
+---
 
-Einstein, A. (1965). Concerning an heuristic point of view toward the emission and transformation of light. *American Journal of Physics*, 33(5), 367. [[pdf](https://icg.isy.liu.se/en/phd-courses/quantum_foundations/references/Einstein1905b.pdf)] <span class="__dimensions_badge_embed__" data-doi="10.1038/s41560-023-01304-w" data-style="large_rectangle"></span> <div data-badge-popover="right" data-badge-type="1" data-doi="10.1038/s41560-023-01304-w" data-hide-no-mentions="true" class="altmetric-embed"></div>
+## Research Projects
 
+Details of current and past research projects will be listed in the [Projects](projects.qmd) section.
 
+---
 
-<!--Include social share buttons-->
+## Supervised Research
 
-{{< include /files/includes/_socialshare.qmd >}}
+### Thesis Supervision
+
+I have supervised over **40 bachelor's and master's thesis projects** (2007-2016+) in areas including:
+
+- Software visualization and 3D graphics
+- Graph layout algorithms
+- Augmented reality applications
+- Interactive data visualization
+- Software metrics and evolution analysis
+- Multimedia content visualization
+
+Recent thesis topics include:
+- Photorealistic data visualization in augmented reality
+- Graph clustering and edge bundling algorithms
+- Program execution visualization
+- Dynamic object-oriented program animation
+- Interactive 3D browsing systems
+
+For more details, see the [Supervised Theses](posts.qmd) section.
+
+---
+
+## Collaborations
+
+I am actively seeking collaborations in:
+- Software engineering visualization
+- Data visualization and visual analytics
+- 3D graphics and augmented reality
+- Graph algorithms and network visualization
+
+If you're interested in collaboration or have research questions, please [get in touch](contact.qmd).

@@ -1,35 +1,64 @@
 ---
-title: "Projects"
-subtitle: "Funded projects"
+title: "Research Projects"
+subtitle: "Current and Past Research Projects"
 page-layout: full
-listing: 
+listing:
 - id: projects
   sort: "started desc"
   type: table
-  fields: [image, title, author, subtitle, description, funding, started, ended]
+  fields: [title, author, subtitle, description, started, ended]
   grid-item-align: left
-  grid-columns: 3
-  image-height: 30px
-  field-display-names: 
-      title: "Title"
-      author: "Team"
-      subtitle: "Funder"
-      started: "Start"
-      ended: "End"
-      funding: "Funding"
-#  categories: true
-#  sort-ui: true
-#  filter-ui: true
-  contents: 
-#    - projects/ 
-    - projects.yml 
+  field-display-names:
+      title: "Project Title"
+      author: "Collaborators"
+      subtitle: "Funding Source"
+      started: "Start Year"
+      ended: "End Year"
+  contents:
+    - projects.yml
 ---
 
+## Research Projects
+
+This page lists current and past research projects related to software visualization, data mining, and interactive graphics.
 
 :::{#projects}
 :::
 
+---
 
-<!--Include social share buttons-->
+## Research Areas
 
-{{< include /files/includes/_socialshare.qmd >}}
+My research projects focus on:
+
+### Software Visualization
+- Visualizing software architecture in 3D environments
+- Understanding software dependencies and evolution
+- Tools for software comprehension and analysis
+
+### Graph Algorithms and Visualization
+- Developing efficient graph layout algorithms
+- Edge bundling techniques for complex networks
+- Interactive graph exploration tools
+
+### Augmented Reality & 3D Graphics
+- Photorealistic data visualization in AR
+- Real-time rendering techniques
+- Integration of virtual and physical environments
+
+### Visual Data Mining
+- Interactive data exploration interfaces
+- Pattern discovery in complex datasets
+- Visual analytics for large-scale data
+
+---
+
+## Collaboration Opportunities
+
+I am interested in collaborating on projects involving:
+- Software engineering tools and visualization
+- Data visualization and visual analytics
+- 3D graphics and augmented reality applications
+- Graph algorithms and network visualization
+
+For collaboration inquiries, please [contact me](contact.qmd).

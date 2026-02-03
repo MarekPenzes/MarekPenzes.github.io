@@ -1,24 +1,47 @@
 ---
 title: "Contact"
-description-meta: "Reach out to me with questions and comments"
+description-meta: "Contact Peter Kapec, PhD"
 title-block-banner: false
 ---
 
-<center>
+## Get in Touch
 
-**Quarto Academic**
+Feel free to reach out for research collaboration, student supervision inquiries, or academic questions.
 
-School
+### Office Information
 
-College
+**Peter Kapec, PhD**
+Assistant Professor
 
-University
+Institute of Applied Informatics
 
-Address: 
+Faculty of Informatics and Information Technologies (FIIT) Slovak University of Technology in Bratislava
 
-Phone: 
+**Office:** Room 4.30
+**Address:** Ilkovičova 2, 842 16 Bratislava 4, Slovak Republic
+**Phone:** +421 (2) 21 022 430 (VoIP SIP)
+**Email:** peter.kapec@stuba.sk
 
-E-mail: 
+### Office Hours
 
+**Wednesday: 13:00 - 14:00**
 
-</center>
+Please feel free to drop by during office hours or send an email to schedule an appointment at another time.
+
+### Location
+
+Faculty of Informatics and Information Technologies
+Slovak University of Technology in Bratislava
+Ilkovičova 2
+842 16 Bratislava 4
+Slovak Republic
+
+---
+
+## Research Collaboration
+
+I am always interested in:
+- Collaborating on research projects related to software visualization and data mining
+- Supervising bachelor and master thesis projects
+- Discussing potential PhD opportunities
+- Academic partnerships and joint research initiatives

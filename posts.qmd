@@ -1,25 +1,64 @@
 ---
-title: "What’s New & Updated"
-subtitle: "Posts about papers, events, news, and more"
-description-meta: "Posts about papers, events, news, and more"
-listing: 
+title: "Supervised Theses"
+subtitle: "Bachelor's and Master's Thesis Projects"
+description-meta: "List of supervised thesis projects by Peter Kapec"
+listing:
   sort: "date desc"
   type: default
-  page-size: 100
+  page-size: 50
   categories: true
   sort-ui: true
   filter-ui: true
-  feed: true
-  contents: 
+  contents:
       - posts
-      - posts/post-links.yml  # Use this file to add external links
-#      categories: [] 
-
 #page-layout: full
 draft-mode: unlinked
 page-navigation: false
 title-block-banner: false
 ---
 
+## Overview
+
+Over the years, I have supervised more than **40 bachelor's and master's thesis projects** across various topics in computer science, with a focus on visualization, graphics, and software engineering.
+
+### Research Areas
+
+The supervised theses cover a wide range of topics including:
+
+- **Software Visualization** - 3D visualization of software architecture and dependencies
+- **Graph Algorithms** - Layout algorithms, clustering, and edge bundling techniques
+- **Augmented Reality** - AR applications for data and software visualization
+- **Interactive Visualization** - Web-based and desktop visualization tools
+- **Data Mining** - Visual data mining and analytics
+- **Multimedia** - Video processing, 3D graphics, and multimedia systems
+- **Web Technologies** - HTML5, WebGL, and interactive web applications
+
+---
+
+## Thesis Projects
+
+Below is a list of supervised thesis projects. Use the filters to explore by topic or year.
+
 :::{#posts}
 :::
+
+---
+
+## Current Opportunities
+
+I am always looking for motivated students interested in:
+- Software visualization and visual analytics
+- 3D graphics and augmented reality
+- Graph algorithms and network visualization
+- Interactive data visualization
+- Web-based visualization tools
+
+If you're interested in working on a thesis project in these areas, please [contact me](contact.qmd) to discuss potential topics.
+
+### What I Look For
+
+- Strong programming skills (Java, JavaScript, Python, C++)
+- Interest in visualization and graphics
+- Motivation to explore new technologies
+- Ability to work independently
+- Good communication skills

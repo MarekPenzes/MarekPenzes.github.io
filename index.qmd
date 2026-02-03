@@ -1,10 +1,13 @@
 ---
-title: "Quarto Academic, PhD"
-description-meta: "Quarto Academic Website Template adapted by Dr. Gang He"
-image: "files/images/placeholder4.JPG"
+title: "Peter Kapec, PhD"
+subtitle: |
+  Assistant Professor <br>
+  Faculty of Informatics and Information Technologies <br>
+  Slovak University of Technology in Bratislava
+description-meta: "Peter Kapec, PhD - Assistant Professor at FIIT STU"
+image: "files/images/profile_pic.png"
 page-navigation: false
 toc: false
-#sidebar: false
 page-layout: full
 
 about:
@@ -12,95 +15,119 @@ about:
   template: trestles
   image-width: 70%
   links:
-    - icon: sun
-      text: Lab
-      href: https://www.github.com
+    - icon: building
+      text: FIIT STU
+      href: https://www.fiit.stuba.sk/
       target: _blank
-    - icon: globe
-      text: Uprofile
-      href: https://baruch.cuny.edu
-      target: _blank
+    - icon: door-open
+      text: Office 4.30
+      href: contact.qmd
     - icon: envelope
-      text: E-mail
-      href: mailto:email@gmail.com    
-    - icon: linkedin
-      text: LinkedIn
-      href: https://linkedin.com
-      target: _blank
-    - icon: youtube
-      text: YouTube
-      href: https://www.youtube.com     
-      target: _blank 
-    - text: "{{< ai orcid >}} ORCID"   # use academic icons, "" are needed, you also need to install the fontawesome extension
-      href: https://orcid.org
-      target: _blank
-    - text: "{{< ai clarivate >}} Web of Science"
-      href: https://www.webofscience.com  
-      target: _blank
-    - text: "{{< ai scopus >}} Scopus"
-      href: https://www.scopus.com
-      target: _blank
-    - text: "{{< ai google-scholar >}} Google Scholar"
-      href: https://scholar.google.com
-      target: _blank
-#    - text: "{{< ai researchgate >}} Research Gate"
-#      href: https://www.researchgate.net
-#      target: _blank
-
-listing:   # Comment the listing section and delete corresponding lines in the index.qmd file to remove the recent posts
-  - id: recent-posts
-    contents: 
-      - posts
-      - posts/post-links.yml
-    exclude:
-      title: ""
-    type: grid
-    max-items: 3
-#    image-height: 150px
-    page-size: 3 #set same as max-times to remove the page number setting
-    fields: [image, date, title, subtitle]
-    max-description-length: 75
-    sort: 
-      - "date desc"
-      - "title asc"
+      text: Email
+      href: "#"
+      id: email-copy-btn
+    - icon: 1-circle
+      text: Button 1
+      href: "#"
+    - icon: 2-circle
+      text: Button 2
+      href: "#"
+    - icon: 3-circle
+      text: Button 3
+      href: "#"
+    - icon: 4-circle
+      text: Button 4
+      href: "#"
 ---
 
 :::{#hero-heading}
 
-I'm a [Quarto Academeic Website Template](https://github.com/drganghe/quarto-academic-website-template) adapted by [Dr. Gang He](http://drganghe.github.io).
+My research focuses on **software visualization**, **interactive data visualization**, **visual data mining**, and **graph layout algorithms**. I am particularly interested in 3D visualization techniques, augmented reality applications, and innovative approaches to understanding complex software systems.
 
-I'm a template that you can fork to build your own website with easy adaptation and deployment.
+## Research Interests
 
-1. **Star** this repository to bookmark it for future reference.  
-1. **Fork** this repository and rename it to `YourGitHubUserName.github.io`.  
-1. **Update** the `_quarto.yml` file to configure your site’s basic settings.  
-1. **Add or edit content** in the following files and folders:
-   - `/posts/` – posts about publications, news, events  
-   - `teaching.qmd` – teaching information  
-   - `projects.yml` – research or other projects  
-   - `people.qmd` and `/people/` – team or collaborators  
-   - `/files/` - profiles, images, pdfs, and includes 
-1. [**Render and preview**](https://quarto.org/docs/websites/) your site locally.  
-1. [**Publish**](https://quarto.org/docs/publishing/github-pages.html) your site using GitHub Pages (make sure [configuring](https://quarto.org/docs/publishing/images/gh-pages-docs-dir.png) your GitHub repository to publish from the `docs` directory, not the `root` folder). 
-1. **Refine and polish** your content and design as needed.  
-1. ✅ Enjoy your new website!
+- **Software Visualization** in 3D space
+- **Graph Layout & Visualization Algorithms**
+- **Interactive Data Visualization** & Visual Data Mining
+- **Augmented Reality** Applications
+- **Software Evolution** & Metrics Visualization
+- **Documentation Generation** from Source Code
 
-## Experience
+## Current Position
 
-- Researcher, Univerisity
+**Assistant Professor** | Institute of Applied Informatics
+Faculty of Informatics and Information Technologies (FIIT)
+Slovak University of Technology in Bratislava
+
+**Office:** Room 4.30, Ilkovičova 2, 842 16 Bratislava 4
+**Office Hours:** Wednesday 13:00-14:00
+**Email:** peter.kapec@stuba.sk
+**Phone:** +421 (2) 21 022 430
 
 ## Education
 
-- PhD, Univerisity
+**PhD** | Slovak University of Technology in Bratislava
 
 :::
 
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  setTimeout(function() {
+    let emailLink = null;
 
-<!-- Delete the following section and delete corresponding lines in the yaml part to remove the recent posts -->
-## Recent Posts
-Check out the latest &nbsp;[Papers](posts.qmd#category=paper)&nbsp;, &nbsp;[News](posts.qmd#category=news)&nbsp;, &nbsp;[Events](posts.qmd#category=event)&nbsp;, and &nbsp;[More »](/posts.qmd)
+    //Method 1: by ID
+    emailLink = document.getElementById('email-copy-btn');
 
-:::{#recent-posts}
-:::
+    //Method 2: in about links
+    if (!emailLink) {
+      const aboutLinks = document.querySelector('.about-links');
+      if (aboutLinks) {
+        const allLinks = aboutLinks.querySelectorAll('a');
+        allLinks.forEach((link) => {
+          if (link.textContent.includes('Email')) {
+            emailLink = link;
+          }
+        });
+      }
+    }
 
-<p align="right">[All Posts »](/posts.qmd)</p>
+    //Method 3: all links
+    if (!emailLink) {
+      const allPageLinks = document.querySelectorAll('a');
+      allPageLinks.forEach(link => {
+        if (link.textContent.includes('Email') && (link.href.includes('#') || link.href === '')) {
+          emailLink = link;
+        }
+      });
+    }
+
+    //add click handler if found
+    if (emailLink) {
+      emailLink.addEventListener('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+
+        //copy email to clipboard
+        navigator.clipboard.writeText('peter.kapec@stuba.sk')
+          .then(function() {
+            //save original content (icon + text)
+            const originalHTML = emailLink.innerHTML;
+
+            //change to "Copied!"
+            emailLink.innerHTML = 'Copied!';
+            emailLink.classList.add('copied');
+
+            //restore original content after 2 secs
+            setTimeout(function() {
+              emailLink.innerHTML = originalHTML;
+              emailLink.classList.remove('copied');
+            }, 2000);
+          })
+          .catch(function(err) {
+            console.error('Clipboard error:', err);
+          });
+      });
+    }
+  }, 500);
+});
+</script>

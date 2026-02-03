@@ -2,16 +2,16 @@
   {
     "objectID": "posts.html",
     "href": "posts.html",
-    "title": "What’s New & Updated",
+    "title": "Supervised Theses",
     "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nQuarto Academic Website Examples and Tips\n\n\n\n\n\n\nnews\n\n\n\nExamples and tips for Quarto Academic Website\n\n\n\n\n\nOct 15, 2024\n\n\nDr. Gang He\n\n\n\n\n\n\n\n\n\n\n\n\nEvent item\n\n\n\n\n\n\nevent\n\npresentation\n\n\n\nAbout Event item.\n\n\n\n\n\nSep 3, 2024\n\n\nEvent\n\n\n\n\n\n\n\n\n\n\n\n\nNews item\n\n\n\n\n\n\nnews\n\n\n\nAbout new item\n\n\n\n\n\nJun 24, 2024\n\n\nNews\n\n\n\n\n\n\n\n\n\n\n\n\nCan quantum-mechanical description of physical reality be considered complete?\n\n\nPhysical Review\n\n\n\npaper\n\n\n\nOne is thus led to conclude that the description of reality as given by a wave function is not complete.\n\n\n\n\n\nMay 15, 1935\n\n\nAlbert Einstein, Boris Podolsky, Nathan Rosen\n\n\n\n\n\nNo matching items"
+    "text": "Over the years, I have supervised more than 40 bachelor’s and master’s thesis projects across various topics in computer science, with a focus on visualization, graphics, and software engineering.\n\n\nThe supervised theses cover a wide range of topics including:\n\nSoftware Visualization - 3D visualization of software architecture and dependencies\nGraph Algorithms - Layout algorithms, clustering, and edge bundling techniques\nAugmented Reality - AR applications for data and software visualization\nInteractive Visualization - Web-based and desktop visualization tools\nData Mining - Visual data mining and analytics\nMultimedia - Video processing, 3D graphics, and multimedia systems\nWeb Technologies - HTML5, WebGL, and interactive web applications"
   },
   {
     "objectID": "publications.html",
     "href": "publications.html",
-    "title": "Publications",
+    "title": "Research & Publications",
     "section": "",
-    "text": "Notes: * corresponding author; GS graduate student advisee; VS visiting scholar;  ESI Highly Cited Paper (top 1%);  ESI Hot Paper (top 0.1%)\nTotal citations as of January 2025:"
+    "text": "My research focuses on innovative approaches to understanding and visualizing complex software systems and data structures.\n\n\nSoftware Visualization in 3D Space Developing techniques for visualizing software architecture, dependencies, and evolution in three-dimensional environments to provide better understanding of complex systems.\nGraph Layout & Visualization Algorithms Creating efficient algorithms for laying out and visualizing large graphs and networks, including edge bundling techniques to reduce visual clutter.\nInteractive Data Visualization & Visual Data Mining Exploring interactive methods for data exploration and mining, enabling users to discover patterns and insights in complex datasets.\nAugmented Reality Applications Investigating the use of augmented reality for photorealistic data visualization and software structure representation in real-world contexts.\nSoftware Evolution & Metrics Visualization Analyzing and visualizing how software systems evolve over time, including metrics visualization and program execution dynamics.\nDocumentation Generation from Source Code Automated approaches to generate and visualize software documentation directly from source code analysis."
   },
   {
     "objectID": "publications.html#selected-work",
@@ -23,9 +23,9 @@
   {
     "objectID": "projects.html",
     "href": "projects.html",
-    "title": "Projects",
+    "title": "Research Projects",
     "section": "",
-    "text": "Order By\n      Default\n      \n      \n      \n        Title\n      \n      \n        Team\n      \n      \n        Funder\n      \n      \n        Description\n      \n      \n        Start\n      \n      \n        End\n      \n      \n        Funding\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n \n\n\n\nTitle\n\n\n\nTeam\n\n\n\nFunder\n\n\n\nDescription\n\n\n\nFunding\n\n\n\nStart\n\n\n\nEnd\n\n\n\n\n\n\n\n\n\n\n\nExploring \n\n\nAcademic Website\n\n\nFunder\n\n\nThe goal of this project is to investigate .\n\n\n$0\n\n\n2024\n\n\n2025\n\n\n\n\n\n\nNo matching items"
+    "text": "This page lists current and past research projects related to software visualization, data mining, and interactive graphics.\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Project Title\n      \n      \n        Collaborators\n      \n      \n        Funding Source\n      \n      \n        Description\n      \n      \n        Start Year\n      \n      \n        End Year\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nProject Title\n\n\n\nCollaborators\n\n\n\nFunding Source\n\n\n\nDescription\n\n\n\nStart Year\n\n\n\nEnd Year\n\n\n\n\n\n\n\n\nExploring \n\n\nAcademic Website\n\n\nFunder\n\n\nThe goal of this project is to investigate .\n\n\n2024\n\n\n2025\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/news-title/index.html",
@@ -60,7 +60,7 @@
     "href": "teaching.html",
     "title": "Teaching",
     "section": "",
-    "text": "Fall 2024,   Fall 2023\nClass 1 introduction."
+    "text": "6 Credits | Winter Semester\nCourse Information | Materials\n\n\nThis course provides comprehensive coverage of multimedia technologies and applications. Students learn both theoretical foundations and practical skills in creating and processing multimedia content.\n\n\n\n\nMultimedia Content Creation - Principles and best practices\n2D & 3D Graphics - Design, modeling, and rendering\nVideo Processing - Editing, encoding, and streaming\nAudio Processing - Recording, editing, and effects\nWeb Technologies - HTML5, CSS3, JavaScript\n3D Web Graphics - VRML, X3D, WebGL\nInteractive Media - User interfaces and interactivity\n\n\n\n\n\nTest: 10 points\nProject: 40 points\nFinal Exam: 50 points\n\nThe course combines lectures with hands-on laboratory practice, allowing students to develop practical skills alongside theoretical knowledge."
   },
   {
     "objectID": "teaching.html#class-1",
@@ -88,14 +88,14 @@
     "href": "contact.html",
     "title": "Contact",
     "section": "",
-    "text": "Quarto Academic\nSchool\nCollege\nUniversity\nAddress:\nPhone:\nE-mail:"
+    "text": "Feel free to reach out for research collaboration, student supervision inquiries, or academic questions.\n\n\nPeter Kapec, PhD Assistant Professor\nInstitute of Applied Informatics\nFaculty of Informatics and Information Technologies (FIIT) Slovak University of Technology in Bratislava\nOffice: Room 4.30 Address: Ilkovičova 2, 842 16 Bratislava 4, Slovak Republic Phone: +421 (2) 21 022 430 (VoIP SIP) Email: peter.kapec@stuba.sk\n\n\n\nWednesday: 13:00 - 14:00\nPlease feel free to drop by during office hours or send an email to schedule an appointment at another time.\n\n\n\nFaculty of Informatics and Information Technologies Slovak University of Technology in Bratislava Ilkovičova 2 842 16 Bratislava 4 Slovak Republic"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Quarto Academic, PhD",
+    "title": "Peter Kapec, PhD",
     "section": "",
-    "text": "Lab\n  \n  \n    \n     Uprofile\n  \n  \n    \n     E-mail\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     YouTube\n  \n  \n      ORCID\n  \n  \n      Web of Science\n  \n  \n      Scopus\n  \n  \n      Google Scholar\n  \n\n  \n  \nI’m a Quarto Academeic Website Template adapted by Dr. Gang He.\nI’m a template that you can fork to build your own website with easy adaptation and deployment.\n\nStar this repository to bookmark it for future reference.\n\nFork this repository and rename it to YourGitHubUserName.github.io.\n\nUpdate the _quarto.yml file to configure your site’s basic settings.\n\nAdd or edit content in the following files and folders:\n\n/posts/ – posts about publications, news, events\n\nteaching.qmd – teaching information\n\nprojects.yml – research or other projects\n\npeople.qmd and /people/ – team or collaborators\n\n/files/ - profiles, images, pdfs, and includes\n\nRender and preview your site locally.\n\nPublish your site using GitHub Pages (make sure configuring your GitHub repository to publish from the docs directory, not the root folder).\nRefine and polish your content and design as needed.\n\n✅ Enjoy your new website!\n\n\n\n\nResearcher, Univerisity\n\n\n\n\n\nPhD, Univerisity"
+    "text": "FIIT STU\n  \n  \n    \n     Office 4.30\n  \n  \n    \n     Email\n  \n  \n    \n     Button 1\n  \n  \n    \n     Button 2\n  \n  \n    \n     Button 3\n  \n  \n    \n     Button 4\n  \n\n  \n  \nMy research focuses on software visualization, interactive data visualization, visual data mining, and graph layout algorithms. I am particularly interested in 3D visualization techniques, augmented reality applications, and innovative approaches to understanding complex software systems.\n\n\n\nSoftware Visualization in 3D space\nGraph Layout & Visualization Algorithms\nInteractive Data Visualization & Visual Data Mining\nAugmented Reality Applications\nSoftware Evolution & Metrics Visualization\nDocumentation Generation from Source Code\n\n\n\n\nAssistant Professor | Institute of Applied Informatics Faculty of Informatics and Information Technologies (FIIT) Slovak University of Technology in Bratislava\nOffice: Room 4.30, Ilkovičova 2, 842 16 Bratislava 4 Office Hours: Wednesday 13:00-14:00 Email: peter.kapec@stuba.sk Phone: +421 (2) 21 022 430\n\n\n\nPhD | Slovak University of Technology in Bratislava"
   },
   {
     "objectID": "index.html#experience",
@@ -107,9 +107,9 @@
   {
     "objectID": "index.html#education",
     "href": "index.html#education",
-    "title": "Quarto Academic, PhD",
+    "title": "Peter Kapec, PhD",
     "section": "",
-    "text": "PhD, Univerisity"
+    "text": "PhD | Slovak University of Technology in Bratislava"
   },
   {
     "objectID": "index.html#recent-posts",
@@ -138,5 +138,187 @@
     "title": "People",
     "section": "Alumni",
     "text": "Alumni\n\n\n   \n    \n    \n      Order By\n      Default\n      \n      \n      \n        Name\n      \n      \n        Role\n      \n      \n        Started\n      \n      \n        Ended\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n \n\n\n\nName\n\n\n\nRole\n\n\n\nStarted\n\n\n\nEnded\n\n\n\n\n\n\n\n\n\n\n\nAlumni A\n\n\nPhD Alumni\n\n\n2024\n\n\n2025\n\n\n\n\n\n\n\n\n\nAlumni B\n\n\nMasters Alumni\n\n\n2024\n\n\n2025\n\n\n\n\n\n\n\n\n\nAlumni C\n\n\nUndergraduate Alumni\n\n\n2024\n\n\n2025\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "contact.html#get-in-touch",
+    "href": "contact.html#get-in-touch",
+    "title": "Contact",
+    "section": "",
+    "text": "Feel free to reach out for research collaboration, student supervision inquiries, or academic questions.\n\n\nPeter Kapec, PhD Assistant Professor\nInstitute of Applied Informatics\nFaculty of Informatics and Information Technologies (FIIT) Slovak University of Technology in Bratislava\nOffice: Room 4.30 Address: Ilkovičova 2, 842 16 Bratislava 4, Slovak Republic Phone: +421 (2) 21 022 430 (VoIP SIP) Email: peter.kapec@stuba.sk\n\n\n\nWednesday: 13:00 - 14:00\nPlease feel free to drop by during office hours or send an email to schedule an appointment at another time.\n\n\n\nFaculty of Informatics and Information Technologies Slovak University of Technology in Bratislava Ilkovičova 2 842 16 Bratislava 4 Slovak Republic"
+  },
+  {
+    "objectID": "contact.html#research-collaboration",
+    "href": "contact.html#research-collaboration",
+    "title": "Contact",
+    "section": "Research Collaboration",
+    "text": "Research Collaboration\nI am always interested in: - Collaborating on research projects related to software visualization and data mining - Supervising bachelor and master thesis projects - Discussing potential PhD opportunities - Academic partnerships and joint research initiatives"
+  },
+  {
+    "objectID": "projects.html#research-projects",
+    "href": "projects.html#research-projects",
+    "title": "Research Projects",
+    "section": "",
+    "text": "This page lists current and past research projects related to software visualization, data mining, and interactive graphics.\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Project Title\n      \n      \n        Collaborators\n      \n      \n        Funding Source\n      \n      \n        Description\n      \n      \n        Start Year\n      \n      \n        End Year\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nProject Title\n\n\n\nCollaborators\n\n\n\nFunding Source\n\n\n\nDescription\n\n\n\nStart Year\n\n\n\nEnd Year\n\n\n\n\n\n\n\n\nExploring \n\n\nAcademic Website\n\n\nFunder\n\n\nThe goal of this project is to investigate .\n\n\n2024\n\n\n2025\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects.html#research-areas",
+    "href": "projects.html#research-areas",
+    "title": "Research Projects",
+    "section": "Research Areas",
+    "text": "Research Areas\nMy research projects focus on:\n\nSoftware Visualization\n\nVisualizing software architecture in 3D environments\nUnderstanding software dependencies and evolution\nTools for software comprehension and analysis\n\n\n\nGraph Algorithms and Visualization\n\nDeveloping efficient graph layout algorithms\nEdge bundling techniques for complex networks\nInteractive graph exploration tools\n\n\n\nAugmented Reality & 3D Graphics\n\nPhotorealistic data visualization in AR\nReal-time rendering techniques\nIntegration of virtual and physical environments\n\n\n\nVisual Data Mining\n\nInteractive data exploration interfaces\nPattern discovery in complex datasets\nVisual analytics for large-scale data"
+  },
+  {
+    "objectID": "projects.html#collaboration-opportunities",
+    "href": "projects.html#collaboration-opportunities",
+    "title": "Research Projects",
+    "section": "Collaboration Opportunities",
+    "text": "Collaboration Opportunities\nI am interested in collaborating on projects involving: - Software engineering tools and visualization - Data visualization and visual analytics - 3D graphics and augmented reality applications - Graph algorithms and network visualization\nFor collaboration inquiries, please contact me."
+  },
+  {
+    "objectID": "index.html#research-interests",
+    "href": "index.html#research-interests",
+    "title": "Peter Kapec, PhD",
+    "section": "",
+    "text": "Software Visualization in 3D space\nGraph Layout & Visualization Algorithms\nInteractive Data Visualization & Visual Data Mining\nAugmented Reality Applications\nSoftware Evolution & Metrics Visualization\nDocumentation Generation from Source Code"
+  },
+  {
+    "objectID": "index.html#current-position",
+    "href": "index.html#current-position",
+    "title": "Peter Kapec, PhD",
+    "section": "",
+    "text": "Assistant Professor | Institute of Applied Informatics Faculty of Informatics and Information Technologies (FIIT) Slovak University of Technology in Bratislava\nOffice: Room 4.30, Ilkovičova 2, 842 16 Bratislava 4 Office Hours: Wednesday 13:00-14:00 Email: peter.kapec@stuba.sk Phone: +421 (2) 21 022 430"
+  },
+  {
+    "objectID": "publications.html#research-areas",
+    "href": "publications.html#research-areas",
+    "title": "Research & Publications",
+    "section": "",
+    "text": "My research focuses on innovative approaches to understanding and visualizing complex software systems and data structures.\n\n\nSoftware Visualization in 3D Space Developing techniques for visualizing software architecture, dependencies, and evolution in three-dimensional environments to provide better understanding of complex systems.\nGraph Layout & Visualization Algorithms Creating efficient algorithms for laying out and visualizing large graphs and networks, including edge bundling techniques to reduce visual clutter.\nInteractive Data Visualization & Visual Data Mining Exploring interactive methods for data exploration and mining, enabling users to discover patterns and insights in complex datasets.\nAugmented Reality Applications Investigating the use of augmented reality for photorealistic data visualization and software structure representation in real-world contexts.\nSoftware Evolution & Metrics Visualization Analyzing and visualizing how software systems evolve over time, including metrics visualization and program execution dynamics.\nDocumentation Generation from Source Code Automated approaches to generate and visualize software documentation directly from source code analysis."
+  },
+  {
+    "objectID": "publications.html#publications",
+    "href": "publications.html#publications",
+    "title": "Research & Publications",
+    "section": "Publications",
+    "text": "Publications\n\nSelected Publications\nComing soon - full publication list will be added here."
+  },
+  {
+    "objectID": "publications.html#research-projects",
+    "href": "publications.html#research-projects",
+    "title": "Research & Publications",
+    "section": "Research Projects",
+    "text": "Research Projects\nDetails of current and past research projects will be listed in the Projects section."
+  },
+  {
+    "objectID": "publications.html#supervised-research",
+    "href": "publications.html#supervised-research",
+    "title": "Research & Publications",
+    "section": "Supervised Research",
+    "text": "Supervised Research\n\nThesis Supervision\nI have supervised over 40 bachelor’s and master’s thesis projects (2007-2016+) in areas including:\n\nSoftware visualization and 3D graphics\nGraph layout algorithms\nAugmented reality applications\nInteractive data visualization\nSoftware metrics and evolution analysis\nMultimedia content visualization\n\nRecent thesis topics include: - Photorealistic data visualization in augmented reality - Graph clustering and edge bundling algorithms - Program execution visualization - Dynamic object-oriented program animation - Interactive 3D browsing systems\nFor more details, see the Supervised Theses section."
+  },
+  {
+    "objectID": "publications.html#collaborations",
+    "href": "publications.html#collaborations",
+    "title": "Research & Publications",
+    "section": "Collaborations",
+    "text": "Collaborations\nI am actively seeking collaborations in: - Software engineering visualization - Data visualization and visual analytics - 3D graphics and augmented reality - Graph algorithms and network visualization\nIf you’re interested in collaboration or have research questions, please get in touch."
+  },
+  {
+    "objectID": "posts.html#overview",
+    "href": "posts.html#overview",
+    "title": "Supervised Theses",
+    "section": "",
+    "text": "Over the years, I have supervised more than 40 bachelor’s and master’s thesis projects across various topics in computer science, with a focus on visualization, graphics, and software engineering.\n\n\nThe supervised theses cover a wide range of topics including:\n\nSoftware Visualization - 3D visualization of software architecture and dependencies\nGraph Algorithms - Layout algorithms, clustering, and edge bundling techniques\nAugmented Reality - AR applications for data and software visualization\nInteractive Visualization - Web-based and desktop visualization tools\nData Mining - Visual data mining and analytics\nMultimedia - Video processing, 3D graphics, and multimedia systems\nWeb Technologies - HTML5, WebGL, and interactive web applications"
+  },
+  {
+    "objectID": "posts.html#thesis-projects",
+    "href": "posts.html#thesis-projects",
+    "title": "Supervised Theses",
+    "section": "Thesis Projects",
+    "text": "Thesis Projects\nBelow is a list of supervised thesis projects. Use the filters to explore by topic or year."
+  },
+  {
+    "objectID": "posts.html#current-opportunities",
+    "href": "posts.html#current-opportunities",
+    "title": "Supervised Theses",
+    "section": "Current Opportunities",
+    "text": "Current Opportunities\nI am always looking for motivated students interested in: - Software visualization and visual analytics - 3D graphics and augmented reality - Graph algorithms and network visualization - Interactive data visualization - Web-based visualization tools\nIf you’re interested in working on a thesis project in these areas, please contact me to discuss potential topics.\n\nWhat I Look For\n\nStrong programming skills (Java, JavaScript, Python, C++)\nInterest in visualization and graphics\nMotivation to explore new technologies\nAbility to work independently\nGood communication skills"
+  },
+  {
+    "objectID": "teaching.html#multimedia",
+    "href": "teaching.html#multimedia",
+    "title": "Teaching",
+    "section": "",
+    "text": "6 Credits | Winter Semester\nCourse Information | Materials\n\n\nThis course provides comprehensive coverage of multimedia technologies and applications. Students learn both theoretical foundations and practical skills in creating and processing multimedia content.\n\n\n\n\nMultimedia Content Creation - Principles and best practices\n2D & 3D Graphics - Design, modeling, and rendering\nVideo Processing - Editing, encoding, and streaming\nAudio Processing - Recording, editing, and effects\nWeb Technologies - HTML5, CSS3, JavaScript\n3D Web Graphics - VRML, X3D, WebGL\nInteractive Media - User interfaces and interactivity\n\n\n\n\n\nTest: 10 points\nProject: 40 points\nFinal Exam: 50 points\n\nThe course combines lectures with hands-on laboratory practice, allowing students to develop practical skills alongside theoretical knowledge."
+  },
+  {
+    "objectID": "teaching.html#office-hours",
+    "href": "teaching.html#office-hours",
+    "title": "Teaching",
+    "section": "Office Hours",
+    "text": "Office Hours\nWednesday: 13:00 - 14:00 Room 4.30\nStudents are welcome to visit during office hours for: - Course-related questions and consultations - Project guidance and feedback - Thesis supervision discussions - General academic advice\nFor appointments outside office hours, please contact me via email (peter.kapec at stuba dot sk)."
+  },
+  {
+    "objectID": "teaching.html#past-courses",
+    "href": "teaching.html#past-courses",
+    "title": "Teaching",
+    "section": "Past Courses",
+    "text": "Past Courses\nOver the years, I have taught various courses in: - Computer Graphics - Data Visualization - Software Engineering - Web Technologies - Multimedia Systems"
+  },
+  {
+    "objectID": "lectures.html",
+    "href": "lectures.html",
+    "title": "Lectures",
+    "section": "",
+    "text": "Credits: 6 | Semester: Winter\nThis course provides comprehensive coverage of multimedia technologies and applications. Students learn both theoretical foundations and practical skills in creating and processing multimedia content.\n\n\n\nMultimedia content creation principles\n2D graphics design and editing\nImage representation and formats\nVideo processing and compression (MPEG standards)\nAudio encoding and processing\n3D graphics and modeling (VRML, X3D, WebGL)\nHypertext markup languages (HTML5)\nMultimedia composition and integration\n\n\n\n\n\nTest: 10 points\nProject: 40 points (semester project involving 2D/3D graphics, audio/video processing)\nFinal Exam: Required for completion\nMinimum to Pass: 56 points total\n\n\n\n\n\nLectures: 3 hours per week\nSeminars: 2 hours per week\nStudy Type: Full-time, attendance method"
+  },
+  {
+    "objectID": "lectures.html#undergraduate-study",
+    "href": "lectures.html#undergraduate-study",
+    "title": "Lectures",
+    "section": "",
+    "text": "Credits: 6 | Semester: Winter\nThis course provides comprehensive coverage of multimedia technologies and applications. Students learn both theoretical foundations and practical skills in creating and processing multimedia content.\n\n\n\nMultimedia content creation principles\n2D graphics design and editing\nImage representation and formats\nVideo processing and compression (MPEG standards)\nAudio encoding and processing\n3D graphics and modeling (VRML, X3D, WebGL)\nHypertext markup languages (HTML5)\nMultimedia composition and integration\n\n\n\n\n\nTest: 10 points\nProject: 40 points (semester project involving 2D/3D graphics, audio/video processing)\nFinal Exam: Required for completion\nMinimum to Pass: 56 points total\n\n\n\n\n\nLectures: 3 hours per week\nSeminars: 2 hours per week\nStudy Type: Full-time, attendance method"
+  },
+  {
+    "objectID": "lectures.html#graduate-study",
+    "href": "lectures.html#graduate-study",
+    "title": "Lectures",
+    "section": "Graduate Study",
+    "text": "Graduate Study\n\nData Visualization\nGraduate level course\nAdvanced topics in data visualization, visual analytics, and information visualization techniques.\n\nTopics Covered\n\nVisual data mining principles\nInteractive visualization techniques\nGraph layout algorithms\n3D visualization methods\nVisual analytics for large datasets\nSoftware visualization approaches"
+  },
+  {
+    "objectID": "lectures.html#office-hours",
+    "href": "lectures.html#office-hours",
+    "title": "Lectures",
+    "section": "Office Hours",
+    "text": "Office Hours\nWednesday: 13:00 - 14:00 | Room 4.30\nStudents are welcome to visit during office hours for course-related questions, project consultations, and academic guidance."
+  },
+  {
+    "objectID": "courses.html",
+    "href": "courses.html",
+    "title": "Courses",
+    "section": "",
+    "text": "Undergraduate level course\nFundamental principles of computer graphics, image representation, processing algorithms, and visualization techniques.\n\n\n\nComputer graphics fundamentals\nImage representation and color models\n2D and 3D transformations\nRendering techniques\nImage processing algorithms\nGraphics programming\nVisualization methods\n\n\n\n\n\n\nUndergraduate level course\nDevelopment of interactive applications with focus on user interfaces, web technologies, and multimedia integration.\n\n\n\nInteractive application design\nUser interface development\nWeb technologies (HTML5, CSS3, JavaScript)\nEvent-driven programming\nMultimedia integration\nClient-server communication\nResponsive design principles"
+  },
+  {
+    "objectID": "courses.html#undergraduate-study",
+    "href": "courses.html#undergraduate-study",
+    "title": "Courses",
+    "section": "",
+    "text": "Undergraduate level course\nFundamental principles of computer graphics, image representation, processing algorithms, and visualization techniques.\n\n\n\nComputer graphics fundamentals\nImage representation and color models\n2D and 3D transformations\nRendering techniques\nImage processing algorithms\nGraphics programming\nVisualization methods\n\n\n\n\n\n\nUndergraduate level course\nDevelopment of interactive applications with focus on user interfaces, web technologies, and multimedia integration.\n\n\n\nInteractive application design\nUser interface development\nWeb technologies (HTML5, CSS3, JavaScript)\nEvent-driven programming\nMultimedia integration\nClient-server communication\nResponsive design principles"
+  },
+  {
+    "objectID": "courses.html#graduate-study",
+    "href": "courses.html#graduate-study",
+    "title": "Courses",
+    "section": "Graduate Study",
+    "text": "Graduate Study\n\nSoftware Systems Research\nGraduate level course\nAdvanced research topics in software systems, including software architecture, design patterns, and system analysis.\n\nTopics Covered\n\nSoftware architecture principles\nDesign patterns and best practices\nSystem analysis and modeling\nSoftware evolution\nResearch methodologies\nAcademic writing and presentation\n\n\n\n\n\nTeam Project\nGraduate level course\nCollaborative software development project where students work in teams to design, implement, and deliver a complex software system.\n\nFocus Areas\n\nTeam collaboration and communication\nProject management\nSoftware development lifecycle\nCode review and quality assurance\nDocumentation and presentation\nReal-world problem solving\n\n\n\n\n\nPraxis\nGraduate level course\nPractical application of theoretical knowledge through hands-on projects, internships, or research activities.\n\nActivities\n\nPractical software development\nIndustry collaboration\nResearch project work\nTechnical skill development\nProfessional practice experience"
+  },
+  {
+    "objectID": "courses.html#contact",
+    "href": "courses.html#contact",
+    "title": "Courses",
+    "section": "Contact",
+    "text": "Contact\nFor course-related inquiries, please contact:\nEmail: peter.kapec@stuba.sk Office: Room 4.30 Office Hours: Wednesday 13:00 - 14:00"
   }
 ]
