@@ -1,9 +1,5 @@
 /*-- scss:defaults --*/
 
-/* ============================================
-   Modern Black & White Theme for Peter Kapec
-   ============================================ */
-
 /* Color Variables */
 :root {
   --primary-black: #000000;
@@ -79,7 +75,7 @@ body {
   color: var(--primary-black);
 }
 
-/* Headings */
+/*headings */
 h1, h2, h3, h4, h5, h6 {
   color: var(--primary-black);
   font-weight: 600;
@@ -104,7 +100,7 @@ h3 {
   color: var(--gray-dark);
 }
 
-/* Links */
+/*links */
 a {
   color: var(--gray-medium);
   text-decoration: none;
@@ -117,7 +113,7 @@ a:hover {
   border-bottom: 1px solid var(--primary-black);
 }
 
-/* About Section Links (Icons) */
+/*about Section Links (Icons) */
 .about-links a {
   color: var(--gray-medium);
   border: 1px solid var(--gray-lightest);
@@ -137,14 +133,14 @@ a:hover {
   box-shadow: 0 4px 8px rgba(0, 102, 204, 0.3);
 }
 
-/* Green state for copied email */
+/*green state for copied email */
 .about-links a.copied {
   color: var(--primary-white);
   background: #28a745 !important;
   border: 1px solid #28a745 !important;
 }
 
-/* Cards and Content Boxes */
+/*cards and Content Boxes */
 .card {
   border: 1px solid var(--gray-lightest);
   border-radius: 8px;
@@ -158,12 +154,12 @@ a:hover {
   transform: translateY(-4px);
 }
 
-/* Listing Cards (Publications, Posts, etc.) */
+/*listing Cards (Publications, Posts, etc.) */
 .quarto-listing .card {
   background: var(--primary-white);
 }
 
-/* Footer */
+/*footer */
 .nav-footer {
   background: var(--gray-dark) !important;
   color: var(--primary-white);
@@ -182,7 +178,7 @@ a:hover {
   border-bottom: 1px solid var(--primary-white);
 }
 
-/* Buttons */
+/*buttons */
 .btn-primary {
   background-color: var(--gray-dark);
   border-color: var(--gray-dark);
@@ -197,14 +193,14 @@ a:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Code Blocks */
+/*code Blocks */
 pre, code {
   background-color: var(--gray-ultralight);
   border: 1px solid var(--gray-lightest);
   border-radius: 4px;
 }
 
-/* Tables */
+/*tables */
 table {
   border-collapse: collapse;
   width: 100%;
@@ -226,7 +222,7 @@ tr:hover {
   background-color: var(--gray-ultralight);
 }
 
-/* Blockquotes */
+/*blockquotes */
 blockquote {
   border-left: 4px solid var(--gray-dark);
   padding-left: 1.5rem;
@@ -235,12 +231,12 @@ blockquote {
   margin: 1.5rem 0;
 }
 
-/* Smooth Scrolling */
+/*smooth Scrolling */
 html {
   scroll-behavior: smooth;
 }
 
-/* Custom Button Styles for Index Page */
+/*custom Button Styles for Index Page */
 #hero-heading a[href]:hover,
 #hero-heading button:hover {
   background-color: var(--gray-ultralight) !important;
@@ -249,30 +245,30 @@ html {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* Selection Color */
+/*selection Color */
 ::selection {
   background: var(--gray-dark);
   color: var(--primary-white);
 }
 
-/* Images */
+/*images */
 img {
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Profile Image Specific */
+/*profile Image Specific */
 .about-entity img {
   border: 4px solid var(--gray-lightest);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-/* Inline block for badges */
+/*inline block for badges */
 span.__dimensions_badge_embed__, div.altmetric-embed {
   display: inline-block;
 }
 
-/* Responsive adjustments */
+/*responsive adjustments */
 @media (max-width: 768px) {
   #hero-heading {
     padding: 2rem 1rem;
@@ -288,12 +284,12 @@ span.__dimensions_badge_embed__, div.altmetric-embed {
   }
 }
 
-/* Clean spacing */
+/*clean spacing */
 section {
   margin-bottom: 3rem;
 }
 
-/* Subtle animations */
+/*subtle animations */
 @keyframes fadeIn {
   from {
     opacity: 0;

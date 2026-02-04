@@ -1,1 +1,1 @@
-Sitemap: https://www2.fiit.stuba.sk/~kapec/sitemap.xml
+Sitemap: https://MarekPenzes.github.io/sitemap.xml

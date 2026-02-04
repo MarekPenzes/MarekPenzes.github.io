@@ -44,7 +44,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-b1010ed3cd212492f61910bf2317df72.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-17eaa6478c19daa124ac96b7dd6f1d24.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-60038b604a8151120da125cda9b8904b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -173,11 +173,11 @@ window.Quarto = {
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="Research Projects – Peter Kapec, PhD">
 <meta property="og:description" content="Current and Past Research Projects">
-<meta property="og:image" content="https://www2.fiit.stuba.sk/~kapec/files/images/profile.jpg">
+<meta property="og:image" content="https://MarekPenzes.github.io/files/images/profile.jpg">
 <meta property="og:site_name" content="Peter Kapec, PhD">
 <meta name="twitter:title" content="Research Projects – Peter Kapec, PhD">
 <meta name="twitter:description" content="Current and Past Research Projects">
-<meta name="twitter:image" content="https://www2.fiit.stuba.sk/~kapec/files/images/profile.jpg">
+<meta name="twitter:image" content="https://MarekPenzes.github.io/files/images/profile.jpg">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -221,10 +221,21 @@ window.Quarto = {
   </li>  
     </ul>
   </li>
-  <li class="nav-item">
-    <a class="nav-link" href="./teaching.html"> 
-<span class="menu-text">Teaching</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-teaching" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Teaching</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-teaching">    
+        <li>
+    <a class="dropdown-item" href="./lectures.html">
+ <span class="dropdown-text">Lectures</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./courses.html">
+ <span class="dropdown-text">Courses</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="./posts.html"> 
 <span class="menu-text">Supervised Theses</span></a>
@@ -511,7 +522,7 @@ window.Quarto = {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/www2\.fiit\.stuba\.sk\/~kapec\/");
+        var filterRegex = new RegExp("https:\/\/MarekPenzes\.github\.io\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
