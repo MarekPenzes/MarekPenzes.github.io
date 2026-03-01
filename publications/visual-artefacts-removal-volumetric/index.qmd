@@ -1,0 +1,13 @@
+---
+title: "Visual Artefacts Removal in Volumetric Visualization"
+author:
+  - name: Peter Mindek
+date: "2011-01-01"
+categories: [journal article]
+citation:
+  type: article-journal
+  container-title: "Information Sciences and Technologies. Bulletin of the ACM Slovakia"
+  volume: 3
+  issue: 2
+  page: "96-99"
+---

@@ -27,8 +27,8 @@ about:
       href: "#"
       id: email-copy-btn
     - icon: 1-circle
-      text: Button 1
-      href: "#"
+      text: Orcid
+      href: "https://orcid.org/0000-0003-3333-3568"
     - icon: 2-circle
       text: Button 2
       href: "#"
@@ -62,12 +62,12 @@ Slovak University of Technology in Bratislava
 **Office:** Room 4.30, Ilkovičova 2, 842 16 Bratislava 4
 **Office Hours:** Wednesday 13:00-14:00
 **Email:** peter.kapec@stuba.sk
-**Phone:** +421 (2) 21 022 430
 
 ## Education
 
-**PhD** | Slovak University of Technology in Bratislava
-
+**PhD** | Slovak University of Technology in Bratislava - FIIT <br>
+**Ing** | Slovak University of Technology in Bratislava - FIIT <br>
+**Bc** | Slovak University of Technology in Bratislava - FEI <br>
 :::
 
 <script>

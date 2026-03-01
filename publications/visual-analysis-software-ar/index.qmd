@@ -1,0 +1,18 @@
+---
+title: "Visual analysis of software systems in virtual and augmented reality"
+author:
+  - name: Peter Kapec
+  - name: G. Brndiarova
+  - name: M. Gloger
+  - name: J. Marak
+date: "2015-09-01"
+categories: [conference paper]
+citation:
+  type: paper-conference
+  doi: "10.1109/INES.2015.7329727"
+  url: "https://doi.org/10.1109/INES.2015.7329727"
+---
+
+## Links
+
+[DOI: 10.1109/INES.2015.7329727](https://doi.org/10.1109/INES.2015.7329727)

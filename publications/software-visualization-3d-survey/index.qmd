@@ -1,0 +1,13 @@
+---
+title: "Software visualization in three dimensions: A Survey"
+author:
+  - name: Peter Kapec
+date: "2007-04-01"
+categories: [conference paper]
+citation:
+  type: paper-conference
+  container-title: "Student Research Conference 2007 - 3rd IIT.SRC"
+  publisher: "STU v Bratislave FIIT"
+  isbn: "978-80-227-2631-3"
+  page: "285-292"
+---

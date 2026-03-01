@@ -1,0 +1,18 @@
+---
+title: "Visualizing dynamics of object oriented programs with time context"
+author:
+  - name: Filip Grznár
+  - name: Peter Kapec
+date: "2013-05-01"
+categories: [conference paper]
+citation:
+  type: paper-conference
+  container-title: "Proceedings - SCCG 2013: 29th Spring Conference on Computer Graphics"
+  doi: "10.1145/2508244.2508253"
+  url: "https://doi.org/10.1145/2508244.2508253"
+  isbn: "978-1-4503-2480-9"
+---
+
+## Links
+
+[DOI: 10.1145/2508244.2508253](https://doi.org/10.1145/2508244.2508253)

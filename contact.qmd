@@ -19,7 +19,6 @@ Faculty of Informatics and Information Technologies (FIIT) Slovak University of 
 
 **Office:** Room 4.30
 **Address:** Ilkovičova 2, 842 16 Bratislava 4, Slovak Republic
-**Phone:** +421 (2) 21 022 430 (VoIP SIP)
 **Email:** peter.kapec@stuba.sk
 
 ### Office Hours

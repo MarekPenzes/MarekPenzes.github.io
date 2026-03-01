@@ -1,0 +1,13 @@
+---
+title: "Hypergraph-based Repository for Software Visualization Systems"
+author:
+  - name: Peter Kapec
+date: "2009-04-01"
+categories: [conference paper]
+citation:
+  type: paper-conference
+  container-title: "Student Research Conference 2009 - 5th IIT.SRC"
+  publisher: "STU v Bratislave FIIT"
+  isbn: "978-80-227-3052-5"
+  page: "251-258"
+---

@@ -1,0 +1,10 @@
+---
+title: "Exploring 3D GPU-accelerated graph visualization with time-traveling virtual camera"
+author:
+  - name: Peter Kapec
+  - name: Michal Paprčka
+  - name: Adam Pažitnaj
+  - name: Vladimír Polák
+date: "2013-12-01"
+categories: [conference paper]
+---

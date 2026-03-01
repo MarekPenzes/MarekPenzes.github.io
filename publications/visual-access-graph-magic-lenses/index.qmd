@@ -1,0 +1,19 @@
+---
+title: "Visual access to graph content using magic lenses and filtering"
+author:
+  - name: Jakub Ukrop
+  - name: Zuzana Číková
+  - name: Peter Kapec
+date: "2012-03-01"
+categories: [conference paper]
+citation:
+  type: paper-conference
+  container-title: "Proceedings - SCCG 2012: 28th Spring Conference on Computer Graphics"
+  doi: "10.1145/2448531.2448534"
+  url: "https://doi.org/10.1145/2448531.2448534"
+  page: "23-30"
+---
+
+## Links
+
+[DOI: 10.1145/2448531.2448534](https://doi.org/10.1145/2448531.2448534)

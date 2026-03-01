@@ -1,0 +1,13 @@
+---
+title: "Hypergraph based software representation, mining and visualization"
+author:
+  - name: Peter Kapec
+  - name: Peter Drahoš
+date: "2009-11-01"
+categories: [conference paper]
+citation:
+  type: paper-conference
+  container-title: "INFORMATICS 2009: Tenth International Conference on Informatics, Herľany, Slovakia"
+  isbn: "978-80-8086-126-1"
+  page: "253-258"
+---

@@ -1,0 +1,14 @@
+---
+title: "Visual Information Discovery in Large Data Sets"
+author:
+  - name: Martin Šperka
+  - name: Peter Kapec
+date: "2010-06-01"
+categories: [conference paper]
+citation:
+  type: paper-conference
+  container-title: "INTELS'2010 - Ninth International Symposium on Intelligent Systems"
+  publisher: "RUSAKI, Moskva"
+  isbn: "978-5-93347-407-4"
+  page: "123-128"
+---

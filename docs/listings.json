@@ -14,5 +14,37 @@
       "/posts/news-title/index.html",
       "/posts/paper-title/index.html"
     ]
+  },
+  {
+    "listing": "/publications.html",
+    "items": [
+      "/publications/visual-analysis-software-ar/index.html",
+      "/publications/trends-information-visualization/index.html",
+      "/publications/exploring-3d-gpu-graph-visualization/index.html",
+      "/publications/visualizing-dynamics-oop/index.html",
+      "/publications/intelligent-3d-graph-exploration/index.html",
+      "/publications/visual-access-graph-magic-lenses/index.html",
+      "/publications/graph-visualization-applications/index.html",
+      "/publications/maximum-intensity-projection-statistical-cues/index.html",
+      "/publications/graph-visualization-neural-nets/index.html",
+      "/publications/visual-artefacts-removal-volumetric/index.html",
+      "/publications/exploring-understanding-software-behaviour/index.html",
+      "/publications/villie-hypergraph-visual-programming/index.html",
+      "/publications/interactive-visualization-abstract-data/index.html",
+      "/publications/visual-information-discovery-large-datasets/index.html",
+      "/publications/visualizing-software-artifacts-hypergraphs/index.html",
+      "/publications/metaphorical-visualizations-graph/index.html",
+      "/publications/visual-programming-hypergraph-iccvg/index.html",
+      "/publications/visualizing-graph-structures-soap-bubbles/index.html",
+      "/publications/hypergraph-based-software-representation-mining/index.html",
+      "/publications/hypergraph-based-repository-software-visualization/index.html",
+      "/publications/hypergraph-based-software-visualization/index.html",
+      "/publications/multiparadigm-programming-lua/index.html",
+      "/publications/visually-driven-software-development/index.html",
+      "/publications/visual-information-discovery-software-systems/index.html",
+      "/publications/knowledge-based-programming-environments/index.html",
+      "/publications/software-visualization-3d-survey/index.html",
+      "/publications/animating-human-faces-waters-model/index.html"
+    ]
   }
 ]

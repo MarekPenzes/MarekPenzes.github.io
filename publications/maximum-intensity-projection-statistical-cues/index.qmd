@@ -1,0 +1,13 @@
+---
+title: "Maximum Intensity Projection Weighed by Statistical Cues"
+author:
+  - name: Peter Mindek
+date: "2011-05-01"
+categories: [conference paper]
+citation:
+  type: paper-conference
+  container-title: "CESCG'2011: Proceedings of the 15th Central European Seminar on Computer Graphics"
+  publisher: "Vienna University of Economics and Business Administration"
+  isbn: "978-3-9502533-3-7"
+  page: "149-155"
+---

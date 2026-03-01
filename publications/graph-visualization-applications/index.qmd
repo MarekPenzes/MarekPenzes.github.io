@@ -1,0 +1,10 @@
+---
+title: "Graph visualization and applications in software visualization"
+author:
+  - name: Peter Kapec
+date: "2012-01-01"
+categories: [conference paper]
+citation:
+  type: paper-conference
+  page: "16-25"
+---

@@ -1,0 +1,11 @@
+---
+title: "Hypergraph-based software visualization"
+author:
+  - name: Peter Kapec
+date: "2009-01-01"
+categories: [conference paper]
+citation:
+  type: paper-conference
+  container-title: "International Workshop on Computer Graphics, Computer Vision and Mathematics, GraVisMa 2009"
+  page: "149-153"
+---

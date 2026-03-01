@@ -62,3 +62,4 @@ I am interested in collaborating on projects involving:
 - Graph algorithms and network visualization
 
 For collaboration inquiries, please [contact me](contact.qmd).
+

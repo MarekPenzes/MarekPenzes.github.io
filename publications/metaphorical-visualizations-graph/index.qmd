@@ -1,0 +1,12 @@
+---
+title: "Metaphorical visualizations of graph structures"
+author:
+  - name: L. Ukrop
+  - name: M. Jakubéci
+  - name: Peter Kapec
+date: "2010-01-01"
+categories: [conference paper]
+citation:
+  type: paper-conference
+  page: "115-122"
+---

@@ -1,0 +1,13 @@
+---
+title: "Visualizing graph structures using soap bubbles"
+author:
+  - name: Ľuboš Ukrop
+date: "2010-01-01"
+categories: [conference paper]
+citation:
+  type: paper-conference
+  container-title: "IIT.SRC: 6th Proceedings in Informatics and Information Technologies"
+  publisher: "STU in Bratislava FIIT"
+  isbn: "978-80-227-3266-3"
+  page: "467-474"
+---

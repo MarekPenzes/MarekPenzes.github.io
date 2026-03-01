@@ -19,18 +19,16 @@ website:
         href: index.qmd
       - text: Research
         menu:
+          - text: Vision & Graphics Group
+            href: research.qmd
           - text: Research Areas
-            href: publications.qmd
+            href: research.qmd
           - text: Publications
-            href: publications.qmd#publications
+            href: publications.qmd
           - text: Projects
             href: projects.qmd
       - text: Teaching
-        menu:
-          - text: Lectures
-            href: lectures.qmd
-          - text: Courses
-            href: courses.qmd
+        href: courses.qmd
       - text: Supervised Theses
         href: posts.qmd
       - text: Contact

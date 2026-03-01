@@ -1,0 +1,18 @@
+---
+title: "Trends in information visualization for software analysis and development"
+author:
+  - name: Peter Kapec
+  - name: Peter Drahoš
+  - name: Martin Sperka
+date: "2014-01-01"
+categories: [conference paper]
+citation:
+  type: paper-conference
+  doi: "10.1201/b17801"
+  url: "https://doi.org/10.1201/b17801"
+  isbn: "9781315722481"
+---
+
+## Links
+
+[DOI: 10.1201/b17801](https://doi.org/10.1201/b17801)

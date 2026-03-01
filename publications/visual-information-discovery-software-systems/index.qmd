@@ -1,0 +1,14 @@
+---
+title: "Visual Information Discovery in Software Systems"
+author:
+  - name: Peter Kapec
+  - name: Martin Šperka
+date: "2008-02-01"
+categories: [conference paper]
+citation:
+  type: paper-conference
+  container-title: "Znalosti 2008, 7. ročník konferencie"
+  publisher: "STU v Bratislave FIIT"
+  isbn: "978-80-227-2827-0"
+  page: "339-342"
+---
