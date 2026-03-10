@@ -31,6 +31,8 @@ website:
         href: courses.qmd
       - text: Supervised Theses
         href: posts.qmd
+      - text: Resources
+        href: resources.qmd
       - text: Contact
         href: contact.qmd
 

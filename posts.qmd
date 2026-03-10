@@ -21,6 +21,17 @@ title-block-banner: false
 
 Over the years, I have supervised more than **40 bachelor's and master's thesis projects** across various topics in computer science, with a focus on visualization, graphics, and software engineering.
 
+## Interested?
+
+Search in <strong>Yonban</strong> for my other projects - not all were assigned to students. <br>
+If the projects I am/was supervising are interesting and you would like to work on similar project, feel free to contact me.
+<br>
+However the process of defining new projects/thesis is a bit complicated, so for:
+<ul>
+<li><strong>Bachelor project</strong> - contact me via mail in your 2nd undergraduate study year (mid of summer semester)</li>
+<li><strong>Master thesis</strong> - TO DO!</li>
+</ul>
+
 ### Research Areas
 
 The supervised theses cover a wide range of topics including:

@@ -1,0 +1,35 @@
+---
+title: "Master Thesis — How-to"
+description: "Guide for students working on their master thesis at FIIT STU."
+description-meta: "Master thesis how-to - Peter Kapec, PhD"
+title-block-banner: false
+---
+
+## What to do in the 1st Semester
+
+- search for related materials
+- store and organize found materials
+- prepare documentation template
+- discuss possible approaches and solutions
+- write down:
+  - analysis of current state-of-the-art
+  - specification
+  - design
+- get familiar with technologies that will be used
+
+## What to do in the 2nd Semester
+
+- propose and experiment with possible solutions
+- implement a prototype of the proposed solution
+- write down:
+  - details about proposed method/approach
+  - design details
+
+## What to do in the 3rd Semester
+
+- implement the chosen solution
+- experiment with the product
+- write down more:
+  - details about the proposed method/approach
+  - design details
+  - evaluation

@@ -200,14 +200,14 @@
     "href": "posts.html",
     "title": "Supervised Theses",
     "section": "",
-    "text": "Over the years, I have supervised more than 40 bachelor’s and master’s thesis projects across various topics in computer science, with a focus on visualization, graphics, and software engineering.\n\n\nThe supervised theses cover a wide range of topics including:\n\nSoftware Visualization - 3D visualization of software architecture and dependencies\nGraph Algorithms - Layout algorithms, clustering, and edge bundling techniques\nAugmented Reality - AR applications for data and software visualization\nInteractive Visualization - Web-based and desktop visualization tools\nData Mining - Visual data mining and analytics\nMultimedia - Video processing, 3D graphics, and multimedia systems\nWeb Technologies - HTML5, WebGL, and interactive web applications"
+    "text": "Over the years, I have supervised more than 40 bachelor’s and master’s thesis projects across various topics in computer science, with a focus on visualization, graphics, and software engineering."
   },
   {
     "objectID": "posts.html#overview",
     "href": "posts.html#overview",
     "title": "Supervised Theses",
     "section": "",
-    "text": "Over the years, I have supervised more than 40 bachelor’s and master’s thesis projects across various topics in computer science, with a focus on visualization, graphics, and software engineering.\n\n\nThe supervised theses cover a wide range of topics including:\n\nSoftware Visualization - 3D visualization of software architecture and dependencies\nGraph Algorithms - Layout algorithms, clustering, and edge bundling techniques\nAugmented Reality - AR applications for data and software visualization\nInteractive Visualization - Web-based and desktop visualization tools\nData Mining - Visual data mining and analytics\nMultimedia - Video processing, 3D graphics, and multimedia systems\nWeb Technologies - HTML5, WebGL, and interactive web applications"
+    "text": "Over the years, I have supervised more than 40 bachelor’s and master’s thesis projects across various topics in computer science, with a focus on visualization, graphics, and software engineering."
   },
   {
     "objectID": "posts.html#thesis-projects",
@@ -403,7 +403,7 @@
     "href": "publications/visual-information-discovery-large-datasets/index.html",
     "title": "Visual Information Discovery in Large Data Sets",
     "section": "",
-    "text": "CitationBibTeX citation:@inproceedings{šperka2010,\n  author = {Šperka, Martin and Kapec, Peter},\n  publisher = {RUSAKI, Moskva},\n  title = {Visual {Information} {Discovery} in {Large} {Data} {Sets}},\n  booktitle = {INTELS’2010 - Ninth International Symposium on\n    Intelligent Systems},\n  pages = {123-128},\n  date = {2010-06-01},\n  url = {https://MarekPenzes.github.io/publications/visual-information-discovery-large-datasets/},\n  isbn = {978-5-93347-407-4},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nŠperka, Martin, and Peter Kapec. 2010. “Visual Information\nDiscovery in Large Data Sets.” In INTELS’2010 - Ninth\nInternational Symposium on Intelligent Systems, 123–28. RUSAKI,\nMoskva. https://MarekPenzes.github.io/publications/visual-information-discovery-large-datasets/."
+    "text": "CitationBibTeX citation:@inproceedings{šperka2010,\n  author = {Šperka, Martin and Kapec, Peter},\n  publisher = {RUSAKI, Moskva},\n  title = {Visual {Information} {Discovery} in {Large} {Data} {Sets}},\n  booktitle = {INTELS’2010 - Ninth International Symposium on\n    Intelligent Systems},\n  pages = {123-128},\n  date = {2010-06-01},\n  url = {https://MarekPenzes.github.io/publications/visual-information-discovery-large-datasets/},\n  isbn = {978-5-93347-407-4},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nŠperka, Martin, and Peter Kapec. 2010. “Visual Information\nDiscovery in Large Data Sets.” INTELS’2010 - Ninth\nInternational Symposium on Intelligent Systems, June 1, 123–28. https://MarekPenzes.github.io/publications/visual-information-discovery-large-datasets/."
   },
   {
     "objectID": "publications/visual-access-graph-magic-lenses/index.html",
@@ -424,21 +424,21 @@
     "href": "publications/software-visualization-3d-survey/index.html",
     "title": "Software visualization in three dimensions: A Survey",
     "section": "",
-    "text": "CitationBibTeX citation:@inproceedings{kapec2007,\n  author = {Kapec, Peter},\n  publisher = {STU v Bratislave FIIT},\n  title = {Software Visualization in Three Dimensions: {A} {Survey}},\n  booktitle = {Student Research Conference 2007 - 3rd IIT.SRC},\n  pages = {285-292},\n  date = {2007-04-01},\n  url = {https://MarekPenzes.github.io/publications/software-visualization-3d-survey/},\n  isbn = {978-80-227-2631-3},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nKapec, Peter. 2007. “Software Visualization in Three Dimensions: A\nSurvey.” In Student Research Conference 2007 - 3rd\nIIT.SRC, 285–92. STU v Bratislave FIIT. https://MarekPenzes.github.io/publications/software-visualization-3d-survey/."
+    "text": "CitationBibTeX citation:@inproceedings{kapec2007,\n  author = {Kapec, Peter},\n  publisher = {STU v Bratislave FIIT},\n  title = {Software Visualization in Three Dimensions: {A} {Survey}},\n  booktitle = {Student Research Conference 2007 - 3rd IIT.SRC},\n  pages = {285-292},\n  date = {2007-04-01},\n  url = {https://MarekPenzes.github.io/publications/software-visualization-3d-survey/},\n  isbn = {978-80-227-2631-3},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nKapec, Peter. 2007. “Software Visualization in Three Dimensions: A\nSurvey.” Student Research Conference 2007 - 3rd IIT.SRC,\nApril 1, 285–92. https://MarekPenzes.github.io/publications/software-visualization-3d-survey/."
   },
   {
     "objectID": "publications/metaphorical-visualizations-graph/index.html",
     "href": "publications/metaphorical-visualizations-graph/index.html",
     "title": "Metaphorical visualizations of graph structures",
     "section": "",
-    "text": "CitationBibTeX citation:@inproceedings{ukrop2010,\n  author = {Ukrop, L. and Jakubéci, M. and Kapec, Peter},\n  title = {Metaphorical Visualizations of Graph Structures},\n  pages = {115-122},\n  date = {2010-01-01},\n  url = {https://MarekPenzes.github.io/publications/metaphorical-visualizations-graph/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nUkrop, L., M. Jakubéci, and Peter Kapec. 2010. “Metaphorical\nVisualizations of Graph Structures.” In, 115–22. https://MarekPenzes.github.io/publications/metaphorical-visualizations-graph/."
+    "text": "CitationBibTeX citation:@inproceedings{ukrop2010,\n  author = {Ukrop, L. and Jakubéci, M. and Kapec, Peter},\n  title = {Metaphorical Visualizations of Graph Structures},\n  pages = {115-122},\n  date = {2010-01-01},\n  url = {https://MarekPenzes.github.io/publications/metaphorical-visualizations-graph/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nUkrop, L., M. Jakubéci, and Peter Kapec. 2010. “Metaphorical\nVisualizations of Graph Structures.” January 1, 115–22. https://MarekPenzes.github.io/publications/metaphorical-visualizations-graph/."
   },
   {
     "objectID": "publications/knowledge-based-programming-environments/index.html",
     "href": "publications/knowledge-based-programming-environments/index.html",
     "title": "Knowledge-based programming environments",
     "section": "",
-    "text": "CitationBibTeX citation:@inproceedings{drahoš2008,\n  author = {Drahoš, Peter and Kapec, Peter},\n  title = {Knowledge-Based Programming Environments},\n  booktitle = {ITAT’08 - Informačné Technológie - Aplikácie a Teória},\n  pages = {27},\n  date = {2008-01-01},\n  url = {https://MarekPenzes.github.io/publications/knowledge-based-programming-environments/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nDrahoš, Peter, and Peter Kapec. 2008. “Knowledge-Based Programming\nEnvironments.” In ITAT’08 - Informačné Technológie -\nAplikácie a Teória, 27. https://MarekPenzes.github.io/publications/knowledge-based-programming-environments/."
+    "text": "CitationBibTeX citation:@inproceedings{drahoš2008,\n  author = {Drahoš, Peter and Kapec, Peter},\n  title = {Knowledge-Based Programming Environments},\n  booktitle = {ITAT’08 - Informačné Technológie - Aplikácie a Teória},\n  pages = {27},\n  date = {2008-01-01},\n  url = {https://MarekPenzes.github.io/publications/knowledge-based-programming-environments/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nDrahoš, Peter, and Peter Kapec. 2008. “Knowledge-Based Programming\nEnvironments.” ITAT’08 - Informačné Technológie - Aplikácie a\nTeória, January 1, 27. https://MarekPenzes.github.io/publications/knowledge-based-programming-environments/."
   },
   {
     "objectID": "publications/intelligent-3d-graph-exploration/index.html",
@@ -459,7 +459,7 @@
     "href": "publications/hypergraph-based-software-representation-mining/index.html",
     "title": "Hypergraph based software representation, mining and visualization",
     "section": "",
-    "text": "CitationBibTeX citation:@inproceedings{kapec2009,\n  author = {Kapec, Peter and Drahoš, Peter},\n  title = {Hypergraph Based Software Representation, Mining and\n    Visualization},\n  booktitle = {INFORMATICS 2009: Tenth International Conference on\n    Informatics, Herľany, Slovakia},\n  pages = {253-258},\n  date = {2009-11-01},\n  url = {https://MarekPenzes.github.io/publications/hypergraph-based-software-representation-mining/},\n  isbn = {978-80-8086-126-1},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nKapec, Peter, and Peter Drahoš. 2009. “Hypergraph Based Software\nRepresentation, Mining and Visualization.” In INFORMATICS\n2009: Tenth International Conference on Informatics, Herľany,\nSlovakia, 253–58. https://MarekPenzes.github.io/publications/hypergraph-based-software-representation-mining/."
+    "text": "CitationBibTeX citation:@inproceedings{kapec2009,\n  author = {Kapec, Peter and Drahoš, Peter},\n  title = {Hypergraph Based Software Representation, Mining and\n    Visualization},\n  booktitle = {INFORMATICS 2009: Tenth International Conference on\n    Informatics, Herľany, Slovakia},\n  pages = {253-258},\n  date = {2009-11-01},\n  url = {https://MarekPenzes.github.io/publications/hypergraph-based-software-representation-mining/},\n  isbn = {978-80-8086-126-1},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nKapec, Peter, and Peter Drahoš. 2009. “Hypergraph Based Software\nRepresentation, Mining and Visualization.” INFORMATICS 2009:\nTenth International Conference on Informatics, Herľany, Slovakia,\nNovember 1, 253–58. https://MarekPenzes.github.io/publications/hypergraph-based-software-representation-mining/."
   },
   {
     "objectID": "publications/graph-visualization-neural-nets/index.html",
@@ -480,63 +480,63 @@
     "href": "publications/exploring-understanding-software-behaviour/index.html",
     "title": "Exploring And Understanding Software Behaviour Using Interactive 3D Visualization",
     "section": "",
-    "text": "CitationBibTeX citation:@inproceedings{kapec2010,\n  author = {Kapec, Peter and Sperka, Martin and Ruttkay-Nedecký, Ivan},\n  title = {Exploring {And} {Understanding} {Software} {Behaviour}\n    {Using} {Interactive} {3D} {Visualization}},\n  date = {2010-12-01},\n  url = {https://MarekPenzes.github.io/publications/exploring-understanding-software-behaviour/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nKapec, Peter, Martin Sperka, and Ivan Ruttkay-Nedecký. 2010.\n“Exploring And Understanding Software Behaviour Using Interactive\n3D Visualization.” In. https://MarekPenzes.github.io/publications/exploring-understanding-software-behaviour/."
+    "text": "CitationBibTeX citation:@inproceedings{kapec2010,\n  author = {Kapec, Peter and Sperka, Martin and Ruttkay-Nedecký, Ivan},\n  title = {Exploring {And} {Understanding} {Software} {Behaviour}\n    {Using} {Interactive} {3D} {Visualization}},\n  date = {2010-12-01},\n  url = {https://MarekPenzes.github.io/publications/exploring-understanding-software-behaviour/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nKapec, Peter, Martin Sperka, and Ivan Ruttkay-Nedecký. 2010.\n“Exploring And Understanding Software Behaviour Using Interactive\n3D Visualization.” accepted, December 1. https://MarekPenzes.github.io/publications/exploring-understanding-software-behaviour/."
   },
   {
     "objectID": "publications/animating-human-faces-waters-model/index.html",
     "href": "publications/animating-human-faces-waters-model/index.html",
     "title": "Animating Human Faces Using Modified Waters Muscle Model",
     "section": "",
-    "text": "CitationBibTeX citation:@inproceedings{kapec2004,\n  author = {Kapec, Peter and Drahoš, Peter},\n  publisher = {Institute of Computer Graphics and Algorithms, Vienna\n    University of Technology},\n  title = {Animating {Human} {Faces} {Using} {Modified} {Waters}\n    {Muscle} {Model}},\n  booktitle = {CESCG 2004: 8th Central European Seminar on Computer\n    Graphics},\n  pages = {141-148},\n  date = {2004-04-01},\n  url = {https://MarekPenzes.github.io/publications/animating-human-faces-waters-model/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nKapec, Peter, and Peter Drahoš. 2004. “Animating Human Faces Using\nModified Waters Muscle Model.” In CESCG 2004: 8th Central\nEuropean Seminar on Computer Graphics, 141–48. Institute of\nComputer Graphics and Algorithms, Vienna University of Technology. https://MarekPenzes.github.io/publications/animating-human-faces-waters-model/."
+    "text": "CitationBibTeX citation:@inproceedings{kapec2004,\n  author = {Kapec, Peter and Drahoš, Peter},\n  publisher = {Institute of Computer Graphics and Algorithms, Vienna\n    University of Technology},\n  title = {Animating {Human} {Faces} {Using} {Modified} {Waters}\n    {Muscle} {Model}},\n  booktitle = {CESCG 2004: 8th Central European Seminar on Computer\n    Graphics},\n  pages = {141-148},\n  date = {2004-04-01},\n  url = {https://MarekPenzes.github.io/publications/animating-human-faces-waters-model/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nKapec, Peter, and Peter Drahoš. 2004. “Animating Human Faces Using\nModified Waters Muscle Model.” CESCG 2004: 8th Central\nEuropean Seminar on Computer Graphics, April 1, 141–48. https://MarekPenzes.github.io/publications/animating-human-faces-waters-model/."
   },
   {
     "objectID": "publications/graph-visualization-applications/index.html",
     "href": "publications/graph-visualization-applications/index.html",
     "title": "Graph visualization and applications in software visualization",
     "section": "",
-    "text": "CitationBibTeX citation:@inproceedings{kapec2012,\n  author = {Kapec, Peter},\n  title = {Graph Visualization and Applications in Software\n    Visualization},\n  pages = {16-25},\n  date = {2012-01-01},\n  url = {https://MarekPenzes.github.io/publications/graph-visualization-applications/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nKapec, Peter. 2012. “Graph Visualization and Applications in\nSoftware Visualization.” In, 16–25. https://MarekPenzes.github.io/publications/graph-visualization-applications/."
+    "text": "CitationBibTeX citation:@inproceedings{kapec2012,\n  author = {Kapec, Peter},\n  title = {Graph Visualization and Applications in Software\n    Visualization},\n  pages = {16-25},\n  date = {2012-01-01},\n  url = {https://MarekPenzes.github.io/publications/graph-visualization-applications/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nKapec, Peter. 2012. “Graph Visualization and Applications in\nSoftware Visualization.” January 1, 16–25. https://MarekPenzes.github.io/publications/graph-visualization-applications/."
   },
   {
     "objectID": "publications/hypergraph-based-repository-software-visualization/index.html",
     "href": "publications/hypergraph-based-repository-software-visualization/index.html",
     "title": "Hypergraph-based Repository for Software Visualization Systems",
     "section": "",
-    "text": "CitationBibTeX citation:@inproceedings{kapec2009,\n  author = {Kapec, Peter},\n  publisher = {STU v Bratislave FIIT},\n  title = {Hypergraph-Based {Repository} for {Software} {Visualization}\n    {Systems}},\n  booktitle = {Student Research Conference 2009 - 5th IIT.SRC},\n  pages = {251-258},\n  date = {2009-04-01},\n  url = {https://MarekPenzes.github.io/publications/hypergraph-based-repository-software-visualization/},\n  isbn = {978-80-227-3052-5},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nKapec, Peter. 2009. “Hypergraph-Based Repository for Software\nVisualization Systems.” In Student Research Conference 2009 -\n5th IIT.SRC, 251–58. STU v Bratislave FIIT. https://MarekPenzes.github.io/publications/hypergraph-based-repository-software-visualization/."
+    "text": "CitationBibTeX citation:@inproceedings{kapec2009,\n  author = {Kapec, Peter},\n  publisher = {STU v Bratislave FIIT},\n  title = {Hypergraph-Based {Repository} for {Software} {Visualization}\n    {Systems}},\n  booktitle = {Student Research Conference 2009 - 5th IIT.SRC},\n  pages = {251-258},\n  date = {2009-04-01},\n  url = {https://MarekPenzes.github.io/publications/hypergraph-based-repository-software-visualization/},\n  isbn = {978-80-227-3052-5},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nKapec, Peter. 2009. “Hypergraph-Based Repository for Software\nVisualization Systems.” Student Research Conference 2009 -\n5th IIT.SRC, April 1, 251–58. https://MarekPenzes.github.io/publications/hypergraph-based-repository-software-visualization/."
   },
   {
     "objectID": "publications/hypergraph-based-software-visualization/index.html",
     "href": "publications/hypergraph-based-software-visualization/index.html",
     "title": "Hypergraph-based software visualization",
     "section": "",
-    "text": "CitationBibTeX citation:@inproceedings{kapec2009,\n  author = {Kapec, Peter},\n  title = {Hypergraph-Based Software Visualization},\n  booktitle = {International Workshop on Computer Graphics, Computer\n    Vision and Mathematics, GraVisMa 2009},\n  pages = {149-153},\n  date = {2009-01-01},\n  url = {https://MarekPenzes.github.io/publications/hypergraph-based-software-visualization/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nKapec, Peter. 2009. “Hypergraph-Based Software\nVisualization.” In International Workshop on Computer\nGraphics, Computer Vision and Mathematics, GraVisMa 2009, 149–53.\nhttps://MarekPenzes.github.io/publications/hypergraph-based-software-visualization/."
+    "text": "CitationBibTeX citation:@inproceedings{kapec2009,\n  author = {Kapec, Peter},\n  title = {Hypergraph-Based Software Visualization},\n  booktitle = {International Workshop on Computer Graphics, Computer\n    Vision and Mathematics, GraVisMa 2009},\n  pages = {149-153},\n  date = {2009-01-01},\n  url = {https://MarekPenzes.github.io/publications/hypergraph-based-software-visualization/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nKapec, Peter. 2009. “Hypergraph-Based Software\nVisualization.” International Workshop on Computer Graphics,\nComputer Vision and Mathematics, GraVisMa 2009, January 1, 149–53.\nhttps://MarekPenzes.github.io/publications/hypergraph-based-software-visualization/."
   },
   {
     "objectID": "publications/interactive-visualization-abstract-data/index.html",
     "href": "publications/interactive-visualization-abstract-data/index.html",
     "title": "Interactive Visualization of Abstract Data",
     "section": "",
-    "text": "CitationBibTeX citation:@inproceedings{sperka2010,\n  author = {Sperka, Martin and Kapec, Peter},\n  title = {Interactive {Visualization} of {Abstract} {Data}},\n  date = {2010-06-01},\n  url = {https://MarekPenzes.github.io/publications/interactive-visualization-abstract-data/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nSperka, Martin, and Peter Kapec. 2010. “Interactive Visualization\nof Abstract Data.” In. https://MarekPenzes.github.io/publications/interactive-visualization-abstract-data/."
+    "text": "CitationBibTeX citation:@inproceedings{sperka2010,\n  author = {Sperka, Martin and Kapec, Peter},\n  title = {Interactive {Visualization} of {Abstract} {Data}},\n  date = {2010-06-01},\n  url = {https://MarekPenzes.github.io/publications/interactive-visualization-abstract-data/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nSperka, Martin, and Peter Kapec. 2010. “Interactive Visualization\nof Abstract Data.” accepted, June 1. https://MarekPenzes.github.io/publications/interactive-visualization-abstract-data/."
   },
   {
     "objectID": "publications/maximum-intensity-projection-statistical-cues/index.html",
     "href": "publications/maximum-intensity-projection-statistical-cues/index.html",
     "title": "Maximum Intensity Projection Weighed by Statistical Cues",
     "section": "",
-    "text": "CitationBibTeX citation:@inproceedings{mindek2011,\n  author = {Mindek, Peter},\n  publisher = {Vienna University of Economics and Business\n    Administration},\n  title = {Maximum {Intensity} {Projection} {Weighed} by {Statistical}\n    {Cues}},\n  booktitle = {CESCG’2011: Proceedings of the 15th Central European\n    Seminar on Computer Graphics},\n  pages = {149-155},\n  date = {2011-05-01},\n  url = {https://MarekPenzes.github.io/publications/maximum-intensity-projection-statistical-cues/},\n  isbn = {978-3-9502533-3-7},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nMindek, Peter. 2011. “Maximum Intensity Projection Weighed by\nStatistical Cues.” In CESCG’2011: Proceedings of the 15th\nCentral European Seminar on Computer Graphics, 149–55. Vienna\nUniversity of Economics and Business Administration. https://MarekPenzes.github.io/publications/maximum-intensity-projection-statistical-cues/."
+    "text": "CitationBibTeX citation:@inproceedings{mindek2011,\n  author = {Mindek, Peter},\n  publisher = {Vienna University of Economics and Business\n    Administration},\n  title = {Maximum {Intensity} {Projection} {Weighed} by {Statistical}\n    {Cues}},\n  booktitle = {CESCG’2011: Proceedings of the 15th Central European\n    Seminar on Computer Graphics},\n  pages = {149-155},\n  date = {2011-05-01},\n  url = {https://MarekPenzes.github.io/publications/maximum-intensity-projection-statistical-cues/},\n  isbn = {978-3-9502533-3-7},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nMindek, Peter. 2011. “Maximum Intensity Projection Weighed by\nStatistical Cues.” CESCG’2011: Proceedings of the 15th\nCentral European Seminar on Computer Graphics, May 1, 149–55. https://MarekPenzes.github.io/publications/maximum-intensity-projection-statistical-cues/."
   },
   {
     "objectID": "publications/multiparadigm-programming-lua/index.html",
     "href": "publications/multiparadigm-programming-lua/index.html",
     "title": "Multiparadigm programming in Lua language",
     "section": "",
-    "text": "CitationBibTeX citation:@inproceedings{čimo2009,\n  author = {Čimo, Peter},\n  publisher = {STU in Bratislava FIIT},\n  title = {Multiparadigm Programming in {Lua} Language},\n  booktitle = {IIT.SRC: 5th Proceedings in Informatics and Information\n    Technologies},\n  date = {2009-01-01},\n  url = {https://MarekPenzes.github.io/publications/multiparadigm-programming-lua/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nČimo, Peter. 2009. “Multiparadigm Programming in Lua\nLanguage.” In IIT.SRC: 5th Proceedings in Informatics and\nInformation Technologies. STU in Bratislava FIIT. https://MarekPenzes.github.io/publications/multiparadigm-programming-lua/."
+    "text": "CitationBibTeX citation:@inproceedings{čimo2009,\n  author = {Čimo, Peter},\n  publisher = {STU in Bratislava FIIT},\n  title = {Multiparadigm Programming in {Lua} Language},\n  booktitle = {IIT.SRC: 5th Proceedings in Informatics and Information\n    Technologies},\n  date = {2009-01-01},\n  url = {https://MarekPenzes.github.io/publications/multiparadigm-programming-lua/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nČimo, Peter. 2009. “Multiparadigm Programming in Lua\nLanguage.” IIT.SRC: 5th Proceedings in Informatics and\nInformation Technologies, accepted, January 1. https://MarekPenzes.github.io/publications/multiparadigm-programming-lua/."
   },
   {
     "objectID": "publications/villie-hypergraph-visual-programming/index.html",
     "href": "publications/villie-hypergraph-visual-programming/index.html",
     "title": "Villie - a hypergraph-based visual programming language",
     "section": "",
-    "text": "CitationBibTeX citation:@inproceedings{kottman2010,\n  author = {Kottman, Michal and Kapec, Peter},\n  publisher = {PONT s.r.o.},\n  title = {Villie - a Hypergraph-Based Visual Programming Language},\n  booktitle = {ITAT’2010: Informačné technológie - Aplikácie a Teória},\n  pages = {69-74},\n  date = {2010-09-01},\n  url = {https://MarekPenzes.github.io/publications/villie-hypergraph-visual-programming/},\n  isbn = {978-80-970179-3-4},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nKottman, Michal, and Peter Kapec. 2010. “Villie - a\nHypergraph-Based Visual Programming Language.” In ITAT’2010:\nInformačné Technológie - Aplikácie a Teória, 69–74. PONT s.r.o. https://MarekPenzes.github.io/publications/villie-hypergraph-visual-programming/."
+    "text": "CitationBibTeX citation:@inproceedings{kottman2010,\n  author = {Kottman, Michal and Kapec, Peter},\n  publisher = {PONT s.r.o.},\n  title = {Villie - a Hypergraph-Based Visual Programming Language},\n  booktitle = {ITAT’2010: Informačné technológie - Aplikácie a Teória},\n  pages = {69-74},\n  date = {2010-09-01},\n  url = {https://MarekPenzes.github.io/publications/villie-hypergraph-visual-programming/},\n  isbn = {978-80-970179-3-4},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nKottman, Michal, and Peter Kapec. 2010. “Villie - a\nHypergraph-Based Visual Programming Language.” ITAT’2010:\nInformačné Technológie - Aplikácie a Teória, September 1, 69–74. https://MarekPenzes.github.io/publications/villie-hypergraph-visual-programming/."
   },
   {
     "objectID": "publications/visual-artefacts-removal-volumetric/index.html",
@@ -550,20 +550,104 @@
     "href": "publications/visual-information-discovery-software-systems/index.html",
     "title": "Visual Information Discovery in Software Systems",
     "section": "",
-    "text": "CitationBibTeX citation:@inproceedings{kapec2008,\n  author = {Kapec, Peter and Šperka, Martin},\n  publisher = {STU v Bratislave FIIT},\n  title = {Visual {Information} {Discovery} in {Software} {Systems}},\n  booktitle = {Znalosti 2008, 7. ročník konferencie},\n  pages = {339-342},\n  date = {2008-02-01},\n  url = {https://MarekPenzes.github.io/publications/visual-information-discovery-software-systems/},\n  isbn = {978-80-227-2827-0},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nKapec, Peter, and Martin Šperka. 2008. “Visual Information\nDiscovery in Software Systems.” In Znalosti 2008, 7. Ročník\nKonferencie, 339–42. STU v Bratislave FIIT. https://MarekPenzes.github.io/publications/visual-information-discovery-software-systems/."
+    "text": "CitationBibTeX citation:@inproceedings{kapec2008,\n  author = {Kapec, Peter and Šperka, Martin},\n  publisher = {STU v Bratislave FIIT},\n  title = {Visual {Information} {Discovery} in {Software} {Systems}},\n  booktitle = {Znalosti 2008, 7. ročník konferencie},\n  pages = {339-342},\n  date = {2008-02-01},\n  url = {https://MarekPenzes.github.io/publications/visual-information-discovery-software-systems/},\n  isbn = {978-80-227-2827-0},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nKapec, Peter, and Martin Šperka. 2008. “Visual Information\nDiscovery in Software Systems.” Znalosti 2008, 7. Ročník\nKonferencie, February 1, 339–42. https://MarekPenzes.github.io/publications/visual-information-discovery-software-systems/."
   },
   {
     "objectID": "publications/visualizing-graph-structures-soap-bubbles/index.html",
     "href": "publications/visualizing-graph-structures-soap-bubbles/index.html",
     "title": "Visualizing graph structures using soap bubbles",
     "section": "",
-    "text": "CitationBibTeX citation:@inproceedings{ukrop2010,\n  author = {Ukrop, Ľuboš},\n  publisher = {STU in Bratislava FIIT},\n  title = {Visualizing Graph Structures Using Soap Bubbles},\n  booktitle = {IIT.SRC: 6th Proceedings in Informatics and Information\n    Technologies},\n  pages = {467-474},\n  date = {2010-01-01},\n  url = {https://MarekPenzes.github.io/publications/visualizing-graph-structures-soap-bubbles/},\n  isbn = {978-80-227-3266-3},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nUkrop, Ľuboš. 2010. “Visualizing Graph Structures Using Soap\nBubbles.” In IIT.SRC: 6th Proceedings in Informatics and\nInformation Technologies, 467–74. STU in Bratislava FIIT. https://MarekPenzes.github.io/publications/visualizing-graph-structures-soap-bubbles/."
+    "text": "CitationBibTeX citation:@inproceedings{ukrop2010,\n  author = {Ukrop, Ľuboš},\n  publisher = {STU in Bratislava FIIT},\n  title = {Visualizing Graph Structures Using Soap Bubbles},\n  booktitle = {IIT.SRC: 6th Proceedings in Informatics and Information\n    Technologies},\n  pages = {467-474},\n  date = {2010-01-01},\n  url = {https://MarekPenzes.github.io/publications/visualizing-graph-structures-soap-bubbles/},\n  isbn = {978-80-227-3266-3},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nUkrop, Ľuboš. 2010. “Visualizing Graph Structures Using Soap\nBubbles.” IIT.SRC: 6th Proceedings in Informatics and\nInformation Technologies, January 1, 467–74. https://MarekPenzes.github.io/publications/visualizing-graph-structures-soap-bubbles/."
   },
   {
     "objectID": "publications/visually-driven-software-development/index.html",
     "href": "publications/visually-driven-software-development/index.html",
     "title": "Visually Driven Software Development Environment for Heterogeneous Programming",
     "section": "",
-    "text": "CitationBibTeX citation:@inproceedings{drahoš2008,\n  author = {Drahoš, Peter and Kapec, Peter},\n  publisher = {STU v Bratislave FIIT},\n  title = {Visually {Driven} {Software} {Development} {Environment} for\n    {Heterogeneous} {Programming}},\n  booktitle = {Student Research Conference 2008 - 4th IIT.SRC},\n  pages = {222-229},\n  date = {2008-04-01},\n  url = {https://MarekPenzes.github.io/publications/visually-driven-software-development/},\n  isbn = {978-80-227-2848-5},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nDrahoš, Peter, and Peter Kapec. 2008. “Visually Driven Software\nDevelopment Environment for Heterogeneous Programming.” In\nStudent Research Conference 2008 - 4th IIT.SRC, 222–29. STU v\nBratislave FIIT. https://MarekPenzes.github.io/publications/visually-driven-software-development/."
+    "text": "CitationBibTeX citation:@inproceedings{drahoš2008,\n  author = {Drahoš, Peter and Kapec, Peter},\n  publisher = {STU v Bratislave FIIT},\n  title = {Visually {Driven} {Software} {Development} {Environment} for\n    {Heterogeneous} {Programming}},\n  booktitle = {Student Research Conference 2008 - 4th IIT.SRC},\n  pages = {222-229},\n  date = {2008-04-01},\n  url = {https://MarekPenzes.github.io/publications/visually-driven-software-development/},\n  isbn = {978-80-227-2848-5},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nDrahoš, Peter, and Peter Kapec. 2008. “Visually Driven Software\nDevelopment Environment for Heterogeneous Programming.”\nStudent Research Conference 2008 - 4th IIT.SRC, April 1,\n222–29. https://MarekPenzes.github.io/publications/visually-driven-software-development/."
+  },
+  {
+    "objectID": "posts.html#interested",
+    "href": "posts.html#interested",
+    "title": "Supervised Theses",
+    "section": "Interested?",
+    "text": "Interested?\nSearch in Yonban for my other projects - not all were assigned to students.  If the projects I am/was supervising are interesting and you would like to work on similar project, feel free to contact me.  However the process of defining new projects/thesis is a bit complicated, so for:\n\n\nBachelor project - contact me via mail in your 2nd undergraduate study year (mid of summer semester)\n\n\nMaster thesis - TO DO!\n\n\n\nResearch Areas\nThe supervised theses cover a wide range of topics including:\n\nSoftware Visualization - 3D visualization of software architecture and dependencies\nGraph Algorithms - Layout algorithms, clustering, and edge bundling techniques\nAugmented Reality - AR applications for data and software visualization\nInteractive Visualization - Web-based and desktop visualization tools\nData Mining - Visual data mining and analytics\nMultimedia - Video processing, 3D graphics, and multimedia systems\nWeb Technologies - HTML5, WebGL, and interactive web applications"
+  },
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Resources & Hints",
+    "section": "",
+    "text": "Work on your bachelor project\nWork on your master thesis"
+  },
+  {
+    "objectID": "resources.html#how-to",
+    "href": "resources.html#how-to",
+    "title": "Resources & Hints",
+    "section": "",
+    "text": "Work on your bachelor project\nWork on your master thesis"
+  },
+  {
+    "objectID": "resources.html#resources",
+    "href": "resources.html#resources",
+    "title": "Resources & Hints",
+    "section": "Resources",
+    "text": "Resources\nSearch for relevant books, papers, proceedings, conferences etc. using:\n\nCiteSeerX — scientific literature digital library\nACM Portal — ACM Digital Library\nIEEE — IEEE Xplore Digital Library\nGoogle Scholar — broad academic search engine\nWikipedia is NOT considered a trustworthy resource!!! (just for introduction to problematics)"
+  },
+  {
+    "objectID": "resources.html#writing-documentation",
+    "href": "resources.html#writing-documentation",
+    "title": "Resources & Hints",
+    "section": "Writing Documentation",
+    "text": "Writing Documentation\n\nUse LaTeX (MikTeX, TexLive, etc.)\nLaTeX template — download template for thesis documentation\nStore and manage citations in BibTeX using e.g. JabRef"
+  },
+  {
+    "objectID": "bachelor-project.html",
+    "href": "bachelor-project.html",
+    "title": "Bachelor Project — How-to",
+    "section": "",
+    "text": "search for related materials\nstore and organize found materials\nprepare documentation template\ndiscuss possible approaches and solutions\nwrite down:\n\nanalysis of current state-of-the-art\nspecification\ndesign\n\nget familiar with technologies that will be used"
+  },
+  {
+    "objectID": "bachelor-project.html#what-to-do-in-the-1st-semester",
+    "href": "bachelor-project.html#what-to-do-in-the-1st-semester",
+    "title": "Bachelor Project — How-to",
+    "section": "",
+    "text": "search for related materials\nstore and organize found materials\nprepare documentation template\ndiscuss possible approaches and solutions\nwrite down:\n\nanalysis of current state-of-the-art\nspecification\ndesign\n\nget familiar with technologies that will be used"
+  },
+  {
+    "objectID": "bachelor-project.html#what-to-do-in-the-2nd-semester",
+    "href": "bachelor-project.html#what-to-do-in-the-2nd-semester",
+    "title": "Bachelor Project — How-to",
+    "section": "What to do in the 2nd Semester",
+    "text": "What to do in the 2nd Semester\n\nimplement proposed solution\nexperiment with the product\nwrite down:\n\ndetails about proposed method/approach\ndesign details\nevaluation"
+  },
+  {
+    "objectID": "master-thesis.html",
+    "href": "master-thesis.html",
+    "title": "Master Thesis — How-to",
+    "section": "",
+    "text": "search for related materials\nstore and organize found materials\nprepare documentation template\ndiscuss possible approaches and solutions\nwrite down:\n\nanalysis of current state-of-the-art\nspecification\ndesign\n\nget familiar with technologies that will be used"
+  },
+  {
+    "objectID": "master-thesis.html#what-to-do-in-the-1st-semester",
+    "href": "master-thesis.html#what-to-do-in-the-1st-semester",
+    "title": "Master Thesis — How-to",
+    "section": "",
+    "text": "search for related materials\nstore and organize found materials\nprepare documentation template\ndiscuss possible approaches and solutions\nwrite down:\n\nanalysis of current state-of-the-art\nspecification\ndesign\n\nget familiar with technologies that will be used"
+  },
+  {
+    "objectID": "master-thesis.html#what-to-do-in-the-2nd-semester",
+    "href": "master-thesis.html#what-to-do-in-the-2nd-semester",
+    "title": "Master Thesis — How-to",
+    "section": "What to do in the 2nd Semester",
+    "text": "What to do in the 2nd Semester\n\npropose and experiment with possible solutions\nimplement a prototype of the proposed solution\nwrite down:\n\ndetails about proposed method/approach\ndesign details"
+  },
+  {
+    "objectID": "master-thesis.html#what-to-do-in-the-3rd-semester",
+    "href": "master-thesis.html#what-to-do-in-the-3rd-semester",
+    "title": "Master Thesis — How-to",
+    "section": "What to do in the 3rd Semester",
+    "text": "What to do in the 3rd Semester\n\nimplement the chosen solution\nexperiment with the product\nwrite down more:\n\ndetails about the proposed method/approach\ndesign details\nevaluation"
   }
 ]

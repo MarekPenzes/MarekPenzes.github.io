@@ -1,0 +1,27 @@
+---
+title: "Bachelor Project — How-to"
+description: "Guide for students working on their bachelor project at FIIT STU."
+description-meta: "Bachelor project how-to - Peter Kapec, PhD"
+title-block-banner: false
+---
+
+## What to do in the 1st Semester
+
+- search for related materials
+- store and organize found materials
+- prepare documentation template
+- discuss possible approaches and solutions
+- write down:
+  - analysis of current state-of-the-art
+  - specification
+  - design
+- get familiar with technologies that will be used
+
+## What to do in the 2nd Semester
+
+- implement proposed solution
+- experiment with the product
+- write down:
+  - details about proposed method/approach
+  - design details
+  - evaluation

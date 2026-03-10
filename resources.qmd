@@ -1,0 +1,26 @@
+---
+title: "Resources & Hints"
+description: "Useful information for students working on their bachelor project or master thesis."
+description-meta: "Resources and hints for students - Peter Kapec, PhD"
+title-block-banner: false
+---
+## How-to
+
+- Work on your [**bachelor project**](bachelor-project.qmd)
+- Work on your [**master thesis**](master-thesis.qmd)
+
+## Resources
+
+Search for relevant books, papers, proceedings, conferences etc. using:
+
+- [**CiteSeerX**](https://citeseerx.ist.psu.edu/){target="_blank"} — scientific literature digital library
+- [**ACM Portal**](https://dl.acm.org/){target="_blank"} — ACM Digital Library
+- [**IEEE**](https://ieeexplore.ieee.org/){target="_blank"} — IEEE Xplore Digital Library
+- [**Google Scholar**](https://scholar.google.com/){target="_blank"} — broad academic search engine
+- [**Wikipedia**](https://www.wikipedia.org/){target="_blank"} is **NOT** considered a trustworthy resource!!! (just for introduction to problematics)
+
+## Writing Documentation
+
+- Use LaTeX ([**MikTeX**](https://miktex.org/){target="_blank"}, [TexLive](https://www.tug.org/texlive/){target="_blank"}, etc.)
+- [**LaTeX template**](files/latex_template.zip) — download template for thesis documentation
+- Store and manage citations in BibTeX using e.g. [**JabRef**](https://www.jabref.org/){target="_blank"}
