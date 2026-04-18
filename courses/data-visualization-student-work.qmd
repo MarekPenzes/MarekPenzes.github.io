@@ -1,0 +1,48 @@
+---
+title: "Data Visualization"
+page-navigation: true
+toc: false
+---
+
+# Student Work
+
+## 2025
+
+```{=html}
+<div class="video-carousel">
+  <button class="carousel-btn" id="dv-2025-prev">&#10094;</button>
+  <div class="carousel-video">
+    <iframe id="dv-2025-frame" src="https://www.youtube.com/embed/Aq5WXmQQooo"
+            height="420" frameborder="0" allowfullscreen></iframe>
+    <div class="carousel-counter">
+      <span id="dv-2025-idx">1</span> / <span id="dv-2025-total"></span>
+    </div>
+  </div>
+  <button class="carousel-btn" id="dv-2025-next">&#10095;</button>
+</div>
+
+<script>
+(function() {
+  var videos = [
+    "Aq5WXmQQooo"
+  ];
+  var i = 0;
+  var frame   = document.getElementById("dv-2025-frame");
+  var idxEl   = document.getElementById("dv-2025-idx");
+  var totalEl = document.getElementById("dv-2025-total");
+  totalEl.textContent = videos.length;
+  function show() {
+    frame.src = "https://www.youtube.com/embed/" + videos[i];
+    idxEl.textContent = i + 1;
+  }
+  document.getElementById("dv-2025-prev").onclick = function() {
+    i = (i - 1 + videos.length) % videos.length;
+    show();
+  };
+  document.getElementById("dv-2025-next").onclick = function() {
+    i = (i + 1) % videos.length;
+    show();
+  };
+})();
+</script>
+```

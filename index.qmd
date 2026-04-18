@@ -26,12 +26,10 @@ about:
       text: Email
       href: "#"
       id: email-copy-btn
-    - icon: 1-circle
-      text: Orcid
+    - text: Orcid
       href: "https://orcid.org/0000-0003-3333-3568"
-    - icon: 2-circle
-      text: Button 2
-      href: "#"
+    - text: ResearchGate
+      href: "https://www.researchgate.net/profile/Peter-Kapec"
     - icon: 3-circle
       text: Button 3
       href: "#"

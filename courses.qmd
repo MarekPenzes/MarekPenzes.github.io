@@ -22,6 +22,8 @@ Fundamental principles of computer graphics, image representation, processing al
 - Graphics programming
 - Visualization methods
 
+### [Student Work](courses/principles-computer-graphics-student-work.qmd)
+
 ---
 
 ## Graduate Study
@@ -40,5 +42,62 @@ Collaborative software development project where students work in teams to desig
 - Code review and quality assurance
 - Documentation and presentation
 - Real-world problem solving
+
+### [Student Work](courses/team-project-student-work.qmd)
+
+---
+
+### Advanced Computer Graphics Methods
+
+**Graduate level course**
+
+The course focuses on providing theoretical background and understanding of advanced computer graphics techniques. Gain insight into the design and implementation of computer graphics applications that rely on the mastery of the GPU. The goal is to master the basic principles and algorithms behind rendering of photorealistic 3D scenes in real time.
+
+- **Credits:** 6
+- **Assessment:** Semestral tasks in courses (20b), Project (20b), Exam (60b)
+
+#### Course Contents
+
+1. Photorealistic rendering
+2. Raytracing, Radiosity, Monte-Carlo
+3. Procedural texturing
+4. Shadow casting
+5. Image based rendering
+6. BRDF, models for lighting and materials
+7. Volumetric rendering
+8. Augmented reality and Virtual reality
+9. Lightfield theory and stereoscopic rendering
+10. Vertex/fragment shader programming
+
+### [Student Work](courses/advanced-computer-graphics-student-work.qmd)
+
+---
+
+### Data Visualization
+
+**Graduate level course**
+
+The goal of this course is to familiarize students with the basic and advanced techniques of information visualization and scientific visualization, which are the basis of visual analytics. Students learn key techniques of the visualization process including data preparation, visual mapping, and visualization itself — useful for understanding large-scale abstract data, scientific data and processes.
+
+- **Credits:** 6
+- **Assessment:** Semester project (60%), mid-term test (10%), final written exam (30%)
+
+#### Course Contents
+
+1. Introduction to the topic
+2. Visual perception, visual representation of data, Gestalt principles, information overload
+3. Creating visual representations, visualization reference model, visual mapping, visual analytics
+4. Design of visualization techniques, architecture of visualization systems, design patterns
+5. Classification of visualization systems
+6. Interaction and distortion techniques
+7. Visualization of one-, two- and multi-dimensional data, text and text documents
+8. Visualization of groups, trees, graphs, clusters, networks, software
+9. Metaphorical visualization
+10. Visualization of volumetric data, vector fields, processes and simulations
+11. Visualization of maps, geographic information, GIS systems
+12. Collaborative visualizations
+13. Evaluating visualizations
+
+### [Student Work](courses/data-visualization-student-work.qmd)
 
 ---

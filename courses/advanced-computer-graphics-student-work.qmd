@@ -1,0 +1,48 @@
+---
+title: "Advanced Computer Graphics Methods"
+page-navigation: true
+toc: false
+---
+
+# Student Work
+
+## 2025
+
+```{=html}
+<div class="video-carousel">
+  <button class="carousel-btn" id="acg-2025-prev">&#10094;</button>
+  <div class="carousel-video">
+    <iframe id="acg-2025-frame" src="https://www.youtube.com/embed/Aq5WXmQQooo"
+            height="420" frameborder="0" allowfullscreen></iframe>
+    <div class="carousel-counter">
+      <span id="acg-2025-idx">1</span> / <span id="acg-2025-total"></span>
+    </div>
+  </div>
+  <button class="carousel-btn" id="acg-2025-next">&#10095;</button>
+</div>
+
+<script>
+(function() {
+  var videos = [
+    "Aq5WXmQQooo"
+  ];
+  var i = 0;
+  var frame   = document.getElementById("acg-2025-frame");
+  var idxEl   = document.getElementById("acg-2025-idx");
+  var totalEl = document.getElementById("acg-2025-total");
+  totalEl.textContent = videos.length;
+  function show() {
+    frame.src = "https://www.youtube.com/embed/" + videos[i];
+    idxEl.textContent = i + 1;
+  }
+  document.getElementById("acg-2025-prev").onclick = function() {
+    i = (i - 1 + videos.length) % videos.length;
+    show();
+  };
+  document.getElementById("acg-2025-next").onclick = function() {
+    i = (i + 1) % videos.length;
+    show();
+  };
+})();
+</script>
+```

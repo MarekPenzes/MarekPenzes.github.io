@@ -2,15 +2,18 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.27">
+<meta name="generator" content="quarto-1.9.31">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Peter Kapec, PhD">
 <meta name="description" content="Peter Kapec, PhD - Assistant Professor at FIIT STU">
 
-<title>Lectures – Peter Kapec, PhD</title>
+<title>Principles of Computer Graphics and Image Processing – Peter Kapec, PhD</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -25,24 +28,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-b1010ed3cd212492f61910bf2317df72.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-60038b604a8151120da125cda9b8904b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7c69b197886ae2a34062761d21e44731.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-b94a9e3f0df45b549d30602fcd43b7f2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -110,25 +112,23 @@ https://badge.dimensions.ai/
 <script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
 
 
-<link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="Lectures – Peter Kapec, PhD">
-<meta property="og:description" content="Teaching Activities">
-<meta property="og:image" content="https://MarekPenzes.github.io/files/images/profile.jpg">
+<link rel="stylesheet" href="../styles.css">
+<meta property="og:title" content="Principles of Computer Graphics and Image Processing – Peter Kapec, PhD">
+<meta property="og:image" content="https://MarekPenzes.github.io/courses/files/images/profile.jpg">
 <meta property="og:site_name" content="Peter Kapec, PhD">
-<meta name="twitter:title" content="Lectures – Peter Kapec, PhD">
-<meta name="twitter:description" content="Teaching Activities">
-<meta name="twitter:image" content="https://MarekPenzes.github.io/files/images/profile.jpg">
+<meta name="twitter:title" content="Principles of Computer Graphics and Image Processing – Peter Kapec, PhD">
+<meta name="twitter:image" content="https://MarekPenzes.github.io/courses/files/images/profile.jpg">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Peter Kapec, PhD</span>
     </a>
   </div>
@@ -139,7 +139,7 @@ https://badge.dimensions.ai/
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -148,40 +148,37 @@ https://badge.dimensions.ai/
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-research">    
         <li>
-    <a class="dropdown-item" href="./publications.html">
+    <a class="dropdown-item" href="../research.html">
+ <span class="dropdown-text">Vision &amp; Graphics Group</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../research.html">
  <span class="dropdown-text">Research Areas</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./publications.html#publications">
+    <a class="dropdown-item" href="../publications.html">
  <span class="dropdown-text">Publications</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./projects.html">
+    <a class="dropdown-item" href="../projects.html">
  <span class="dropdown-text">Projects</span></a>
   </li>  
     </ul>
   </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-teaching" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Teaching</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-teaching">    
-        <li>
-    <a class="dropdown-item" href="./lectures.html">
- <span class="dropdown-text">Lectures</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./courses.html">
- <span class="dropdown-text">Courses</span></a>
-  </li>  
-    </ul>
-  </li>
   <li class="nav-item">
-    <a class="nav-link" href="./posts.html"> 
+    <a class="nav-link" href="../courses.html"> 
+<span class="menu-text">Teaching</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../posts.html"> 
 <span class="menu-text">Supervised Theses</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./contact.html"> 
+    <a class="nav-link" href="../resources.html"> 
+<span class="menu-text">Resources</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../contact.html"> 
 <span class="menu-text">Contact</span></a>
   </li>  
 </ul>
@@ -207,29 +204,13 @@ https://badge.dimensions.ai/
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#undergraduate-study" id="toc-undergraduate-study" class="nav-link active" data-scroll-target="#undergraduate-study">Undergraduate Study</a>
-  <ul class="collapse">
-  <li><a href="#basic-methods-of-multimedia-content-development" id="toc-basic-methods-of-multimedia-content-development" class="nav-link" data-scroll-target="#basic-methods-of-multimedia-content-development">Basic Methods of Multimedia Content Development</a></li>
-  </ul></li>
-  <li><a href="#graduate-study" id="toc-graduate-study" class="nav-link" data-scroll-target="#graduate-study">Graduate Study</a>
-  <ul class="collapse">
-  <li><a href="#data-visualization" id="toc-data-visualization" class="nav-link" data-scroll-target="#data-visualization">Data Visualization</a></li>
-  </ul></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Lectures</h1>
-<p class="subtitle lead">Teaching Activities</p>
+<h1 class="title">Principles of Computer Graphics and Image Processing</h1>
 </div>
 
 
@@ -246,68 +227,49 @@ https://badge.dimensions.ai/
 </header>
 
 
-<section id="undergraduate-study" class="level2">
-<h2 class="anchored" data-anchor-id="undergraduate-study">Undergraduate Study</h2>
-<section id="basic-methods-of-multimedia-content-development" class="level3">
-<h3 class="anchored" data-anchor-id="basic-methods-of-multimedia-content-development">Basic Methods of Multimedia Content Development</h3>
-<p><strong>Credits:</strong> 6 | <strong>Semester:</strong> Winter</p>
-<p>This course provides comprehensive coverage of multimedia technologies and applications. Students learn both theoretical foundations and practical skills in creating and processing multimedia content.</p>
-<section id="topics-covered" class="level4">
-<h4 class="anchored" data-anchor-id="topics-covered">Topics Covered</h4>
-<ul>
-<li>Multimedia content creation principles</li>
-<li>2D graphics design and editing</li>
-<li>Image representation and formats</li>
-<li>Video processing and compression (MPEG standards)</li>
-<li>Audio encoding and processing</li>
-<li>3D graphics and modeling (VRML, X3D, WebGL)</li>
-<li>Hypertext markup languages (HTML5)</li>
-<li>Multimedia composition and integration</li>
-</ul>
-</section>
-<section id="assessment" class="level4">
-<h4 class="anchored" data-anchor-id="assessment">Assessment</h4>
-<ul>
-<li><strong>Test:</strong> 10 points</li>
-<li><strong>Project:</strong> 40 points (semester project involving 2D/3D graphics, audio/video processing)</li>
-<li><strong>Final Exam:</strong> Required for completion</li>
-<li><strong>Minimum to Pass:</strong> 56 points total</li>
-</ul>
-</section>
-<section id="course-structure" class="level4">
-<h4 class="anchored" data-anchor-id="course-structure">Course Structure</h4>
-<ul>
-<li><strong>Lectures:</strong> 3 hours per week</li>
-<li><strong>Seminars:</strong> 2 hours per week</li>
-<li><strong>Study Type:</strong> Full-time, attendance method</li>
-</ul>
-</section>
-<section id="materials" class="level4">
-<h4 class="anchored" data-anchor-id="materials">Materials</h4>
-<hr>
-</section>
-</section>
-</section>
-<section id="graduate-study" class="level2">
-<h2 class="anchored" data-anchor-id="graduate-study">Graduate Study</h2>
-<section id="data-visualization" class="level3">
-<h3 class="anchored" data-anchor-id="data-visualization">Data Visualization</h3>
-<p><strong>Graduate level course</strong></p>
-<p>Advanced topics in data visualization, visual analytics, and information visualization techniques.</p>
-<section id="topics-covered-1" class="level4">
-<h4 class="anchored" data-anchor-id="topics-covered-1">Topics Covered</h4>
-<ul>
-<li>Visual data mining principles</li>
-<li>Interactive visualization techniques</li>
-<li>Graph layout algorithms</li>
-<li>3D visualization methods</li>
-<li>Visual analytics for large datasets</li>
-<li>Software visualization approaches</li>
-</ul>
-<hr>
+<section id="student-work" class="level1">
+<h1>Student Work</h1>
+<section id="section" class="level2">
+<h2 class="anchored" data-anchor-id="section">2025</h2>
+<div class="video-carousel">
+  <button class="carousel-btn" id="pcg-2025-prev">❮</button>
+  <div class="carousel-video">
+    <iframe id="pcg-2025-frame" src="https://www.youtube.com/embed/Aq5WXmQQooo" height="420" frameborder="0" allowfullscreen=""></iframe>
+    <div class="carousel-counter">
+      <span id="pcg-2025-idx">1</span> / <span id="pcg-2025-total"></span>
+    </div>
+  </div>
+  <button class="carousel-btn" id="pcg-2025-next">❯</button>
+</div>
 
 
-</section>
+<script>
+(function() {
+  var videos = [
+    "Aq5WXmQQooo",
+    "_e9yMqmXWo0"
+  ];
+  var i = 0;
+  var frame   = document.getElementById("pcg-2025-frame");
+  var idxEl   = document.getElementById("pcg-2025-idx");
+  var totalEl = document.getElementById("pcg-2025-total");
+  totalEl.textContent = videos.length;
+  function show() {
+    frame.src = "https://www.youtube.com/embed/" + videos[i];
+    idxEl.textContent = i + 1;
+  }
+  document.getElementById("pcg-2025-prev").onclick = function() {
+    i = (i - 1 + videos.length) % videos.length;
+    show();
+  };
+  document.getElementById("pcg-2025-next").onclick = function() {
+    i = (i + 1) % videos.length;
+    show();
+  };
+})();
+</script>
+
+
 </section>
 </section>
 

@@ -1,8 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://MarekPenzes.github.io/teaching.html</loc>
-    <lastmod>2026-02-04T00:42:15.340Z</lastmod>
+    <loc>https://MarekPenzes.github.io/resources.html</loc>
+    <lastmod>2026-03-10T11:24:09.262Z</lastmod>
+  </url>
+  <url>
+    <loc>https://MarekPenzes.github.io/publications.html</loc>
+    <lastmod>2026-03-10T10:44:23.520Z</lastmod>
+  </url>
+  <url>
+    <loc>https://MarekPenzes.github.io/publications/visualizing-software-artifacts-hypergraphs/index.html</loc>
+    <lastmod>2026-03-10T10:44:23.536Z</lastmod>
+  </url>
+  <url>
+    <loc>https://MarekPenzes.github.io/publications/visualizing-dynamics-oop/index.html</loc>
+    <lastmod>2026-03-10T10:44:23.536Z</lastmod>
+  </url>
+  <url>
+    <loc>https://MarekPenzes.github.io/publications/visual-information-discovery-software-systems/index.html</loc>
+    <lastmod>2026-03-10T10:44:23.533Z</lastmod>
+  </url>
+  <url>
+    <loc>https://MarekPenzes.github.io/publications/visual-artefacts-removal-volumetric/index.html</loc>
+    <lastmod>2026-03-10T10:44:23.533Z</lastmod>
+  </url>
+  <url>
+    <loc>https://MarekPenzes.github.io/publications/visual-access-graph-magic-lenses/index.html</loc>
+    <lastmod>2026-03-10T10:44:23.533Z</lastmod>
+  </url>
+  <url>
+    <loc>https://MarekPenzes.github.io/publications/trends-information-visualization/index.html</loc>
+    <lastmod>2026-03-10T10:44:23.531Z</lastmod>
+  </url>
+  <url>
+    <loc>https://MarekPenzes.github.io/publications/multiparadigm-programming-lua/index.html</loc>
+    <lastmod>2026-03-10T10:44:23.531Z</lastmod>
+  </url>
+  <url>
+    <loc>https://MarekPenzes.github.io/publications/maximum-intensity-projection-statistical-cues/index.html</loc>
+    <lastmod>2026-03-10T10:44:23.520Z</lastmod>
+  </url>
+  <url>
+    <loc>https://MarekPenzes.github.io/publications/interactive-visualization-abstract-data/index.html</loc>
+    <lastmod>2026-03-10T10:44:23.520Z</lastmod>
+  </url>
+  <url>
+    <loc>https://MarekPenzes.github.io/publications/hypergraph-based-software-visualization/index.html</loc>
+    <lastmod>2026-03-10T10:44:23.520Z</lastmod>
+  </url>
+  <url>
+    <loc>https://MarekPenzes.github.io/publications/hypergraph-based-repository-software-visualization/index.html</loc>
+    <lastmod>2026-03-10T10:44:23.520Z</lastmod>
+  </url>
+  <url>
+    <loc>https://MarekPenzes.github.io/publications/graph-visualization-applications/index.html</loc>
+    <lastmod>2026-03-10T10:44:23.520Z</lastmod>
+  </url>
+  <url>
+    <loc>https://MarekPenzes.github.io/publications/exploring-3d-gpu-graph-visualization/index.html</loc>
+    <lastmod>2026-03-10T10:44:23.520Z</lastmod>
   </url>
   <url>
     <loc>https://MarekPenzes.github.io/projects.html</loc>
@@ -17,12 +73,16 @@
     <lastmod>2026-03-10T10:44:23.514Z</lastmod>
   </url>
   <url>
-    <loc>https://MarekPenzes.github.io/lectures.html</loc>
-    <lastmod>2026-02-04T00:42:15.320Z</lastmod>
+    <loc>https://MarekPenzes.github.io/master-thesis.html</loc>
+    <lastmod>2026-03-10T11:18:47.121Z</lastmod>
   </url>
   <url>
     <loc>https://MarekPenzes.github.io/courses.html</loc>
-    <lastmod>2026-03-10T10:44:23.410Z</lastmod>
+    <lastmod>2026-04-18T17:26:27.982Z</lastmod>
+  </url>
+  <url>
+    <loc>https://MarekPenzes.github.io/bachelor-project.html</loc>
+    <lastmod>2026-03-10T11:17:18.335Z</lastmod>
   </url>
   <url>
     <loc>https://MarekPenzes.github.io/contact.html</loc>
@@ -30,7 +90,7 @@
   </url>
   <url>
     <loc>https://MarekPenzes.github.io/index.html</loc>
-    <lastmod>2026-03-10T11:24:33.930Z</lastmod>
+    <lastmod>2026-04-18T17:24:23.051Z</lastmod>
   </url>
   <url>
     <loc>https://MarekPenzes.github.io/people.html</loc>
@@ -45,71 +105,7 @@
     <lastmod>2026-03-10T11:08:15.944Z</lastmod>
   </url>
   <url>
-    <loc>https://MarekPenzes.github.io/publications.html</loc>
-    <lastmod>2026-03-10T10:44:23.520Z</lastmod>
-  </url>
-  <url>
-    <loc>https://MarekPenzes.github.io/vgg.html</loc>
-    <lastmod>2026-02-28T21:59:33.805Z</lastmod>
-  </url>
-  <url>
-    <loc>https://MarekPenzes.github.io/research.html</loc>
-    <lastmod>2026-03-10T10:44:23.536Z</lastmod>
-  </url>
-  <url>
-    <loc>https://MarekPenzes.github.io/publications/visual-analysis-software-ar/index.html</loc>
-    <lastmod>2026-03-10T10:44:23.533Z</lastmod>
-  </url>
-  <url>
-    <loc>https://MarekPenzes.github.io/publications/exploring-3d-gpu-graph-visualization/index.html</loc>
-    <lastmod>2026-03-10T10:44:23.520Z</lastmod>
-  </url>
-  <url>
-    <loc>https://MarekPenzes.github.io/publications/trends-information-visualization/index.html</loc>
-    <lastmod>2026-03-10T10:44:23.531Z</lastmod>
-  </url>
-  <url>
-    <loc>https://MarekPenzes.github.io/publications/visualizing-dynamics-oop/index.html</loc>
-    <lastmod>2026-03-10T10:44:23.536Z</lastmod>
-  </url>
-  <url>
-    <loc>https://MarekPenzes.github.io/publications/visualizing-software-artifacts-hypergraphs/index.html</loc>
-    <lastmod>2026-03-10T10:44:23.536Z</lastmod>
-  </url>
-  <url>
-    <loc>https://MarekPenzes.github.io/publications/visual-programming-hypergraph-iccvg/index.html</loc>
-    <lastmod>2026-03-10T10:44:23.536Z</lastmod>
-  </url>
-  <url>
-    <loc>https://MarekPenzes.github.io/publications/visual-information-discovery-large-datasets/index.html</loc>
-    <lastmod>2026-03-10T10:44:23.533Z</lastmod>
-  </url>
-  <url>
-    <loc>https://MarekPenzes.github.io/publications/visual-access-graph-magic-lenses/index.html</loc>
-    <lastmod>2026-03-10T10:44:23.533Z</lastmod>
-  </url>
-  <url>
-    <loc>https://MarekPenzes.github.io/publications/software-visualization-3d-survey/index.html</loc>
-    <lastmod>2026-03-10T10:44:23.531Z</lastmod>
-  </url>
-  <url>
-    <loc>https://MarekPenzes.github.io/publications/metaphorical-visualizations-graph/index.html</loc>
-    <lastmod>2026-03-10T10:44:23.531Z</lastmod>
-  </url>
-  <url>
-    <loc>https://MarekPenzes.github.io/publications/knowledge-based-programming-environments/index.html</loc>
-    <lastmod>2026-03-10T10:44:23.520Z</lastmod>
-  </url>
-  <url>
-    <loc>https://MarekPenzes.github.io/publications/intelligent-3d-graph-exploration/index.html</loc>
-    <lastmod>2026-03-10T10:44:23.520Z</lastmod>
-  </url>
-  <url>
-    <loc>https://MarekPenzes.github.io/publications/hypergraph-based-software-representation-mining/index.html</loc>
-    <lastmod>2026-03-10T10:44:23.520Z</lastmod>
-  </url>
-  <url>
-    <loc>https://MarekPenzes.github.io/publications/graph-visualization-neural-nets/index.html</loc>
+    <loc>https://MarekPenzes.github.io/publications/animating-human-faces-waters-model/index.html</loc>
     <lastmod>2026-03-10T10:44:23.520Z</lastmod>
   </url>
   <url>
@@ -117,31 +113,27 @@
     <lastmod>2026-03-10T10:44:23.520Z</lastmod>
   </url>
   <url>
-    <loc>https://MarekPenzes.github.io/publications/animating-human-faces-waters-model/index.html</loc>
+    <loc>https://MarekPenzes.github.io/publications/graph-visualization-neural-nets/index.html</loc>
     <lastmod>2026-03-10T10:44:23.520Z</lastmod>
   </url>
   <url>
-    <loc>https://MarekPenzes.github.io/publications/graph-visualization-applications/index.html</loc>
+    <loc>https://MarekPenzes.github.io/publications/hypergraph-based-software-representation-mining/index.html</loc>
     <lastmod>2026-03-10T10:44:23.520Z</lastmod>
   </url>
   <url>
-    <loc>https://MarekPenzes.github.io/publications/hypergraph-based-repository-software-visualization/index.html</loc>
+    <loc>https://MarekPenzes.github.io/publications/intelligent-3d-graph-exploration/index.html</loc>
     <lastmod>2026-03-10T10:44:23.520Z</lastmod>
   </url>
   <url>
-    <loc>https://MarekPenzes.github.io/publications/hypergraph-based-software-visualization/index.html</loc>
+    <loc>https://MarekPenzes.github.io/publications/knowledge-based-programming-environments/index.html</loc>
     <lastmod>2026-03-10T10:44:23.520Z</lastmod>
   </url>
   <url>
-    <loc>https://MarekPenzes.github.io/publications/interactive-visualization-abstract-data/index.html</loc>
-    <lastmod>2026-03-10T10:44:23.520Z</lastmod>
+    <loc>https://MarekPenzes.github.io/publications/metaphorical-visualizations-graph/index.html</loc>
+    <lastmod>2026-03-10T10:44:23.531Z</lastmod>
   </url>
   <url>
-    <loc>https://MarekPenzes.github.io/publications/maximum-intensity-projection-statistical-cues/index.html</loc>
-    <lastmod>2026-03-10T10:44:23.520Z</lastmod>
-  </url>
-  <url>
-    <loc>https://MarekPenzes.github.io/publications/multiparadigm-programming-lua/index.html</loc>
+    <loc>https://MarekPenzes.github.io/publications/software-visualization-3d-survey/index.html</loc>
     <lastmod>2026-03-10T10:44:23.531Z</lastmod>
   </url>
   <url>
@@ -149,12 +141,16 @@
     <lastmod>2026-03-10T10:44:23.533Z</lastmod>
   </url>
   <url>
-    <loc>https://MarekPenzes.github.io/publications/visual-artefacts-removal-volumetric/index.html</loc>
+    <loc>https://MarekPenzes.github.io/publications/visual-analysis-software-ar/index.html</loc>
     <lastmod>2026-03-10T10:44:23.533Z</lastmod>
   </url>
   <url>
-    <loc>https://MarekPenzes.github.io/publications/visual-information-discovery-software-systems/index.html</loc>
+    <loc>https://MarekPenzes.github.io/publications/visual-information-discovery-large-datasets/index.html</loc>
     <lastmod>2026-03-10T10:44:23.533Z</lastmod>
+  </url>
+  <url>
+    <loc>https://MarekPenzes.github.io/publications/visual-programming-hypergraph-iccvg/index.html</loc>
+    <lastmod>2026-03-10T10:44:23.536Z</lastmod>
   </url>
   <url>
     <loc>https://MarekPenzes.github.io/publications/visualizing-graph-structures-soap-bubbles/index.html</loc>
@@ -165,15 +161,23 @@
     <lastmod>2026-03-10T10:44:23.536Z</lastmod>
   </url>
   <url>
-    <loc>https://MarekPenzes.github.io/resources.html</loc>
-    <lastmod>2026-03-10T11:24:09.262Z</lastmod>
+    <loc>https://MarekPenzes.github.io/research.html</loc>
+    <lastmod>2026-03-10T10:44:23.536Z</lastmod>
   </url>
   <url>
-    <loc>https://MarekPenzes.github.io/bachelor-project.html</loc>
-    <lastmod>2026-03-10T11:17:18.335Z</lastmod>
+    <loc>https://MarekPenzes.github.io/courses/principles-computer-graphics-student-work.html</loc>
+    <lastmod>2026-04-18T17:13:32.072Z</lastmod>
   </url>
   <url>
-    <loc>https://MarekPenzes.github.io/master-thesis.html</loc>
-    <lastmod>2026-03-10T11:18:47.121Z</lastmod>
+    <loc>https://MarekPenzes.github.io/courses/advanced-computer-graphics-student-work.html</loc>
+    <lastmod>2026-04-18T17:13:34.378Z</lastmod>
+  </url>
+  <url>
+    <loc>https://MarekPenzes.github.io/courses/data-visualization-student-work.html</loc>
+    <lastmod>2026-04-18T17:13:33.264Z</lastmod>
+  </url>
+  <url>
+    <loc>https://MarekPenzes.github.io/courses/team-project-student-work.html</loc>
+    <lastmod>2026-04-18T17:13:30.658Z</lastmod>
   </url>
 </urlset>

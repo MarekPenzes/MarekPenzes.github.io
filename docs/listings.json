@@ -1,21 +1,5 @@
 [
   {
-    "listing": "/projects.html",
-    "items": []
-  },
-  {
-    "listing": "/people.html",
-    "items": []
-  },
-  {
-    "listing": "/posts.html",
-    "items": [
-      "/posts/event-title/index.html",
-      "/posts/news-title/index.html",
-      "/posts/paper-title/index.html"
-    ]
-  },
-  {
     "listing": "/publications.html",
     "items": [
       "/publications/visual-analysis-software-ar/index.html",
@@ -45,6 +29,22 @@
       "/publications/knowledge-based-programming-environments/index.html",
       "/publications/software-visualization-3d-survey/index.html",
       "/publications/animating-human-faces-waters-model/index.html"
+    ]
+  },
+  {
+    "listing": "/projects.html",
+    "items": []
+  },
+  {
+    "listing": "/people.html",
+    "items": []
+  },
+  {
+    "listing": "/posts.html",
+    "items": [
+      "/posts/event-title/index.html",
+      "/posts/news-title/index.html",
+      "/posts/paper-title/index.html"
     ]
   }
 ]
