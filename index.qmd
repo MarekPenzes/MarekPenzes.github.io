@@ -30,12 +30,6 @@ about:
       href: "https://orcid.org/0000-0003-3333-3568"
     - text: ResearchGate
       href: "https://www.researchgate.net/profile/Peter-Kapec"
-    - icon: 3-circle
-      text: Button 3
-      href: "#"
-    - icon: 4-circle
-      text: Button 4
-      href: "#"
 ---
 
 :::{#hero-heading}

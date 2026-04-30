@@ -37,7 +37,24 @@
     "abstract": "Graph visualization is an ongoing research area with many open problems. Graphs are often visualized in 2D space and recently also 3D visualizations emerge. However, the added third dimension adds additional problems that make the graph comprehension more difficult. In this paper we focus on navigating and exploring 3D graph visualizations. We present our approach for the automation of virtual camera movement for better graph exploration. This camera movement is enhanced with experimental exploration recording and play-back that allows to fork exploration paths at any time and to switch between them. We also present how graph layout can be accelerated with GPU in combination with scene graph structures. These features were added into our graph visualization system that we use for software visualization. We present several visualizations of the structure and the evolution of software systems.",
     "tags": ["graph visualization", "GPU acceleration", "virtual camera", "3D visualization", "software visualization"],
     "pdf": "",
-    "images": [],
+    "images": [
+      {
+        "src": "files/publikacia_1/img1.png",
+        "caption": "The number of visible nodes depending on time."
+      },
+      {
+        "src": "files/publikacia_1/img2.png",
+        "caption": "Four views showing a graph in four different exploration histories."
+      },
+      {
+        "src": "files/publikacia_1/img3.png",
+        "caption": "Implementation details of GPU-based graph layout algorithm."
+      },
+      {
+        "src": "files/publikacia_1/img4.ppm",
+        "caption": "Graph layouts calculated with GPU."
+      }
+    ],
     "bibtex": "@inproceedings{kapec2013,\n  author = {Kapec, Peter and Paprčka, Michal and Pažitnaj, Adam and Polák, Vladimír},\n  title  = {Exploring 3D GPU-Accelerated Graph Visualization with Time-Traveling Virtual Camera},\n  journal = {Journal of Theoretical and Applied Computer Science},\n  volume = {7},\n  year   = {2013}\n}"
   },
   {
@@ -55,7 +72,12 @@
     "abstract": "Information visualization is a broad research area with ongoing progress especially in the context of software development and analysis. In recent years many interesting visualization approaches have appeared, but only a few techniques were used in practical applications for software analysis or development. Advanced software visualization is gaining support slowly, but it has already become a part of common software development process. However, there has been rapid progress in this field, many open problems still exist. Technical advances allow us to collect and to process vast amounts of data, but these cause significant issues of scalability in visualization and interaction techniques that have already been addressed. In this paper we present recent trends in context of our software visualization projects that utilize graph representations and various source code visualization techniques.",
     "tags": ["information visualization", "software analysis", "software development", "trends"],
     "pdf": "",
-    "images": [],
+    "images": [
+      {
+        "src": "files/Trendsininformationvisualizationforsoftwareanalysis/img1.png",
+        "caption": "The full extracted graph for the LuaDist project containing 418 nodes and 1187 edges."
+      }
+    ],
     "bibtex": "@inproceedings{kapec2014,\n  author    = {Kapec, Peter and Drahoš, Peter and Sperka, Martin},\n  title     = {Trends in Information Visualization for Software Analysis and Development},\n  booktitle = {Current Issues of Science and Research in the Global World},\n  year      = {2014},\n  doi       = {10.1201/b17801}\n}"
   },
   {
@@ -175,7 +197,24 @@
     "abstract": "Existing mixed reality pipelines utilize color-based clustering to determine areas of the image that belong to different materials. They also utilize specularity removal at some point in the pipeline to separate the diffuse and specular reflection for BRDF estimation. In this paper, a clustering strategy is proposed which is applicable to both specularity removal and material clustering, allowing to save processing time by reusing the resulting clusters for two different tasks. A pure GPU implementation of the proposed material clustering strategy is described and evaluated, which offers several advantages over existing solutions, namely: better convergence rate, improved frame rate stability, less drastic changes of the clustering structure between subsequent frames. The convergence of K-Means, K-Harmonic means and random swap algorithms is analyzed on a dataset designed to mimic typical indoor mixed reality scenarios.",
     "tags": ["mixed reality", "material clustering", "GPU", "dichromatic reflection", "BRDF"],
     "pdf": "",
-    "images": [],
+    "images": [
+      {
+        "src": "files/Real-time _material _clustering_reflection_model/img1.ppm",
+        "caption": "Recorded RMSE (per video) for different combinations of texture size and number of clusters (lower is better)."
+      },
+      {
+        "src": "files/Real-time _material _clustering_reflection_model/img2.ppm",
+        "caption": "Recorded RMSE for different combinations of texture size and number of clusters (left), and the number of iterations it took to reach the stopping condition (right). Boxes span from 1st to 3rd quartile, whiskers represent the full range of the recorded values, and the horizontal lines inside the boxes represent the medians."
+      },
+      {
+        "src": "files/Real-time _material _clustering_reflection_model/img3.ppm",
+        "caption": "Recorded RMSE for different algorithms with the stopping condition from [13]. Boxes span from 1st to 3rd quartile, whiskers represent the full range of the recorded values, and the horizontal lines inside the boxes represent the medians."
+      },
+      {
+        "src": "files/Real-time _material _clustering_reflection_model/img4.ppm",
+        "caption": "Frame times (in milliseconds)."
+      }
+    ],
     "bibtex": "@misc{rudenko2023,\n  author = {Rudenko, Kostiantyn and Kapec, Peter},\n  title  = {Real-Time Material Clustering for Mixed Reality Applications Based on Dichromatic Reflection Model},\n  year   = {2023},\n  howpublished = {Preprint}\n}"
   },
   {
@@ -193,7 +232,20 @@
     "abstract": "The increasing complexity of the software systems currently developed also increases the need for collaboration between multiple developers. In this paper, we propose and describe a collaborative environment in virtual reality with advanced features like live programming, UML class diagram visualization, and round-trip engineering. We conducted a user study that focuses on evaluating the use of VR in collaboration and aims to confirm whether such an approach is more effective compared to classical approaches when performing programming tasks. We evaluated two collaboration styles: a tutor-student approach that is common in academia and collaborative programming typical for pair programming in practice. The results showed that the proposed collaborative virtual reality environment was more attractive, stimulating, and novel than traditional approaches.",
     "tags": ["virtual reality", "collaborative development", "software visualization", "live programming", "UML"],
     "pdf": "",
-    "images": [],
+    "images": [
+      {
+        "src": "files/CollaVRationAnImmersiveVirtualEnv/img1.ppm",
+        "caption": "Recorded RMSE (per video) for different combinations of texture size and number of clusters (lower is better)."
+      },
+      {
+        "src": "files/CollaVRationAnImmersiveVirtualEnv/img2.ppm",
+        "caption": "Recorded RMSE for different combinations of texture size and number of clusters (left), and the number of iterations it took to reach the stopping condition (right). Boxes span from 1st to 3rd quartile, whiskers represent the full range of the recorded values, and the horizontal lines inside the boxes represent the medians."
+      },
+      {
+        "src": "files/CollaVRationAnImmersiveVirtualEnv/img3.ppm",
+        "caption": "Recorded RMSE for different algorithms with the stopping condition from [13]. Boxes span from 1st to 3rd quartile, whiskers represent the full range of the recorded values, and the horizontal lines inside the boxes represent the medians."
+      }
+    ],
     "bibtex": "@misc{kozma2024,\n  author = {Kozma, Miroslav and Vincur, Juraj and Kapec, Peter},\n  title  = {CollaVRation: An Immersive Virtual Environment for Collaborative Software Development},\n  year   = {2024},\n  howpublished = {Preprint}\n}"
   },
   {
@@ -211,7 +263,24 @@
     "abstract": "Virtual and augmented reality systems and applications have proven to be effective tools for visualization of large-scale data. In this paper, we present our results of two experiments carried out in a VR system aimed at visual analysis of graph visualization. We evaluated the performance of existing saliency models to predict salient scene regions during visual analysis that tackled both bottom-up and top-down visual attention aspects. Our findings support the fact that current visual saliency models are on one hand capable of detecting visual change in the VR scene, but on the other hand bottom-up saliency models do not predict well salient regions of a VR scene over time.",
     "tags": ["visual saliency", "immersive analytics", "virtual reality", "graph visualization"],
     "pdf": "",
-    "images": [],
+    "images": [
+      {
+        "src": "files/Evaluationofvisualsaliencymodels/img1.ppm",
+        "caption": "Example scene used during the first experiment with a 3D graph."
+      },
+      {
+        "src": "files/Evaluationofvisualsaliencymodels/img2.png",
+        "caption": "The input image pairs, used for the model comparison: (left) scene before node highlighting (right) scene after node highlighting."
+      },
+      {
+        "src": "files/Evaluationofvisualsaliencymodels/img3.ppm",
+        "caption": "(left) Task completion time, (right) number of identified colors, based on prior VR experience."
+      },
+      {
+        "src": "files/Evaluationofvisualsaliencymodels/img4.ppm",
+        "caption": "Reaction times of all participants who noticed the changes in each of the scenes."
+      }
+    ],
     "bibtex": "@inproceedings{adamove2024,\n  author    = {Adamove, Marek and Padúch, Denis and Kapec, Peter},\n  title     = {Evaluation of Visual Saliency Models in Immersive Analytics},\n  booktitle = {Future of Information and Communication Conference (FICC)},\n  year      = {2024},\n  doi       = {10.1007/978-3-031-53963-3_26}\n}"
   },
   {
@@ -229,7 +298,24 @@
     "abstract": "Virtual reality (VR) is considered one of the most promising technologies for software development. This paper introduces a live VR programming environment that utilizes UML diagrams, evaluates it through a user study, and contrasts it with the traditional programming approach using a conventional development environment. The user study involved 13 participants and the evaluation was based on complex programming tasks and the System Usability Scale (SUS) and the User Experience Questionnaire (UEQ). Although the proposed solution is user-friendly and more engaging compared to traditional programming environments, it still lacks efficiency.",
     "tags": ["virtual reality", "visual programming", "UML", "sequence diagrams", "user study"],
     "pdf": "",
-    "images": [],
+    "images": [
+      {
+        "src": "files/publikacia_12/img1.ppm",
+        "caption": "(left) window with class diagram, (right) window with class details."
+      },
+      {
+        "src": "files/publikacia_12/img2.png",
+        "caption": "UML sequence diagram showing two lifelines and a condition."
+      },
+      {
+        "src": "files/publikacia_12/img3.webp",
+        "caption": "Task Completion Times (TCT) for the evaluated tasks: PC version (red), VR version (blue). Task 4* shows the results of Task 4 limited to participants with at least average VR experience."
+      },
+      {
+        "src": "files/publikacia_12/img4.ppm",
+        "caption": "The results of the User Experience Questionnaire (UEQ)."
+      }
+    ],
     "bibtex": "@misc{mikuska2024,\n  author = {Mikuška, Dominik and Kapec, Peter and Vincur, Juraj},\n  title  = {Visual Programming in Immersive Virtual Reality Using UML Sequence Diagrams},\n  year   = {2024},\n  howpublished = {Preprint}\n}"
   },
   {
@@ -247,7 +333,24 @@
     "abstract": "In this paper, we present a new visualization metaphor for visualization of software evolution using the metaphor of a physical library. We investigate the potential of such visualization in an immersive VR and desktop environment and evaluate the user experience, usability, and effectiveness compared to traditional tools. We tested our proposed solution with 15 participants with different levels of experience with VR technologies, measuring task completion time, and evaluated the solution using the SSQ and IPQ questionnaires. The results showed that most of the participants were satisfied with the visualization and its capabilities. The virtual reality version had overall slightly slower task completion times than the other solutions, but still had the best satisfaction rating.",
     "tags": ["software evolution", "virtual reality", "library metaphor", "visualization", "user study"],
     "pdf": "",
-    "images": [],
+    "images": [
+      {
+        "src": "files/publikacia_11/img1.ppm",
+        "caption": "A close view of a shelf representing a commit: the bottom part contains commit information, on the right is a vertical scroll bar, and the books represent files."
+      },
+      {
+        "src": "files/publikacia_11/img2.ppm",
+        "caption": "A two-pane window with book content: the left pane is used to show previous versions, and the right pane contains the latest version of the file."
+      },
+      {
+        "src": "files/publikacia_11/img3.ppm",
+        "caption": "Two virtual boards for easy comparison of file histories of two selected files."
+      },
+      {
+        "src": "files/publikacia_11/img4.ppm",
+        "caption": "Participant's background: age (Age), previous experience with 3D technologies in general (3D), immersive virtual reality (VR), visualization applications (VA)."
+      }
+    ],
     "bibtex": "@misc{zalabai2024,\n  author = {Zalabai, Juraj and Kapec, Peter},\n  title  = {Software Evolution Visualization in Virtual Reality Using the Library Metaphor},\n  year   = {2024},\n  howpublished = {Preprint}\n}"
   },
   {
@@ -265,7 +368,24 @@
     "abstract": "Software visualization has been in focus of researchers for several decades. Although many interesting software visualization systems have been developed very few have managed to become part of common development process. In this paper we focus on program runtime visualization and present our visualization system that interactively presents 3D visualizations visually similar to UML sequence diagrams and we show several example visualizations.",
     "tags": ["software visualization", "object-oriented programs", "runtime visualization", "UML", "3D visualization"],
     "pdf": "",
-    "images": [],
+    "images": [
+      {
+        "src": "files/publikacia_2/img1.ppm",
+        "caption": "Program runtime with a binary tree data structure."
+      },
+      {
+        "src": "files/publikaca_2/img2.ppm",
+        "caption": "Threads operating on Program object -bottom view."
+      },
+      {
+        "src": "files/publikacia_2/img3.ppm",
+        "caption": "Threads operating on Program object -side view."
+      },
+      {
+        "src": "files/publikacia_2/img4.ppm",
+        "caption": "illustrates visualization of these messages: messages for creating new instances are shown as blue arrows, returning from a method call as gray arrows and exceptions as red arrows. Synchronous messages are drawn with a full cone ending using yellow color as shown in Figure 4. Asynchronous messages are drawn with a outline cone as shown in Figure 5."
+      }
+    ],
     "bibtex": "@inproceedings{grznar2013,\n  author    = {Grznár, Filip and Kapec, Peter},\n  title     = {Visualizing dynamics of object oriented programs with time context},\n  booktitle = {Proceedings - SCCG 2013: 29th Spring Conference on Computer Graphics},\n  year      = {2013},\n  doi       = {10.1145/2508244.2508253}\n}"
   },
   {
@@ -283,7 +403,24 @@
     "abstract": "Graph visualization is a large and evolving research area. Many graph visualization approaches have been developed. Most graph visualization methods use simple geometrical shapes to draw graphs. However, the potential of metaphorical visualization is often not utilized in graph visualizations. In this paper we propose a metaphorical visualization of graph structures inspired by biological neural networks. The proposed graph visualization aims at presenting graphs in a more attractive and probably also more comprehensible way.",
     "tags": ["graph visualization", "neural nets", "biological metaphor", "visualization"],
     "pdf": "",
-    "images": [],
+    "images": [
+      {
+        "src": "files/publikacia_3/img1.ppm",
+        "caption": "Illustration of Catmull-Clark surface subdivision scheme applied on a simple object."
+      },
+      {
+        "src": "files/publikacia_3/img2.ppm",
+        "caption": "Comparison of common line-based (3a) and biological metaphor graph visualization (3b)."
+      },
+      {
+        "src": "files/publikacia_3/img3.ppm",
+        "caption": "Simulating membrane-like material."
+      },
+      {
+        "src": "files/publikacia_3/img4.ppm",
+        "caption": "Visualization of edge weights."
+      }
+    ],
     "bibtex": "@inproceedings{mindek2011,\n  author    = {Mindek, Peter and Kapec, Peter},\n  title     = {Graph visualization using the metaphor of biological neural nets},\n  booktitle = {Proceedings - SCCG 2011: 27th Spring Conference on Computer Graphics},\n  pages     = {141--148},\n  year      = {2011},\n  doi       = {10.1145/2461217.2461244}\n}"
   },
   {
@@ -301,7 +438,24 @@
     "abstract": "Graph visualization is an ongoing research area with many open problems. Graphs are often visualized in 2D space, but recently also 3D visualizations emerged. However the added third dimension add additional problems. In this paper we focus on navigating and exploring 3D graph visualizations. We present our approach for the automation of virtual camera movement for better graph exploration that also allows to play-back the exploration and fork other exploration paths at any time.",
     "tags": ["graph visualization", "3D exploration", "time-travel", "virtual camera", "ICCVG"],
     "pdf": "",
-    "images": [],
+    "images": [
+      {
+        "src": "files/publikacia_4/img1.png",
+        "caption": "Illustration of camera movement."
+      },
+      {
+        "src": "files/publikacia_4/img2.png",
+        "caption": "The number of visible nodes depending on time."
+      },
+      {
+        "src": "files/publikacia_4/img3.png",
+        "caption": "Widget to control the tree of exploration histories."
+      },
+      {
+        "src": "files/publikacia_4/img4.png",
+        "caption": "Four views showing a graph in four different exploration histories."
+      }
+    ],
     "bibtex": "@inproceedings{kapec2012iccvg,\n  author    = {Kapec, Peter and Paprčka, Michal and Pažitnaj, Adam},\n  title     = {Intelligent 3D Graph Exploration with Time-Travel Features},\n  booktitle = {International Conference on Computer Vision and Graphics (ICCVG 2012)},\n  series    = {Lecture Notes in Computer Science},\n  pages     = {113--120},\n  year      = {2012},\n  doi       = {10.1007/978-3-642-33564-8_14}\n}"
   },
   {
@@ -319,7 +473,20 @@
     "abstract": "Graph visualization is an active and fast developing research area. Graph visualizations have found applications in many fields, especially in fields in which the amount of structured information is huge and difficult to understand without visualization. In this paper we discuss the applications of graph visualization to visualize software at various levels of abstraction. We present our software visualization approach based on hypergraph representations and related interaction methods.",
     "tags": ["graph visualization", "software visualization", "hypergraph", "interaction"],
     "pdf": "",
-    "images": [],
+    "images": [
+      {
+        "src": "files/publikacia_5/img1.ppm",
+        "caption": "Hypergraph drawing: (left) set-like (right) graph-like approaches."
+      },
+      {
+        "src": "files/publikacia_5/img2.png",
+        "caption": "Visualization of an existing system (left) Sorted view of classes and their methods (right)"
+      },
+      {
+        "src": "files/publikacia_5/img3.png",
+        "caption": "Two clients exploring the same hypergraph from different viewpoints."
+      }
+    ],
     "bibtex": "@inproceedings{kapec2012ita,\n  author    = {Kapec, Peter},\n  title     = {Graph visualization and applications in software visualization},\n  booktitle = {Information Technology Applications},\n  volume    = {1},\n  pages     = {16--25},\n  year      = {2012}\n}"
   },
   {
@@ -337,7 +504,20 @@
     "abstract": "This paper deals with current trends in the area of interactive 3D software visualization. With the increasing complexity of developed software system fast comprehension and understanding of software systems becomes more and more important. Current trends in display technology head to 3D immersive environments promising new and better experience. Research in 3D software visualization offers interesting results. In this paper we present our visualization system for visual debugging of Java programs in an interactive 3D environment. Our visualization tool allows to playback program execution in both directions, offers overview of all objects at runtime and can be used in praxis and also in pedagogical process.",
     "tags": ["software visualization", "3D visualization", "interactive", "debugging", "Java"],
     "pdf": "",
-    "images": [],
+    "images": [
+      {
+        "src": "files/publikacia_6/img1.webp",
+        "caption": "Helix representation of an entity."
+      },
+      {
+        "src": "files/publikacia_6/img2.png",
+        "caption": "A class-instance aggregate -instances are placed around their class."
+      },
+      {
+        "src": "files/publikacia_6/img3.png",
+        "caption": "Factory method program elements. 1-FactoryManager class; 2-factories cluster; 3-products cluster; 4-class shared between all products"
+      }
+    ],
     "bibtex": "@inproceedings{kapec2010iceta,\n  author    = {Kapec, Peter and Sperka, Martin and Ruttkay-Nedecký, Ivan},\n  title     = {Exploring And Understanding Software Behaviour Using Interactive 3D Visualization},\n  booktitle = {8th International Conference on Emerging eLearning Technologies and Applications (ICETA 2010)},\n  year      = {2010}\n}"
   },
   {
@@ -373,7 +553,24 @@
     "abstract": "Information visualization is a large research area. Currently with more powerful computers and graphic accelerators more and more visualization techniques become part of daily use. In this paper we discuss visualization of abstract data — data that is difficult or impossible to manually grasp. Using visualization of abstract data we can gain better insight. We present several experimental methods for visualizing graphs and show possible applications in the software visualization field.",
     "tags": ["information visualization", "abstract data", "graph visualization", "software visualization"],
     "pdf": "",
-    "images": [],
+    "images": [
+      {
+        "src": "files/publikacia_7/img1.ppm",
+        "caption": "Trees displayed on two layers."
+      },
+      {
+        "src": "files/publikacia_7/img2.png",
+        "caption": "Stereo pair of interactive binary tree visualization in 3D space."
+      },
+      {
+        "src": "files/publikacia_7/img3.png",
+        "caption": "Objects seen from the inside (left) and outside (right) of the sphere."
+      },
+      {
+        "src": "files/publikacia_7/img4.png",
+        "caption": "Visualization of an existing system The Figure 6 displays the visualization of the same system, but with only classes and their methods and sorted by the decreasing number of methods a class has."
+      }
+    ],
     "bibtex": "@article{sperka2010,\n  author  = {Sperka, Martin and Kapec, Peter},\n  title   = {Interactive Visualization of Abstract Data},\n  journal = {Science \\& Military Journal},\n  volume  = {5},\n  year    = {2010}\n}"
   },
   {
@@ -409,7 +606,16 @@
     "abstract": "Data visualization of large abstract data sets and complicated relations is a complex research area with different problems and constraints. Often simple shapes and structures are not very eye-pleasing. Visualization metaphors, which create a mapping between a well-known problem domain and a new complicated problem domain, can produce interesting visualizations. In this paper we propose two metaphorical visualizations of graphs and multidimensional data: we propose a metaphor of soap bubble clusters to visualize graphs and a nebulae (sky) metaphor, which uses nebulae and stars to visualize graphs and multidimensional data.",
     "tags": ["graph visualization", "metaphorical visualization", "soap bubbles", "nebulae", "multidimensional data"],
     "pdf": "",
-    "images": [],
+    "images": [
+      {
+        "src": "files/publikacia_8/img1.png",
+        "caption": "Visualization with space constraint."
+      },
+      {
+        "src": "files/publikacia_8/img2.png",
+        "caption": "Nebulae billboards placement."
+      }
+    ],
     "bibtex": "@inproceedings{ukrop2010,\n  author    = {Ukrop, L. and Jakubéci, M. and Kapec, Peter},\n  title     = {Metaphorical visualizations of graph structures},\n  booktitle = {GraVisMa 2010: 2nd International Workshop on Computer Graphics, Computer Vision and Mathematics},\n  pages     = {115--122},\n  year      = {2010}\n}"
   },
   {
@@ -445,7 +651,28 @@
     "abstract": "Facial animation plays an important role in face-to-face communication. With the power of current personal computers and their modern GPUs we are now capable of rendering high quality photo-realistic graphics. In this paper, we present an implementation of a muscle-based 3D animation method that is suitable for almost any face mesh. We also extend Waters' muscle model to support overlapping and muscle force normalization. In addition, we present techniques that significantly accelerate the animation while keeping memory requirements minimal.",
     "tags": ["facial animation", "Waters muscle model", "GPU", "3D animation", "CESCG"],
     "pdf": "",
-    "images": [],
+    "images": [
+      {
+        "src": "files/publikacia_9/img1.png",
+        "caption": "2D warping with uniform grid mesh."
+      },
+      {
+        "src": "files/publikacia_9/img2.png",
+        "caption": "Effect of the cell overlaping problem described in Section 3."
+      },
+      {
+        "src": "files/publikacia_9/img3.png",
+        "caption": "The linear muscle model."
+      },
+      {
+        "src": "files/publikacia_9/img4.png",
+        "caption": "Default sample mesh with muscles."
+      },
+      {
+        "src": "files/publikacia_9/img5.png",
+        "caption": "Sample expression."
+      }
+    ],
     "bibtex": "@inproceedings{kapec2004,\n  author    = {Kapec, Peter and Drahoš, Peter},\n  title     = {Animating Human Faces Using Modified Waters Muscle Model},\n  booktitle = {CESCG 2004: 8th Central European Seminar on Computer Graphics},\n  pages     = {141--148},\n  year      = {2004}\n}"
   },
   {
@@ -463,7 +690,12 @@
     "abstract": "Visual and interactive immersion into multidimensional and dynamic data helps to discover hidden structures and relations. In this paper we concentrate on visual information discovery in large structures and propose methods for creating and rendering hyper-graph representations of software artifacts.",
     "tags": ["information discovery", "software systems", "hypergraph", "visual information"],
     "pdf": "",
-    "images": [],
+    "images": [
+      {
+        "src": "files/publikacia_10/img1.png",
+        "caption": "Visualization of different kinds of software artifacts: using layers (left) and detail on hypergraph part (right)."
+      }
+    ],
     "bibtex": "@inproceedings{kapec2008,\n  author    = {Kapec, Peter and Šperka, Martin},\n  title     = {Visual Information Discovery in Software Systems},\n  booktitle = {Znalosti 2008, 7. ročník konferencie},\n  pages     = {339--342},\n  year      = {2008}\n}"
   }
 ]

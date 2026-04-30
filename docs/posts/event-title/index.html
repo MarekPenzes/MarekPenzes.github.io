@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.31">
+<meta name="generator" content="quarto-1.8.27">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,9 +12,6 @@
 
 <title>Event item – Peter Kapec, PhD</title>
 <style>
-/* Default styles provided by pandoc.
-** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
-*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -38,14 +35,15 @@ ul.task-list li input[type="checkbox"] {
 <meta name="quarto:offset" content="../../">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7c69b197886ae2a34062761d21e44731.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-b1010ed3cd212492f61910bf2317df72.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-001a2ffbc2e089359940857e8293f415.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-b992738a1395932d01613c5a416705cd.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -113,6 +111,146 @@ https://badge.dimensions.ai/
 <script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
 
 
+
+<!-- Scroll-to-top button with circular progress -->
+
+<script>
+
+(function () {
+
+  function init() {
+
+    var RADIUS = 22;
+
+    var CIRCUMFERENCE = 2 * Math.PI * RADIUS;
+
+    var SHOW_AFTER = 200;
+
+
+
+    var btn = document.createElement('button');
+
+    btn.className = 'scroll-top-btn';
+
+    btn.setAttribute('aria-label', 'Scroll to top');
+
+    btn.innerHTML =
+
+      '<svg class="scroll-top-svg" viewBox="0 0 52 52" aria-hidden="true">' +
+
+        '<circle class="scroll-top-track" cx="26" cy="26" r="' + RADIUS + '"/>' +
+
+        '<circle class="scroll-top-progress" cx="26" cy="26" r="' + RADIUS + '"/>' +
+
+      '</svg>' +
+
+      '<div class="scroll-top-inner">' +
+
+        '<svg class="scroll-top-arrow" viewBox="0 0 24 24" fill="none" ' +
+
+             'stroke="currentColor" stroke-width="2.5" ' +
+
+             'stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' +
+
+          '<path d="M12 19V5M5 12l7-7 7 7"/>' +
+
+        '</svg>' +
+
+      '</div>';
+
+
+
+    document.body.appendChild(btn);
+
+
+
+    var progressCircle = btn.querySelector('.scroll-top-progress');
+
+    progressCircle.style.strokeDasharray = CIRCUMFERENCE;
+
+    progressCircle.style.strokeDashoffset = CIRCUMFERENCE;
+
+    progressCircle.style.transition = 'stroke-dashoffset 0.12s linear';
+
+
+
+    var ticking = false;
+
+
+
+    function update() {
+
+      var scrollTop = window.scrollY || document.documentElement.scrollTop;
+
+      var maxScroll = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+
+      var progress = maxScroll > 0 ? Math.min(scrollTop / maxScroll, 1) : 0;
+
+
+
+      if (scrollTop > SHOW_AFTER) {
+
+        btn.classList.add('visible');
+
+      } else {
+
+        btn.classList.remove('visible');
+
+      }
+
+
+
+      progressCircle.style.strokeDashoffset = CIRCUMFERENCE * (1 - progress);
+
+      ticking = false;
+
+    }
+
+
+
+    window.addEventListener('scroll', function () {
+
+      if (!ticking) {
+
+        requestAnimationFrame(update);
+
+        ticking = true;
+
+      }
+
+    }, { passive: true });
+
+
+
+    btn.addEventListener('click', function () {
+
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+
+    });
+
+
+
+    update();
+
+  }
+
+
+
+  if (document.readyState === 'loading') {
+
+    document.addEventListener('DOMContentLoaded', init);
+
+  } else {
+
+    init();
+
+  }
+
+})();
+
+</script>
+
+
 <link rel="stylesheet" href="../../styles.css">
 <meta property="og:title" content="Event item – Peter Kapec, PhD">
 <meta property="og:description" content="About Event item.">
@@ -159,7 +297,7 @@ https://badge.dimensions.ai/
  <span class="dropdown-text">Research Areas</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../publications.html">
+    <a class="dropdown-item" href="../../publications_v2/index.html">
  <span class="dropdown-text">Publications</span></a>
   </li>  
         <li>
