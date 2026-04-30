@@ -24,7 +24,7 @@ website:
           - text: Research Areas
             href: research.qmd
           - text: Publications
-            href: publications.qmd
+            href: publications_v2/index.qmd
           - text: Projects
             href: projects.qmd
       - text: Teaching

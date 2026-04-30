@@ -46,15 +46,6 @@ The supervised theses cover a wide range of topics including:
 
 ---
 
-## Thesis Projects
-
-Below is a list of supervised thesis projects. Use the filters to explore by topic or year.
-
-:::{#posts}
-:::
-
----
-
 ## Current Opportunities
 
 I am always looking for motivated students interested in:
@@ -73,3 +64,9 @@ If you're interested in working on a thesis project in these areas, please [cont
 - Motivation to explore new technologies
 - Ability to work independently
 - Good communication skills
+
+---
+
+## Thesis Projects
+
+Below is a list of supervised thesis projects. Use the filters to explore by topic or year.

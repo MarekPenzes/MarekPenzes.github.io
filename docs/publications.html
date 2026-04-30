@@ -46,7 +46,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-7c69b197886ae2a34062761d21e44731.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-001a2ffbc2e089359940857e8293f415.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-38d4da121f8e6aab2de462bd0b3efc76.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -83,9 +83,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -141,6 +141,146 @@ https://badge.dimensions.ai/
 
 
 <script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
+
+
+
+<!-- Scroll-to-top button with circular progress -->
+
+<script>
+
+(function () {
+
+  function init() {
+
+    var RADIUS = 22;
+
+    var CIRCUMFERENCE = 2 * Math.PI * RADIUS;
+
+    var SHOW_AFTER = 200;
+
+
+
+    var btn = document.createElement('button');
+
+    btn.className = 'scroll-top-btn';
+
+    btn.setAttribute('aria-label', 'Scroll to top');
+
+    btn.innerHTML =
+
+      '<svg class="scroll-top-svg" viewBox="0 0 52 52" aria-hidden="true">' +
+
+        '<circle class="scroll-top-track" cx="26" cy="26" r="' + RADIUS + '"/>' +
+
+        '<circle class="scroll-top-progress" cx="26" cy="26" r="' + RADIUS + '"/>' +
+
+      '</svg>' +
+
+      '<div class="scroll-top-inner">' +
+
+        '<svg class="scroll-top-arrow" viewBox="0 0 24 24" fill="none" ' +
+
+             'stroke="currentColor" stroke-width="2.5" ' +
+
+             'stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' +
+
+          '<path d="M12 19V5M5 12l7-7 7 7"/>' +
+
+        '</svg>' +
+
+      '</div>';
+
+
+
+    document.body.appendChild(btn);
+
+
+
+    var progressCircle = btn.querySelector('.scroll-top-progress');
+
+    progressCircle.style.strokeDasharray = CIRCUMFERENCE;
+
+    progressCircle.style.strokeDashoffset = CIRCUMFERENCE;
+
+    progressCircle.style.transition = 'stroke-dashoffset 0.12s linear';
+
+
+
+    var ticking = false;
+
+
+
+    function update() {
+
+      var scrollTop = window.scrollY || document.documentElement.scrollTop;
+
+      var maxScroll = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+
+      var progress = maxScroll > 0 ? Math.min(scrollTop / maxScroll, 1) : 0;
+
+
+
+      if (scrollTop > SHOW_AFTER) {
+
+        btn.classList.add('visible');
+
+      } else {
+
+        btn.classList.remove('visible');
+
+      }
+
+
+
+      progressCircle.style.strokeDashoffset = CIRCUMFERENCE * (1 - progress);
+
+      ticking = false;
+
+    }
+
+
+
+    window.addEventListener('scroll', function () {
+
+      if (!ticking) {
+
+        requestAnimationFrame(update);
+
+        ticking = true;
+
+      }
+
+    }, { passive: true });
+
+
+
+    btn.addEventListener('click', function () {
+
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+
+    });
+
+
+
+    update();
+
+  }
+
+
+
+  if (document.readyState === 'loading') {
+
+    document.addEventListener('DOMContentLoaded', init);
+
+  } else {
+
+    init();
+
+  }
+
+})();
+
+</script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -268,7 +408,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(27)</span></div><div class="category" data-category="Y29uZmVyZW5jZSUyMHBhcGVy">conference paper <span class="quarto-category-count">(26)</span></div><div class="category" data-category="am91cm5hbCUyMGFydGljbGU=">journal article <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(0)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -301,900 +441,13 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-    <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-      <option value="" disabled="" selected="" hidden="">Order By</option>
-      <option value="index" data-direction="asc">Default</option>
-      <option value="listing-title" data-direction="asc">
-        Title
-      </option>
-      <option value="listing-date-sort" data-direction="asc">
-        Date - Oldest
-      </option>
-      <option value="listing-date-sort" data-direction="desc">
-        Date - Newest
-      </option>
-      <option value="listing-author" data-direction="asc">
-        Author
-      </option>
-    </select>
-  </div>
     <div class="input-group input-group-sm quarto-listing-filter">
       <span class="input-group-text"><i class="bi bi-search"></i></span>
       <input type="text" class="search form-control" placeholder="Filter">
     </div>
 </div>
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Y29uZmVyZW5jZSUyMHBhcGVy" data-listing-date-sort="1441058400000" data-listing-file-modified-sort="1773139463533" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
-<div class="thumbnail"><a href="./publications/visual-analysis-software-ar/index.html" class="no-external">
 
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./publications/visual-analysis-software-ar/index.html" class="no-external">Visual analysis of software systems in virtual and augmented reality</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Y29uZmVyZW5jZSUyMHBhcGVy'); return false;">conference paper</div>
-
-</div>
-<div class="delink listing-description"><a href="./publications/visual-analysis-software-ar/index.html" class="no-external">
-DOI: 10.1109/INES.2015.7329727
-</a></div>
-</div>
-<div class="metadata">
-<a href="./publications/visual-analysis-software-ar/index.html" class="no-external">
-<div class="listing-date">
-Sep 1, 2015
-</div>
-<div class="listing-author">
-Peter Kapec, G. Brndiarova, M. Gloger, J. Marak
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="Y29uZmVyZW5jZSUyMHBhcGVy" data-listing-date-sort="1388530800000" data-listing-file-modified-sort="1773139463531" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
-<div class="thumbnail"><a href="./publications/trends-information-visualization/index.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./publications/trends-information-visualization/index.html" class="no-external">Trends in information visualization for software analysis and development</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Y29uZmVyZW5jZSUyMHBhcGVy'); return false;">conference paper</div>
-
-</div>
-<div class="delink listing-description"><a href="./publications/trends-information-visualization/index.html" class="no-external">
-DOI: 10.1201/b17801
-</a></div>
-</div>
-<div class="metadata">
-<a href="./publications/trends-information-visualization/index.html" class="no-external">
-<div class="listing-date">
-Jan 1, 2014
-</div>
-<div class="listing-author">
-Peter Kapec, Peter Drahoš, Martin Sperka
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="Y29uZmVyZW5jZSUyMHBhcGVy" data-listing-date-sort="1385852400000" data-listing-file-modified-sort="1773139463520" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail"><a href="./publications/exploring-3d-gpu-graph-visualization/index.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./publications/exploring-3d-gpu-graph-visualization/index.html" class="no-external">Exploring 3D GPU-accelerated graph visualization with time-traveling virtual camera</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Y29uZmVyZW5jZSUyMHBhcGVy'); return false;">conference paper</div>
-
-</div>
-<div class="delink listing-description"><a href="./publications/exploring-3d-gpu-graph-visualization/index.html" class="no-external">
-
-</a></div>
-</div>
-<div class="metadata">
-<a href="./publications/exploring-3d-gpu-graph-visualization/index.html" class="no-external">
-<div class="listing-date">
-Dec 1, 2013
-</div>
-<div class="listing-author">
-Peter Kapec, Michal Paprčka, Adam Pažitnaj, Vladimír Polák
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="Y29uZmVyZW5jZSUyMHBhcGVy" data-listing-date-sort="1367359200000" data-listing-file-modified-sort="1773139463536" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
-<div class="thumbnail"><a href="./publications/visualizing-dynamics-oop/index.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./publications/visualizing-dynamics-oop/index.html" class="no-external">Visualizing dynamics of object oriented programs with time context</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Y29uZmVyZW5jZSUyMHBhcGVy'); return false;">conference paper</div>
-
-</div>
-<div class="delink listing-description"><a href="./publications/visualizing-dynamics-oop/index.html" class="no-external">
-DOI: 10.1145/2508244.2508253
-</a></div>
-</div>
-<div class="metadata">
-<a href="./publications/visualizing-dynamics-oop/index.html" class="no-external">
-<div class="listing-date">
-May 1, 2013
-</div>
-<div class="listing-author">
-Filip Grznár, Peter Kapec
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="Y29uZmVyZW5jZSUyMHBhcGVy" data-listing-date-sort="1346450400000" data-listing-file-modified-sort="1773139463520" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
-<div class="thumbnail"><a href="./publications/intelligent-3d-graph-exploration/index.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./publications/intelligent-3d-graph-exploration/index.html" class="no-external">Intelligent 3D Graph Exploration with Time-Travel Features</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Y29uZmVyZW5jZSUyMHBhcGVy'); return false;">conference paper</div>
-
-</div>
-<div class="delink listing-description"><a href="./publications/intelligent-3d-graph-exploration/index.html" class="no-external">
-DOI: 10.1007/978-3-642-33564-8_14
-</a></div>
-</div>
-<div class="metadata">
-<a href="./publications/intelligent-3d-graph-exploration/index.html" class="no-external">
-<div class="listing-date">
-Sep 1, 2012
-</div>
-<div class="listing-author">
-Peter Kapec, Michal Paprčka, Adam Pažitnaj
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-categories="Y29uZmVyZW5jZSUyMHBhcGVy" data-listing-date-sort="1330556400000" data-listing-file-modified-sort="1773139463533" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
-<div class="thumbnail"><a href="./publications/visual-access-graph-magic-lenses/index.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./publications/visual-access-graph-magic-lenses/index.html" class="no-external">Visual access to graph content using magic lenses and filtering</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Y29uZmVyZW5jZSUyMHBhcGVy'); return false;">conference paper</div>
-
-</div>
-<div class="delink listing-description"><a href="./publications/visual-access-graph-magic-lenses/index.html" class="no-external">
-DOI: 10.1145/2448531.2448534
-</a></div>
-</div>
-<div class="metadata">
-<a href="./publications/visual-access-graph-magic-lenses/index.html" class="no-external">
-<div class="listing-date">
-Mar 1, 2012
-</div>
-<div class="listing-author">
-Jakub Ukrop, Zuzana Číková, Peter Kapec
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="6" data-categories="Y29uZmVyZW5jZSUyMHBhcGVy" data-listing-date-sort="1325372400000" data-listing-file-modified-sort="1773139463520" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail"><a href="./publications/graph-visualization-applications/index.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./publications/graph-visualization-applications/index.html" class="no-external">Graph visualization and applications in software visualization</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Y29uZmVyZW5jZSUyMHBhcGVy'); return false;">conference paper</div>
-
-</div>
-<div class="delink listing-description"><a href="./publications/graph-visualization-applications/index.html" class="no-external">
-<section class="quarto-appendix-contents" id="quarto-citation"><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@inproceedings{kapec2012,
-  author = {Kapec, Peter},
-  title = {Graph Visualization and Applications in Software
-    Visualization},
-  pages = {16-25},
- …</code></pre><div class="quarto-appendix-secondary-label"></div><div id="ref-kapec2012" class="csl-entry quarto-appendix-citeas"><span></span></div></div></section>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./publications/graph-visualization-applications/index.html" class="no-external">
-<div class="listing-date">
-Jan 1, 2012
-</div>
-<div class="listing-author">
-Peter Kapec
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="7" data-categories="Y29uZmVyZW5jZSUyMHBhcGVy" data-listing-date-sort="1304200800000" data-listing-file-modified-sort="1773139463520" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail"><a href="./publications/maximum-intensity-projection-statistical-cues/index.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./publications/maximum-intensity-projection-statistical-cues/index.html" class="no-external">Maximum Intensity Projection Weighed by Statistical Cues</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Y29uZmVyZW5jZSUyMHBhcGVy'); return false;">conference paper</div>
-
-</div>
-<div class="delink listing-description"><a href="./publications/maximum-intensity-projection-statistical-cues/index.html" class="no-external">
-<section class="quarto-appendix-contents" id="quarto-citation"><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@inproceedings{mindek2011,
-  author = {Mindek, Peter},
-  publisher = {Vienna University of Economics and Business
-    Administration},
-  title = {Maximum…</code></pre><div class="quarto-appendix-secondary-label"></div><div id="ref-mindek2011" class="csl-entry quarto-appendix-citeas"><span></span><em></em></div></div></section>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./publications/maximum-intensity-projection-statistical-cues/index.html" class="no-external">
-<div class="listing-date">
-May 1, 2011
-</div>
-<div class="listing-author">
-Peter Mindek
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="8" data-categories="Y29uZmVyZW5jZSUyMHBhcGVy" data-listing-date-sort="1293836400000" data-listing-file-modified-sort="1773139463520" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
-<div class="thumbnail"><a href="./publications/graph-visualization-neural-nets/index.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./publications/graph-visualization-neural-nets/index.html" class="no-external">Graph visualization using the metaphor of biological neural nets</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Y29uZmVyZW5jZSUyMHBhcGVy'); return false;">conference paper</div>
-
-</div>
-<div class="delink listing-description"><a href="./publications/graph-visualization-neural-nets/index.html" class="no-external">
-DOI: 10.1145/2461217.2461244
-</a></div>
-</div>
-<div class="metadata">
-<a href="./publications/graph-visualization-neural-nets/index.html" class="no-external">
-<div class="listing-date">
-Jan 1, 2011
-</div>
-<div class="listing-author">
-Peter Mindek, Peter Kapec
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="9" data-categories="am91cm5hbCUyMGFydGljbGU=" data-listing-date-sort="1293836400000" data-listing-file-modified-sort="1773139463533" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail"><a href="./publications/visual-artefacts-removal-volumetric/index.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./publications/visual-artefacts-removal-volumetric/index.html" class="no-external">Visual Artefacts Removal in Volumetric Visualization</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('am91cm5hbCUyMGFydGljbGU='); return false;">journal article</div>
-
-</div>
-<div class="delink listing-description"><a href="./publications/visual-artefacts-removal-volumetric/index.html" class="no-external">
-<section class="quarto-appendix-contents" id="quarto-citation"><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@article{mindek2011,
-  author = {Mindek, Peter},
-  title = {Visual {Artefacts} {Removal} in {Volumetric} {Visualization}},
-  journal = {Information Sciences…</code></pre><div class="quarto-appendix-secondary-label"></div><div id="ref-mindek2011" class="csl-entry quarto-appendix-citeas"><span></span><em></em></div></div></section>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./publications/visual-artefacts-removal-volumetric/index.html" class="no-external">
-<div class="listing-date">
-Jan 1, 2011
-</div>
-<div class="listing-author">
-Peter Mindek
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="10" data-categories="Y29uZmVyZW5jZSUyMHBhcGVy" data-listing-date-sort="1291158000000" data-listing-file-modified-sort="1773139463520" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail"><a href="./publications/exploring-understanding-software-behaviour/index.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./publications/exploring-understanding-software-behaviour/index.html" class="no-external">Exploring And Understanding Software Behaviour Using Interactive 3D Visualization</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Y29uZmVyZW5jZSUyMHBhcGVy'); return false;">conference paper</div>
-
-</div>
-<div class="delink listing-description"><a href="./publications/exploring-understanding-software-behaviour/index.html" class="no-external">
-<section class="quarto-appendix-contents" id="quarto-citation"><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@inproceedings{kapec2010,
-  author = {Kapec, Peter and Sperka, Martin and Ruttkay-Nedecký, Ivan},
-  title = {Exploring {And} {Understanding} {Software}…</code></pre><div class="quarto-appendix-secondary-label"></div><div id="ref-kapec2010" class="csl-entry quarto-appendix-citeas"><span></span></div></div></section>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./publications/exploring-understanding-software-behaviour/index.html" class="no-external">
-<div class="listing-date">
-Dec 1, 2010
-</div>
-<div class="listing-author">
-Peter Kapec, Martin Sperka, Ivan Ruttkay-Nedecký
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="11" data-categories="Y29uZmVyZW5jZSUyMHBhcGVy" data-listing-date-sort="1283292000000" data-listing-file-modified-sort="1773139463533" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail"><a href="./publications/villie-hypergraph-visual-programming/index.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./publications/villie-hypergraph-visual-programming/index.html" class="no-external">Villie - a hypergraph-based visual programming language</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Y29uZmVyZW5jZSUyMHBhcGVy'); return false;">conference paper</div>
-
-</div>
-<div class="delink listing-description"><a href="./publications/villie-hypergraph-visual-programming/index.html" class="no-external">
-<section class="quarto-appendix-contents" id="quarto-citation"><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@inproceedings{kottman2010,
-  author = {Kottman, Michal and Kapec, Peter},
-  publisher = {PONT s.r.o.},
-  title = {Villie - a Hypergraph-Based Visual…</code></pre><div class="quarto-appendix-secondary-label"></div><div id="ref-kottman2010" class="csl-entry quarto-appendix-citeas"><span></span><em></em></div></div></section>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./publications/villie-hypergraph-visual-programming/index.html" class="no-external">
-<div class="listing-date">
-Sep 1, 2010
-</div>
-<div class="listing-author">
-Michal Kottman, Peter Kapec
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="12" data-categories="Y29uZmVyZW5jZSUyMHBhcGVy" data-listing-date-sort="1275343200000" data-listing-file-modified-sort="1773139463520" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail"><a href="./publications/interactive-visualization-abstract-data/index.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./publications/interactive-visualization-abstract-data/index.html" class="no-external">Interactive Visualization of Abstract Data</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Y29uZmVyZW5jZSUyMHBhcGVy'); return false;">conference paper</div>
-
-</div>
-<div class="delink listing-description"><a href="./publications/interactive-visualization-abstract-data/index.html" class="no-external">
-<section class="quarto-appendix-contents" id="quarto-citation"><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@inproceedings{sperka2010,
-  author = {Sperka, Martin and Kapec, Peter},
-  title = {Interactive {Visualization} of {Abstract} {Data}},
-  date =…</code></pre><div class="quarto-appendix-secondary-label"></div><div id="ref-sperka2010" class="csl-entry quarto-appendix-citeas"><span></span></div></div></section>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./publications/interactive-visualization-abstract-data/index.html" class="no-external">
-<div class="listing-date">
-Jun 1, 2010
-</div>
-<div class="listing-author">
-Martin Sperka, Peter Kapec
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="13" data-categories="Y29uZmVyZW5jZSUyMHBhcGVy" data-listing-date-sort="1275343200000" data-listing-file-modified-sort="1773139463533" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail"><a href="./publications/visual-information-discovery-large-datasets/index.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./publications/visual-information-discovery-large-datasets/index.html" class="no-external">Visual Information Discovery in Large Data Sets</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Y29uZmVyZW5jZSUyMHBhcGVy'); return false;">conference paper</div>
-
-</div>
-<div class="delink listing-description"><a href="./publications/visual-information-discovery-large-datasets/index.html" class="no-external">
-<section class="quarto-appendix-contents" id="quarto-citation"><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@inproceedings{šperka2010,
-  author = {Šperka, Martin and Kapec, Peter},
-  publisher = {RUSAKI, Moskva},
-  title = {Visual {Information} {Discovery} in…</code></pre><div class="quarto-appendix-secondary-label"></div><div id="ref-šperka2010" class="csl-entry quarto-appendix-citeas"><span></span><em></em></div></div></section>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./publications/visual-information-discovery-large-datasets/index.html" class="no-external">
-<div class="listing-date">
-Jun 1, 2010
-</div>
-<div class="listing-author">
-Martin Šperka, Peter Kapec
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="14" data-categories="Y29uZmVyZW5jZSUyMHBhcGVy" data-listing-date-sort="1272664800000" data-listing-file-modified-sort="1773139463536" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
-<div class="thumbnail"><a href="./publications/visualizing-software-artifacts-hypergraphs/index.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./publications/visualizing-software-artifacts-hypergraphs/index.html" class="no-external">Visualizing software artifacts using hypergraphs</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Y29uZmVyZW5jZSUyMHBhcGVy'); return false;">conference paper</div>
-
-</div>
-<div class="delink listing-description"><a href="./publications/visualizing-software-artifacts-hypergraphs/index.html" class="no-external">
-DOI: 10.1145/1925059.1925067
-</a></div>
-</div>
-<div class="metadata">
-<a href="./publications/visualizing-software-artifacts-hypergraphs/index.html" class="no-external">
-<div class="listing-date">
-May 1, 2010
-</div>
-<div class="listing-author">
-Peter Kapec
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="15" data-categories="Y29uZmVyZW5jZSUyMHBhcGVy" data-listing-date-sort="1262300400000" data-listing-file-modified-sort="1773139463531" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail"><a href="./publications/metaphorical-visualizations-graph/index.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./publications/metaphorical-visualizations-graph/index.html" class="no-external">Metaphorical visualizations of graph structures</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Y29uZmVyZW5jZSUyMHBhcGVy'); return false;">conference paper</div>
-
-</div>
-<div class="delink listing-description"><a href="./publications/metaphorical-visualizations-graph/index.html" class="no-external">
-<section class="quarto-appendix-contents" id="quarto-citation"><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@inproceedings{ukrop2010,
-  author = {Ukrop, L. and Jakubéci, M. and Kapec, Peter},
-  title = {Metaphorical Visualizations of Graph Structures},
-  pages =…</code></pre><div class="quarto-appendix-secondary-label"></div><div id="ref-ukrop2010" class="csl-entry quarto-appendix-citeas"><span></span></div></div></section>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./publications/metaphorical-visualizations-graph/index.html" class="no-external">
-<div class="listing-date">
-Jan 1, 2010
-</div>
-<div class="listing-author">
-L. Ukrop, M. Jakubéci, Peter Kapec
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="16" data-categories="Y29uZmVyZW5jZSUyMHBhcGVy" data-listing-date-sort="1262300400000" data-listing-file-modified-sort="1773139463536" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="42">
-<div class="thumbnail"><a href="./publications/visual-programming-hypergraph-iccvg/index.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./publications/visual-programming-hypergraph-iccvg/index.html" class="no-external">Visual programming environment based on hypergraph representations</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Y29uZmVyZW5jZSUyMHBhcGVy'); return false;">conference paper</div>
-
-</div>
-<div class="delink listing-description"><a href="./publications/visual-programming-hypergraph-iccvg/index.html" class="no-external">
-In this paper we present a concept of a visual programming environment that uses hypergraphs for representing, querying and visualizing software artifacts. The hypergraph…
-</a></div>
-</div>
-<div class="metadata">
-<a href="./publications/visual-programming-hypergraph-iccvg/index.html" class="no-external">
-<div class="listing-date">
-Jan 1, 2010
-</div>
-<div class="listing-author">
-Peter Kapec
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="17" data-categories="Y29uZmVyZW5jZSUyMHBhcGVy" data-listing-date-sort="1262300400000" data-listing-file-modified-sort="1773139463536" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail"><a href="./publications/visualizing-graph-structures-soap-bubbles/index.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./publications/visualizing-graph-structures-soap-bubbles/index.html" class="no-external">Visualizing graph structures using soap bubbles</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Y29uZmVyZW5jZSUyMHBhcGVy'); return false;">conference paper</div>
-
-</div>
-<div class="delink listing-description"><a href="./publications/visualizing-graph-structures-soap-bubbles/index.html" class="no-external">
-<section class="quarto-appendix-contents" id="quarto-citation"><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@inproceedings{ukrop2010,
-  author = {Ukrop, Ľuboš},
-  publisher = {STU in Bratislava FIIT},
-  title = {Visualizing Graph Structures Using Soap Bubbles},
- …</code></pre><div class="quarto-appendix-secondary-label"></div><div id="ref-ukrop2010" class="csl-entry quarto-appendix-citeas"><span></span><em></em></div></div></section>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./publications/visualizing-graph-structures-soap-bubbles/index.html" class="no-external">
-<div class="listing-date">
-Jan 1, 2010
-</div>
-<div class="listing-author">
-Ľuboš Ukrop
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="18" data-categories="Y29uZmVyZW5jZSUyMHBhcGVy" data-listing-date-sort="1257030000000" data-listing-file-modified-sort="1773139463520" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail"><a href="./publications/hypergraph-based-software-representation-mining/index.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./publications/hypergraph-based-software-representation-mining/index.html" class="no-external">Hypergraph based software representation, mining and visualization</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Y29uZmVyZW5jZSUyMHBhcGVy'); return false;">conference paper</div>
-
-</div>
-<div class="delink listing-description"><a href="./publications/hypergraph-based-software-representation-mining/index.html" class="no-external">
-<section class="quarto-appendix-contents" id="quarto-citation"><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@inproceedings{kapec2009,
-  author = {Kapec, Peter and Drahoš, Peter},
-  title = {Hypergraph Based Software Representation, Mining and
-    Visualization},
- …</code></pre><div class="quarto-appendix-secondary-label"></div><div id="ref-kapec2009" class="csl-entry quarto-appendix-citeas"><span></span><em></em></div></div></section>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./publications/hypergraph-based-software-representation-mining/index.html" class="no-external">
-<div class="listing-date">
-Nov 1, 2009
-</div>
-<div class="listing-author">
-Peter Kapec, Peter Drahoš
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="19" data-categories="Y29uZmVyZW5jZSUyMHBhcGVy" data-listing-date-sort="1238536800000" data-listing-file-modified-sort="1773139463520" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail"><a href="./publications/hypergraph-based-repository-software-visualization/index.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./publications/hypergraph-based-repository-software-visualization/index.html" class="no-external">Hypergraph-based Repository for Software Visualization Systems</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Y29uZmVyZW5jZSUyMHBhcGVy'); return false;">conference paper</div>
-
-</div>
-<div class="delink listing-description"><a href="./publications/hypergraph-based-repository-software-visualization/index.html" class="no-external">
-<section class="quarto-appendix-contents" id="quarto-citation"><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@inproceedings{kapec2009,
-  author = {Kapec, Peter},
-  publisher = {STU v Bratislave FIIT},
-  title = {Hypergraph-Based {Repository} for {Software}…</code></pre><div class="quarto-appendix-secondary-label"></div><div id="ref-kapec2009" class="csl-entry quarto-appendix-citeas"><span></span><em></em></div></div></section>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./publications/hypergraph-based-repository-software-visualization/index.html" class="no-external">
-<div class="listing-date">
-Apr 1, 2009
-</div>
-<div class="listing-author">
-Peter Kapec
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="20" data-categories="Y29uZmVyZW5jZSUyMHBhcGVy" data-listing-date-sort="1230764400000" data-listing-file-modified-sort="1773139463520" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail"><a href="./publications/hypergraph-based-software-visualization/index.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./publications/hypergraph-based-software-visualization/index.html" class="no-external">Hypergraph-based software visualization</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Y29uZmVyZW5jZSUyMHBhcGVy'); return false;">conference paper</div>
-
-</div>
-<div class="delink listing-description"><a href="./publications/hypergraph-based-software-visualization/index.html" class="no-external">
-<section class="quarto-appendix-contents" id="quarto-citation"><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@inproceedings{kapec2009,
-  author = {Kapec, Peter},
-  title = {Hypergraph-Based Software Visualization},
-  booktitle = {International Workshop on Computer…</code></pre><div class="quarto-appendix-secondary-label"></div><div id="ref-kapec2009" class="csl-entry quarto-appendix-citeas"><span></span><em></em></div></div></section>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./publications/hypergraph-based-software-visualization/index.html" class="no-external">
-<div class="listing-date">
-Jan 1, 2009
-</div>
-<div class="listing-author">
-Peter Kapec
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="21" data-categories="Y29uZmVyZW5jZSUyMHBhcGVy" data-listing-date-sort="1230764400000" data-listing-file-modified-sort="1773139463531" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail"><a href="./publications/multiparadigm-programming-lua/index.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./publications/multiparadigm-programming-lua/index.html" class="no-external">Multiparadigm programming in Lua language</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Y29uZmVyZW5jZSUyMHBhcGVy'); return false;">conference paper</div>
-
-</div>
-<div class="delink listing-description"><a href="./publications/multiparadigm-programming-lua/index.html" class="no-external">
-<section class="quarto-appendix-contents" id="quarto-citation"><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@inproceedings{čimo2009,
-  author = {Čimo, Peter},
-  publisher = {STU in Bratislava FIIT},
-  title = {Multiparadigm Programming in {Lua} Language},
- …</code></pre><div class="quarto-appendix-secondary-label"></div><div id="ref-čimo2009" class="csl-entry quarto-appendix-citeas"><span></span><em></em></div></div></section>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./publications/multiparadigm-programming-lua/index.html" class="no-external">
-<div class="listing-date">
-Jan 1, 2009
-</div>
-<div class="listing-author">
-Peter Čimo
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="22" data-categories="Y29uZmVyZW5jZSUyMHBhcGVy" data-listing-date-sort="1207000800000" data-listing-file-modified-sort="1773139463536" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail"><a href="./publications/visually-driven-software-development/index.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./publications/visually-driven-software-development/index.html" class="no-external">Visually Driven Software Development Environment for Heterogeneous Programming</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Y29uZmVyZW5jZSUyMHBhcGVy'); return false;">conference paper</div>
-
-</div>
-<div class="delink listing-description"><a href="./publications/visually-driven-software-development/index.html" class="no-external">
-<section class="quarto-appendix-contents" id="quarto-citation"><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@inproceedings{drahoš2008,
-  author = {Drahoš, Peter and Kapec, Peter},
-  publisher = {STU v Bratislave FIIT},
-  title = {Visually {Driven} {Software}…</code></pre><div class="quarto-appendix-secondary-label"></div><div id="ref-drahoš2008" class="csl-entry quarto-appendix-citeas"><span></span><em></em></div></div></section>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./publications/visually-driven-software-development/index.html" class="no-external">
-<div class="listing-date">
-Apr 1, 2008
-</div>
-<div class="listing-author">
-Peter Drahoš, Peter Kapec
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="23" data-categories="Y29uZmVyZW5jZSUyMHBhcGVy" data-listing-date-sort="1201820400000" data-listing-file-modified-sort="1773139463533" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail"><a href="./publications/visual-information-discovery-software-systems/index.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./publications/visual-information-discovery-software-systems/index.html" class="no-external">Visual Information Discovery in Software Systems</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Y29uZmVyZW5jZSUyMHBhcGVy'); return false;">conference paper</div>
-
-</div>
-<div class="delink listing-description"><a href="./publications/visual-information-discovery-software-systems/index.html" class="no-external">
-<section class="quarto-appendix-contents" id="quarto-citation"><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@inproceedings{kapec2008,
-  author = {Kapec, Peter and Šperka, Martin},
-  publisher = {STU v Bratislave FIIT},
-  title = {Visual {Information} {Discovery} in…</code></pre><div class="quarto-appendix-secondary-label"></div><div id="ref-kapec2008" class="csl-entry quarto-appendix-citeas"><span></span><em></em></div></div></section>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./publications/visual-information-discovery-software-systems/index.html" class="no-external">
-<div class="listing-date">
-Feb 1, 2008
-</div>
-<div class="listing-author">
-Peter Kapec, Martin Šperka
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="24" data-categories="Y29uZmVyZW5jZSUyMHBhcGVy" data-listing-date-sort="1199142000000" data-listing-file-modified-sort="1773139463520" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail"><a href="./publications/knowledge-based-programming-environments/index.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./publications/knowledge-based-programming-environments/index.html" class="no-external">Knowledge-based programming environments</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Y29uZmVyZW5jZSUyMHBhcGVy'); return false;">conference paper</div>
-
-</div>
-<div class="delink listing-description"><a href="./publications/knowledge-based-programming-environments/index.html" class="no-external">
-<section class="quarto-appendix-contents" id="quarto-citation"><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@inproceedings{drahoš2008,
-  author = {Drahoš, Peter and Kapec, Peter},
-  title = {Knowledge-Based Programming Environments},
-  booktitle = {ITAT’08 -…</code></pre><div class="quarto-appendix-secondary-label"></div><div id="ref-drahoš2008" class="csl-entry quarto-appendix-citeas"><span></span><em></em></div></div></section>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./publications/knowledge-based-programming-environments/index.html" class="no-external">
-<div class="listing-date">
-Jan 1, 2008
-</div>
-<div class="listing-author">
-Peter Drahoš, Peter Kapec
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="25" data-categories="Y29uZmVyZW5jZSUyMHBhcGVy" data-listing-date-sort="1175378400000" data-listing-file-modified-sort="1773139463531" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail"><a href="./publications/software-visualization-3d-survey/index.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./publications/software-visualization-3d-survey/index.html" class="no-external">Software visualization in three dimensions: A Survey</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Y29uZmVyZW5jZSUyMHBhcGVy'); return false;">conference paper</div>
-
-</div>
-<div class="delink listing-description"><a href="./publications/software-visualization-3d-survey/index.html" class="no-external">
-<section class="quarto-appendix-contents" id="quarto-citation"><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@inproceedings{kapec2007,
-  author = {Kapec, Peter},
-  publisher = {STU v Bratislave FIIT},
-  title = {Software Visualization in Three Dimensions: {A}…</code></pre><div class="quarto-appendix-secondary-label"></div><div id="ref-kapec2007" class="csl-entry quarto-appendix-citeas"><span></span><em></em></div></div></section>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./publications/software-visualization-3d-survey/index.html" class="no-external">
-<div class="listing-date">
-Apr 1, 2007
-</div>
-<div class="listing-author">
-Peter Kapec
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="26" data-categories="Y29uZmVyZW5jZSUyMHBhcGVy" data-listing-date-sort="1080770400000" data-listing-file-modified-sort="1773139463520" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail"><a href="./publications/animating-human-faces-waters-model/index.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./publications/animating-human-faces-waters-model/index.html" class="no-external">Animating Human Faces Using Modified Waters Muscle Model</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Y29uZmVyZW5jZSUyMHBhcGVy'); return false;">conference paper</div>
-
-</div>
-<div class="delink listing-description"><a href="./publications/animating-human-faces-waters-model/index.html" class="no-external">
-<section class="quarto-appendix-contents" id="quarto-citation"><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@inproceedings{kapec2004,
-  author = {Kapec, Peter and Drahoš, Peter},
-  publisher = {Institute of Computer Graphics and Algorithms, Vienna
-    University of…</code></pre><div class="quarto-appendix-secondary-label"></div><div id="ref-kapec2004" class="csl-entry quarto-appendix-citeas"><span></span><em></em></div></div></section>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./publications/animating-human-faces-waters-model/index.html" class="no-external">
-<div class="listing-date">
-Apr 1, 2004
-</div>
-<div class="listing-author">
-Peter Kapec, Peter Drahoš
-</div>
-</a>
-</div>
-</div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div></main> <!-- /main -->
