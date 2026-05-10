@@ -1,0 +1,15 @@
+[
+  {
+    "id": "interactive-3d-software-visualization-webgl",
+    "title": "Interactive 3D Visualization of Software Architecture Using WebGL",
+    "student": "Ján Vzorový",
+    "year": 2024,
+    "date": "2024-05-15",
+    "type": "Bachelor Thesis",
+    "status": "Completed",
+    "abstract": "This thesis presents an interactive web-based tool for the visualization of software architecture in three-dimensional space using WebGL. The system parses Java source code to extract class and dependency information, constructs a graph model, and renders it as an interactive 3D scene directly in the browser. Users can navigate the 3D environment, filter nodes by package or type, and inspect class details through an interactive panel. A user study with 12 participants evaluated the usability and effectiveness of the tool compared to a traditional 2D graph viewer. Results indicate that the 3D visualization improved participants' ability to identify architectural patterns and dependency clusters in large software systems.",
+    "tags": ["software visualization", "3D graphics", "WebGL", "graph visualization", "software architecture"],
+    "images": [],
+    "url": ""
+  }
+]
